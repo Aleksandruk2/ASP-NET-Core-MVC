@@ -95,7 +95,6 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\scopedcss\bundle\WorkingMVC.styles.css
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\scopedcss\projectbundle\WorkingMVC.bundle.scp.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\lzfmha3i5f-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\j0wq2u5he0-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\aowso67isc-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -245,3 +244,6 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\AutoMapper.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\SixLabors.ImageSharp.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-m9r4msj3ik-m9r4msj3ik.gz

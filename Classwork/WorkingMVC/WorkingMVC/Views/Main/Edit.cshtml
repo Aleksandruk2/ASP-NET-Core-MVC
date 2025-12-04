@@ -1,0 +1,49 @@
+﻿@model WorkingMVC.Models.Category.CategoryEditModel
+
+<div class="container">
+    <h1 class="text-center">Редагувати категорію</h1>
+    <form asp-action="Edit" enctype="multipart/form-data" class="col-md-6 offset-md-3">
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" value="@Model.Name" class="form-control mb-2">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImageUrl" class="form-label"></label>
+            <div id="frame" class="border-dashed p-1 rounded-3 overflow-hidden mb-2 d-flex justify-content-center align-items-center">
+                <div class="rounded-3 overflow-hidden d-flex justify-content-center align-items-center">
+                    <img id="preview" src="/images/@Model.ImageUrl" width="100%" />
+                </div>
+            </div>
+            <label asp-for="Image" class="form-label"></label>
+            <input id="file" asp-for="Image" class="form-control mb-2">
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+
+        <input type="hidden" asp-for="ImageUrl" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger border-danger border rounded-3 my-2"></div>
+
+        <button type="submit" class="btn btn-primary">Редагувати</button>
+    </form>
+</div>
+
+
+<script>
+    const file = document.getElementById("file");
+    const preview = document.getElementById("preview");
+    const frame = document.getElementById("frame");
+
+    file.addEventListener("change", () => {
+        if (file.files[0]) {
+            const url = URL.createObjectURL(file.files[0]);
+            preview.src = url;
+            preview.style.width = "100%";
+            frame.style.opacity = 1
+        } else {
+            frame.style.opacity = 0;
+            preview.style.width = 0;
+        }
+    });
+</script>

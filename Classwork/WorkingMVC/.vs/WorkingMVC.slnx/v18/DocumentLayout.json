@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\category\\categoryitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\category\\categoryitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\category\\categoryeditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\category\\categoryeditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\category\\categorycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\category\\categorycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,20 +71,24 @@
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\workingmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\migrations\\20251128151115_initialcreatenewbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\migrations\\20251128151115_initialcreatenewbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\migrations\\20251127141805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\migrations\\20251127141805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,107 +106,189 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Program.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Program.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Program.cs",
               "RelativeToolTip": "WorkingMVC\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T17:29:07.546Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Index.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Index.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Index.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Main\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T17:16:10.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\CategoryEntity.cs*",
-              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:08:13.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\MainController.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\MainController.cs",
               "RelativeToolTip": "WorkingMVC\\Controllers\\MainController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:02:10.678Z",
+              "WhenOpened": "2025-11-28T15:42:36.706Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg",
-              "RelativeDocumentMoniker": "WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "RelativeToolTip": "WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-11-27T17:09:42.795Z",
-              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Index.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Main\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T17:16:10.821Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Create.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Create.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Create.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Main\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Edit.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Main\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T16:21:06.798Z"
+              "WhenOpened": "2025-12-01T22:21:28.706Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WorkingMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WorkingMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-01T21:27:27.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:54:10.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\MyAppDbContext.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\MyAppDbContext.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\MyAppDbContext.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\MyAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:06:04.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\ImageService.cs",
+              "RelativeToolTip": "WorkingMVC\\Services\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:27:41.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IImageService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "WorkingMVC\\Interfaces\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T17:45:51.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T15:36:52.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryEditModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:39:33.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg - Bitmap [1920x1200, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg",
+              "RelativeDocumentMoniker": "WorkingMVC\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg - Bitmap [1920x1200, 24 bit, JPG]",
+              "RelativeToolTip": "WorkingMVC\\images\\c918181d-76ad-49d2-b42f-42ff6ee46f16.jpg - Bitmap [1920x1200, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-02T21:49:11.132Z",
+              "EditorCaption": " - Bitmap [1920x1200, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CategoryCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
               "RelativeToolTip": "WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T16:07:46.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T17:57:15.431Z"
+              "DocumentIndex": 13,
+              "Title": "CategoryMapper.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T16:04:55.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\_ViewStart.cshtml",
@@ -190,67 +300,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\appsettings.json",
               "RelativeDocumentMoniker": "WorkingMVC\\appsettings.json",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\appsettings.json",
               "RelativeToolTip": "WorkingMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-26T18:02:51.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T17:24:47.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T15:18:26.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T15:17:53.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T17:15:04.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "WorkingMVC.csproj",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\WorkingMVC.csproj",
               "RelativeDocumentMoniker": "WorkingMVC\\WorkingMVC.csproj",
@@ -262,15 +324,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MyAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\MyAppDbContext.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\MyAppDbContext.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\MyAppDbContext.cs",
-              "RelativeToolTip": "WorkingMVC\\Data\\MyAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "20251128151115_InitialCreateNewBD.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Migrations\\20251128151115_InitialCreateNewBD.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Migrations\\20251128151115_InitialCreateNewBD.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Migrations\\20251128151115_InitialCreateNewBD.cs",
+              "RelativeToolTip": "WorkingMVC\\Migrations\\20251128151115_InitialCreateNewBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:06:04.117Z"
+              "WhenOpened": "2025-11-28T15:11:15.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251127141805_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Migrations\\20251127141805_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Migrations\\20251127141805_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Migrations\\20251127141805_InitialCreate.cs",
+              "RelativeToolTip": "WorkingMVC\\Migrations\\20251127141805_InitialCreate.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T15:00:46.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg",
+              "RelativeDocumentMoniker": "WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "RelativeToolTip": "WorkingMVC\\images\\3167033f-fb89-48bb-bfd7-02c0a768557e.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-11-27T17:09:42.795Z",
+              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T17:57:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T15:18:26.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T17:15:04.072Z"
             }
           ]
         }

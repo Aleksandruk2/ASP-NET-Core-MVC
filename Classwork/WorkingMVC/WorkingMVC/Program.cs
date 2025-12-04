@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using WorkingMVC.Data;
-using WorkingMVC.Data.Entities;
+using WorkingMVC.Interfaces;
+using WorkingMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MyAppDbContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IImageService, ImageService>();
 
 var app = builder.Build();
 
@@ -46,24 +51,24 @@ using(var scoped = app.Services.CreateScope())
     var myAppDbContext = scoped.ServiceProvider.GetRequiredService<MyAppDbContext>();
     myAppDbContext.Database.Migrate(); //якщо ми не робили міграції
 
-    if (!myAppDbContext.Categories.Any())
-    {
-        var categories = new List<CategoryEntity>
-        {
-            new CategoryEntity
-            {
-                Name = "Напої безалкогольні",
-                Image = "https://akva-svit.com.ua/image/cache/catalog/articles/blog-novosti/221-1200x650.webp",
-            },
-            new CategoryEntity
-            {
-                Name = "Овочі та фрукти",
-                Image = "https://agronews.ua/wp-content/uploads/2021/12/12140108_12140142_679e3fe06c8a4bbfda47d1321ddd3f3f_-620x370.webp",
-            }
-        };
-        myAppDbContext.Categories.AddRange(categories);
-        myAppDbContext.SaveChanges();
-    }
+    //if (!myAppDbContext.Categories.Any())
+    //{
+    //    var categories = new List<CategoryEntity>
+    //    {
+    //        new CategoryEntity
+    //        {
+    //            Name = "Напої безалкогольні",
+    //            Image = "https://akva-svit.com.ua/image/cache/catalog/articles/blog-novosti/221-1200x650.webp",
+    //        },
+    //        new CategoryEntity
+    //        {
+    //            Name = "Овочі та фрукти",
+    //            Image = "https://agronews.ua/wp-content/uploads/2021/12/12140108_12140142_679e3fe06c8a4bbfda47d1321ddd3f3f_-620x370.webp",
+    //        }
+    //    };
+    //    myAppDbContext.Categories.AddRange(categories);
+    //    myAppDbContext.SaveChanges();
+    //}
 }
 
 app.Run();
