@@ -45,5 +45,6 @@ namespace WorkingMVC.Services
             {
                 File.Delete(path);
             }
-        }    }
+        }    
+    }
 }

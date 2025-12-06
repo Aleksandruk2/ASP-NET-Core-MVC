@@ -35,9 +35,10 @@
     const preview = document.getElementById("preview");
     const frame = document.getElementById("frame");
 
-    file.addEventListener("change", () => {
+    const showImageFile = () => {
         if (file.files[0]) {
             const url = URL.createObjectURL(file.files[0]);
+            console.log("show");
             preview.src = url;
             preview.style.width = "100%";
             frame.style.opacity = 1
@@ -45,5 +46,7 @@
             frame.style.opacity = 0;
             preview.style.width = 0;
         }
-    });
+    };
+
+    file.addEventListener("change", showImageFile);
 </script>
