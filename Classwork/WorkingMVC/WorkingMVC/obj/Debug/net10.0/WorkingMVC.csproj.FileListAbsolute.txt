@@ -246,4 +246,5 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\SixLabors.ImageSharp.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-lf8d1v4qcx-lf8d1v4qcx.gz
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-xoxkl2mgul-xoxkl2mgul.gz

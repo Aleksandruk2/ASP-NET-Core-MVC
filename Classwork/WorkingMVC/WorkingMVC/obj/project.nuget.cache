@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EjviaRFo1lA=",
+  "dgSpecHash": "Ai4EC9lxOio=",
   "success": true,
   "projectFilePath": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\WorkingMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.build\\17.7.2\\microsoft.build.17.7.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.build.framework\\17.14.28\\microsoft.build.framework.17.14.28.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.build.tasks.core\\17.14.28\\microsoft.build.tasks.core.17.14.28.nupkg.sha512",

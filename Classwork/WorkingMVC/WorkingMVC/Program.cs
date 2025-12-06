@@ -1,14 +1,29 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using WorkingMVC.Data;
+using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
 using WorkingMVC.Repositories;
 using WorkingMVC.Services;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<MyAppDbContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddIdentity<UserEntity, RoleEntity>(options =>
+{
+    options.Password.RequireDigit = false; //Цифри
+    options.Password.RequireNonAlphanumeric = false; //Спеціальні символи
+    options.Password.RequireLowercase = false;  //Маленькі літери
+    options.Password.RequireUppercase = false; //Великі літери
+    options.Password.RequiredLength = 6; //Кількість символів
+    options.Password.RequiredUniqueChars = 1;  //Кількість унікальних символів
+})
+    .AddEntityFrameworkStores<MyAppDbContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.AddControllersWithViews();
 
@@ -54,26 +69,56 @@ app.UseStaticFiles(new StaticFileOptions
 using(var scoped = app.Services.CreateScope())
 {
     var myAppDbContext = scoped.ServiceProvider.GetRequiredService<MyAppDbContext>();
+    var roleManeger = scoped.ServiceProvider.GetRequiredService<RoleManager<RoleEntity>>();
+
     myAppDbContext.Database.Migrate(); //якщо ми не робили міграції
 
-    //if (!myAppDbContext.Categories.Any())
-    //{
-    //    var categories = new List<CategoryEntity>
-    //    {
-    //        new CategoryEntity
-    //        {
-    //            Name = "Напої безалкогольні",
-    //            Image = "https://akva-svit.com.ua/image/cache/catalog/articles/blog-novosti/221-1200x650.webp",
-    //        },
-    //        new CategoryEntity
-    //        {
-    //            Name = "Овочі та фрукти",
-    //            Image = "https://agronews.ua/wp-content/uploads/2021/12/12140108_12140142_679e3fe06c8a4bbfda47d1321ddd3f3f_-620x370.webp",
-    //        }
-    //    };
-    //    myAppDbContext.Categories.AddRange(categories);
-    //    myAppDbContext.SaveChanges();
-    //}
+    if (!myAppDbContext.Categories.Any())
+    {
+        //var categories = new List<CategoryEntity>
+        //{
+        //    new CategoryEntity
+        //    {
+        //        Name = "Напої безалкогольні",
+        //        Image = "https://akva-svit.com.ua/image/cache/catalog/articles/blog-novosti/221-1200x650.webp",
+        //    },
+        //    new CategoryEntity
+        //    {
+        //        Name = "Овочі та фрукти",
+        //        Image = "https://agronews.ua/wp-content/uploads/2021/12/12140108_12140142_679e3fe06c8a4bbfda47d1321ddd3f3f_-620x370.webp",
+        //    }
+        //};
+        //myAppDbContext.Categories.AddRange(categories);
+        //myAppDbContext.SaveChanges();
+    }
+
+    if (!myAppDbContext.Roles.Any()) //Якщо в БД немає ролей
+    {
+        string[] roles = { "Admin", "User" };
+        foreach (var roleName in roles)
+        {
+            var role = new RoleEntity(roleName);
+            var result = await roleManeger.CreateAsync(role);
+            if (result.Succeeded)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"---Створили роль {roleName}---");
+                Console.ResetColor();
+            }
+            else
+            {
+                foreach (var error in result.Errors)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"+++ Проблема {error.Description} +++");
+                    Console.ResetColor();
+                }
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine($"+++ Проблеми створеняя ролі {roleName} +++");
+                Console.ResetColor();
+            }
+        }
+    }
 }
 
 app.Run();

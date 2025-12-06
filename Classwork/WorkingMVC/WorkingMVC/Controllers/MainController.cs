@@ -79,30 +79,6 @@ public class MainController(MyAppDbContext myAppDbContext,
             return View(model);
         }
 
-        //var category = myAppDbContext.Categories.FirstOrDefault(c => c.Id == model.Id);
-
-        //if (category.Name != model.Name)
-        //{
-        //    string name = model.Name.Trim().ToLower();
-
-        //    var entity = myAppDbContext.Categories.FirstOrDefault(c => c.Name.ToLower() == name);
-
-        //    if (entity != null)
-        //    {
-        //        ModelState.AddModelError("", "У нас проблеми Хюстон. " + $"Така категорія уже існує '{model.Name}'");
-        //        return View(model);
-        //    }
-        //}
-
-        //category.Name = model.Name.Trim();
-
-        //if (model.Image != null)
-        //{
-        //    await imageService.DeleteImageAsync(category.Image);
-
-        //    category.Image = await imageService.UploadImageAsync(model.Image);
-        //}
-
         try
         {
             await categoryService.EditAsync(model);
