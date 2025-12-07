@@ -5,7 +5,14 @@ using WorkingMVC.Data.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 
 namespace WorkingMVC.Data;
-
+//Замінали DbContext на IdentityDbContext, добавили:
+//UserEntity (таблиця користувачів),
+//RoleEntity (таблиця ролей),
+//IdentityUserClaim (таблиця додаткової інформації для корустувачів),
+//UserRoleEntity (таблиця користувачів та їх ролей),
+//IdentityUserLogin (таблиця яка представляє запис про зовнішній логін користувачів),
+//IdentityRoleClaim (таблиця додаткової інформації для ролей),
+//IdentityUserToken (таблиця токенів які видаються користувачам для певних задач)
 public class MyAppDbContext : IdentityDbContext<UserEntity, RoleEntity, int, IdentityUserClaim<int>, UserRoleEntity,IdentityUserLogin<int>,IdentityRoleClaim<int>, IdentityUserToken<int>>
 {
     public MyAppDbContext(DbContextOptions<MyAppDbContext> dbContextOptions)
