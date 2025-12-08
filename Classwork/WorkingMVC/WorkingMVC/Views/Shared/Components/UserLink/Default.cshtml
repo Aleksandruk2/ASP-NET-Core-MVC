@@ -1,0 +1,16 @@
+﻿@model UserLinkViewModel
+
+<li class="nav-item">
+    <a class="nav-link p-0"
+       asp-action="Profile"
+       asp-controller="Account">
+       <div class="d-flex">
+            <div class="rounded-circle overflow-hidden border me-1 d-flex align-items-center justify-content-center" style="width: 3rem; height: 3rem;">
+                <img src="/images/@Model.Image" height="100%" alt="@Model.Name"/> 
+            </div>
+            <div class="text-secondary">
+                <p class="m-0 p-2 pe-0">@Model.Name</p>
+            </div>
+       </div>
+    </a>
+</li>

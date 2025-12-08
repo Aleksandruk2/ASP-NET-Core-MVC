@@ -247,4 +247,4 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\SixLabors.ImageSharp.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-xoxkl2mgul-xoxkl2mgul.gz
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-zjifvg5ax9-zjifvg5ax9.gz

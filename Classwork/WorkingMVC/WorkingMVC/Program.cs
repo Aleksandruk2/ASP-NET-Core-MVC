@@ -44,6 +44,8 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseRouting();
 
+//Це означає, що у нас є авторизація і буде працювати
+//signinManager
 app.UseAuthorization();
 
 app.MapStaticAssets();
