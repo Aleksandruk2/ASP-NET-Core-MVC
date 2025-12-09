@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using WorkingMVC.Constants;
 using WorkingMVC.Data;
 using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
@@ -34,6 +35,8 @@ builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddScoped<ICategoryService, CategoryServise>();
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
@@ -96,8 +99,7 @@ using(var scoped = app.Services.CreateScope())
 
     if (!myAppDbContext.Roles.Any()) //‗ךשמ ג ÁÄ םולא÷ נמכוי
     {
-        string[] roles = { "Admin", "User" };
-        foreach (var roleName in roles)
+        foreach (var roleName in Roles.AllRoles)
         {
             var role = new RoleEntity(roleName);
             var result = await roleManeger.CreateAsync(role);

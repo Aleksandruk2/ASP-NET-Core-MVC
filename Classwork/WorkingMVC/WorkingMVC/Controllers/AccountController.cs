@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WorkingMVC.Constants;
 using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
 using WorkingMVC.Models.Account;
@@ -63,6 +64,8 @@ public class AccountController(
 
         if (result.Succeeded)
         {
+            //Даю користувачеві роль User
+            result = await userManager.AddToRoleAsync(user, Roles.User);
             //Після реєстрації авторизовуємо
             await signInManager.SignInAsync(user, isPersistent: false);
             //Перехід на головну сторінку

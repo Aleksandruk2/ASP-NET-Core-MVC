@@ -1,0 +1,11 @@
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace WorkingMVC.Constants
+{
+    public static class Roles
+    {
+        public const string Admin = "Admin";
+        public const string User = "User";
+        public static string[] AllRoles => new[] { Admin, User };
+    }
+}
