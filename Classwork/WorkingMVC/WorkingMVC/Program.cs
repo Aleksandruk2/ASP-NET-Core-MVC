@@ -7,7 +7,6 @@ using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
 using WorkingMVC.Repositories;
 using WorkingMVC.Services;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +36,8 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryServise>();
 
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();
 
 var app = builder.Build();
 
