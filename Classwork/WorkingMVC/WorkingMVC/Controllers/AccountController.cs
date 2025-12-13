@@ -58,7 +58,7 @@ public class AccountController(
         {
             return View(model);
         }
-        var user = mapper.Map<UserEntity>(model);
+        var user = mapper.Map<UserEntity>(model); 
 
         var imageStr = model.Image is not null ?
             await imageService.UploadImageAsync(model.Image) : null;

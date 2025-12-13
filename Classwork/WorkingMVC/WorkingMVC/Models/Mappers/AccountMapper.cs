@@ -13,7 +13,7 @@ public class AcconuntMapper : Profile
             .ForMember(x => x.Image, opt => opt.Ignore());
 
         CreateMap<UserEntity, UserLinkViewModel>()
-            .ForMember(x => x.Name, opt => opt.MapFrom(x => $"{x.LastName} {x.FirstName}"))
+            .ForMember(x => x.Name, opt => opt.MapFrom(x => $"{x.LastName} {x.FirstName}")) 
             .ForMember(x => x.Image, opt => opt.MapFrom(x => x.Image ?? "default.webp"));
     }
 }

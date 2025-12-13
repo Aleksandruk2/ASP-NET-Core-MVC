@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\users\\usereditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\users\\usereditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -39,92 +39,96 @@
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\userlinkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\userlinkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\categoryservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\categoryservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\account\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\account\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\users\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\users\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\useractiveroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\useractiveroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\users\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\users\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\categoryservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\categoryservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\viewcomponents\\userlinkviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\viewcomponents\\userlinkviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,36 +139,12 @@
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\mappers\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\components\\userlink\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\components\\userlink\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -175,24 +155,12 @@
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\views\\main\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\models\\category\\categorycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\models\\category\\categorycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|solutionrelative:workingmvc\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AFA596B-0711-E527-F6E6-71766CE550EE}|WorkingMVC\\WorkingMVC.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\workingmvc\\workingmvc\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,17 +194,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Program.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Program.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Program.cs",
               "RelativeToolTip": "WorkingMVC\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T17:29:07.546Z",
               "IsPinned": true,
@@ -244,15 +212,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\MainController.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\MainController.cs",
               "RelativeToolTip": "WorkingMVC\\Controllers\\MainController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAEUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T15:42:36.706Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WorkingMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:51:44.568Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WorkingMVC\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:46:45.762Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -264,7 +260,7 @@
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Index.cshtml",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Index.cshtml",
               "RelativeToolTip": "WorkingMVC\\Views\\Main\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-26T17:16:10.821Z",
               "IsPinned": true,
@@ -272,13 +268,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Edit.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Edit.cshtml",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Edit.cshtml",
               "RelativeToolTip": "WorkingMVC\\Views\\Main\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-01T22:21:28.706Z",
               "IsPinned": true,
@@ -286,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Main\\Create.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Main\\Create.cshtml",
@@ -295,7 +291,8 @@
               "ViewState": "AgIAAAwAAAAAAAAAAADwvzAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-06T10:35:51.564Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -305,7 +302,7 @@
               "RelativeDocumentMoniker": "WorkingMVC\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\wwwroot\\css\\site.css",
               "RelativeToolTip": "WorkingMVC\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-12-01T21:27:27.461Z",
               "IsPinned": true,
@@ -313,99 +310,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WorkingMVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJ8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:51:44.568Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 23,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_Header.cshtml",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_Header.cshtml",
               "RelativeToolTip": "WorkingMVC\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-06T20:07:51.97Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResetPasswordConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T16:20:03.922Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T20:00:50.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ForgotPasswordConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T16:45:19.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T13:41:06.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T13:59:48.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ForgotPasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\ForgotPasswordViewModel.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Models\\Account\\ForgotPasswordViewModel.cs",
@@ -414,128 +333,232 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T13:16:17.997Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailSenderService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\EmailSenderService.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Services\\EmailSenderService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\EmailSenderService.cs",
-              "RelativeToolTip": "WorkingMVC\\Services\\EmailSenderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:23:43.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Account\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\RegisterViewModel.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Account\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:45:37.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountMapper.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:32:49.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ResetPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\ResetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Account\\ResetPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\ResetPasswordViewModel.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Account\\ResetPasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:17:14.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:04:01.624Z",
+              "WhenOpened": "2025-12-09T22:36:09.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Account\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\LoginViewModel.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Account\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:59:09.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserLinkViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\UserLinkViewModel.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Account\\UserLinkViewModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Account\\UserLinkViewModel.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Account\\UserLinkViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T19:10:47.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\UserService.cs",
               "RelativeToolTip": "WorkingMVC\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T22:12:22.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CategoryServise.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\CategoryServise.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Services\\CategoryServise.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\CategoryServise.cs",
-              "RelativeToolTip": "WorkingMVC\\Services\\CategoryServise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserEditModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserEditModel.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Users\\UserEditModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserEditModel.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Users\\UserEditModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:44:17.492Z",
+              "WhenOpened": "2025-12-13T16:48:12.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:53:16.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T23:41:13.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "WorkingMVC\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:47:36.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:16.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountMapper.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\AccountMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T21:18:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:18.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:18.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserActiveRoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserActiveRoleEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\UserActiveRoleEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserActiveRoleEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserActiveRoleEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:08:18.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserItemModel.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Users\\UserItemModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserItemModel.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Users\\UserItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:48:39.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryMapper.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T16:04:55.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:37:02.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IImageService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "WorkingMVC\\Interfaces\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T17:45:51.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Constants\\Roles.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Constants\\Roles.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Constants\\Roles.cs",
+              "RelativeToolTip": "WorkingMVC\\Constants\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T23:18:52.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryServise.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\CategoryServise.cs",
+              "RelativeDocumentMoniker": "WorkingMVC\\Services\\CategoryServise.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\CategoryServise.cs",
+              "RelativeToolTip": "WorkingMVC\\Services\\CategoryServise.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAewDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:44:17.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "ImageService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Services\\ImageService.cs",
@@ -543,12 +566,23 @@
               "RelativeToolTip": "WorkingMVC\\Services\\ImageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T20:27:41.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T20:27:41.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WorkingMVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T20:00:50.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\appsettings.json",
               "RelativeDocumentMoniker": "WorkingMVC\\appsettings.json",
@@ -556,12 +590,11 @@
               "RelativeToolTip": "WorkingMVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-26T18:02:51.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T18:02:51.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "IEmailSenderService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IEmailSenderService.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IEmailSenderService.cs",
@@ -569,61 +602,11 @@
               "RelativeToolTip": "WorkingMVC\\Interfaces\\IEmailSenderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:18:35.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T13:18:35.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "WorkingMVC\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:47:36.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserRoleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:18.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserItemModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserItemModel.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Users\\UserItemModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Users\\UserItemModel.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Users\\UserItemModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:48:39.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T23:41:13.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "UserLinkViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\ViewComponents\\UserLinkViewComponent.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\ViewComponents\\UserLinkViewComponent.cs",
@@ -635,31 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WorkingMVC\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:46:45.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\UserMapper.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\UserMapper.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:53:16.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\ICategoryService.cs",
@@ -671,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IGenericRepository.cs",
@@ -683,55 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
-              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:16.941Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "CategoryMapper.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
-              "RelativeToolTip": "WorkingMVC\\Models\\Mappers\\CategoryMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T16:04:55.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "WorkingMVC\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "WorkingMVC\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T22:36:09.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Constants\\Roles.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Constants\\Roles.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Constants\\Roles.cs",
-              "RelativeToolTip": "WorkingMVC\\Constants\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T23:18:52.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\_ViewImports.cshtml",
@@ -743,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 35,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\Components\\UserLink\\Default.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\Components\\UserLink\\Default.cshtml",
@@ -755,19 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T15:37:02.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 36,
               "Title": "_MainLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
               "RelativeDocumentMoniker": "WorkingMVC\\Views\\Shared\\_MainLayout.cshtml",
@@ -779,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 37,
               "Title": "MyAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\MyAppDbContext.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Data\\MyAppDbContext.cs",
@@ -791,19 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RoleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:18.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 38,
               "Title": "CategoryEntity.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
@@ -815,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 45,
               "Title": "20251206191131_Add Identity.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Migrations\\20251206191131_Add Identity.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Migrations\\20251206191131_Add Identity.cs",
@@ -827,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 39,
               "Title": "CategoryCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryCreateModel.cs",
@@ -839,19 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "IImageService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
-              "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\IImageService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\IImageService.cs",
-              "RelativeToolTip": "WorkingMVC\\Interfaces\\IImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:45:51.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 40,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Repositories\\BaseRepository.cs",
@@ -863,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 41,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Repositories\\CategoryRepository.cs",
@@ -875,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 42,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Interfaces\\ICategoryRepository.cs",
@@ -887,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 43,
               "Title": "CategoryItemModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryItemModel.cs",
@@ -899,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 44,
               "Title": "CategoryEditModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
               "RelativeDocumentMoniker": "WorkingMVC\\Models\\Category\\CategoryEditModel.cs",
