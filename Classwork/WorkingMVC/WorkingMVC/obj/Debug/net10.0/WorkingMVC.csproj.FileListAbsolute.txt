@@ -372,7 +372,6 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\re1l9pgk5j-{0}-wigkb0yhay-wigkb0yhay.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\8bx34zbzyz-{0}-j6p1ds48mf-j6p1ds48mf.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\x4b1b24qut-{0}-0bfxg25zxp-0bfxg25zxp.gz
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\we9e8tjnzu-{0}-w9gmxozkxv-w9gmxozkxv.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\875cc7rap0-{0}-09rv27pwia-09rv27pwia.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\r1zlba16eu-{0}-epwlsplpp2-epwlsplpp2.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\y5avswv580-{0}-iz2wc87vdv-iz2wc87vdv.gz
@@ -392,4 +391,5 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\6abjfxhjkp-{0}-1kci9gmbri-1kci9gmbri.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\l8oi7ms0cu-{0}-wf4kd5o7r2-wf4kd5o7r2.gz
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\echnx306rq-{0}-1u4xnjh2ib-1u4xnjh2ib.gz
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-1hs3hdvbc3-1hs3hdvbc3.gz
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\dll3iybm1f-{0}-nf51rdp5mx-nf51rdp5mx.gz
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\obj\Debug\net10.0\compressed\we9e8tjnzu-{0}-ecvmwq8nwa-ecvmwq8nwa.gz

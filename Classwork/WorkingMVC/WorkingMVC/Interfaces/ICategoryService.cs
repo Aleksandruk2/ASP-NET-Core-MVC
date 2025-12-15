@@ -1,4 +1,4 @@
-﻿using WorkingMVC.Models.Category;
+﻿using WorkingMVC.Areas.Admin.Models.Category;
 
 namespace WorkingMVC.Interfaces;
 

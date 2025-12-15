@@ -37,6 +37,8 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddScoped<ICategoryService, CategoryServise>();
 
+builder.Services.AddScoped<ICategoryServiceUser, CategoryServiseUser>();
+
 builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();
@@ -60,6 +62,11 @@ app.MapAreaControllerRoute(
     name: "MyAreaAdmin",
     areaName: "Admin",
     pattern: "admin/{controller=Dashboards}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "MyAreaAdmin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Main}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

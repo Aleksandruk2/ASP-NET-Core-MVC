@@ -9,12 +9,17 @@
                 </a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page"
-                           asp-action="Index"
-                           asp-controller="Main">
-                           Категорії</a>
-                    </li>
+                    @if (User.IsInRole($"{Roles.Admin}"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-action="Index"
+                               asp-controller="Main"
+                               asp-area="Admin">
+                               Категорії
+                            </a>
+                        </li>
+                    }
                     @if (User.IsInRole($"{Roles.Admin}"))
                     {
                         <li class="nav-item">
@@ -22,7 +27,7 @@
                                asp-action="Index"
                                asp-controller="Users"
                                asp-area="Admin">
-                                Користувачі
+                               Користувачі
                             </a>
                         </li>
                     }

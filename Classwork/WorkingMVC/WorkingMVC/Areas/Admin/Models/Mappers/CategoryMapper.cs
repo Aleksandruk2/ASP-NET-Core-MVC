@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using WorkingMVC.Models.Category;
+using WorkingMVC.Areas.Admin.Models.Category;
 using WorkingMVC.Data.Entities;
 
-namespace WorkingMVC.Models.Mappers
+namespace WorkingMVC.Areas.Admin.Models.Mappers
 {
     public class CategoryMapper : Profile
     {

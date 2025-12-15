@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using WorkingMVC.Data;
+using WorkingMVC.Areas.Admin.Models.Category;
 using WorkingMVC.Data.Entities;
 using WorkingMVC.Interfaces;
-using WorkingMVC.Models.Category;
 
 namespace WorkingMVC.Services
 {

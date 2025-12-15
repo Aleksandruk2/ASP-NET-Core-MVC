@@ -443,6 +443,7 @@ tfoot,
 tr,
 td,
 th {
+    border-top: 1px;
   border-color: inherit;
   border-style: solid;
   border-width: 0;

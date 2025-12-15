@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WorkingMVC.Models.Category
+namespace WorkingMVC.Areas.Admin.Models.Category
 {
     public class CategoryEditModel
     {

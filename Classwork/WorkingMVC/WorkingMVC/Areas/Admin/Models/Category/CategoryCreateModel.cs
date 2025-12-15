@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 
-namespace WorkingMVC.Models.Category
+namespace WorkingMVC.Areas.Admin.Models.Category
 {
     public class CategoryCreateModel
     {
