@@ -1,13 +1,11 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.DotNet.Scaffolding.Shared.Project;
 using Microsoft.EntityFrameworkCore;
+using WorkingMVC.Areas.Admin.Models.Users;
 using WorkingMVC.Data;
 using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
-using WorkingMVC.Models.Category;
-using WorkingMVC.Models.Users;
 
 namespace WorkingMVC.Services
 {

@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 using WorkingMVC.Constants;
 using WorkingMVC.Data;
 using WorkingMVC.Data.Entities.Identity;
@@ -53,6 +55,11 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+app.MapAreaControllerRoute(
+    name: "MyAreaAdmin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Dashboards}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

@@ -1,4 +1,156 @@
-wwwroot\css\site.css
+wwwroot\admin\css\demo.css
+wwwroot\admin\css\site.css
+wwwroot\admin\img\avatars\1.png
+wwwroot\admin\img\avatars\2.png
+wwwroot\admin\img\avatars\3.png
+wwwroot\admin\img\avatars\4.png
+wwwroot\admin\img\avatars\5.png
+wwwroot\admin\img\avatars\6.png
+wwwroot\admin\img\avatars\7.png
+wwwroot\admin\img\backgrounds\18.jpg
+wwwroot\admin\img\elements\1.png
+wwwroot\admin\img\elements\10.png
+wwwroot\admin\img\elements\11.png
+wwwroot\admin\img\elements\12.png
+wwwroot\admin\img\elements\13.png
+wwwroot\admin\img\elements\14.png
+wwwroot\admin\img\elements\15.png
+wwwroot\admin\img\elements\16.png
+wwwroot\admin\img\elements\17.png
+wwwroot\admin\img\elements\18.png
+wwwroot\admin\img\elements\19.png
+wwwroot\admin\img\elements\2.png
+wwwroot\admin\img\elements\20.png
+wwwroot\admin\img\elements\21.png
+wwwroot\admin\img\elements\22.png
+wwwroot\admin\img\elements\23.png
+wwwroot\admin\img\elements\24.png
+wwwroot\admin\img\elements\25.png
+wwwroot\admin\img\elements\26.png
+wwwroot\admin\img\elements\27.png
+wwwroot\admin\img\elements\28.png
+wwwroot\admin\img\elements\29.png
+wwwroot\admin\img\elements\3.png
+wwwroot\admin\img\elements\30.png
+wwwroot\admin\img\elements\31.png
+wwwroot\admin\img\elements\32.png
+wwwroot\admin\img\elements\33.png
+wwwroot\admin\img\elements\34.png
+wwwroot\admin\img\elements\35.png
+wwwroot\admin\img\elements\36.png
+wwwroot\admin\img\elements\37.png
+wwwroot\admin\img\elements\38.png
+wwwroot\admin\img\elements\39.png
+wwwroot\admin\img\elements\4.png
+wwwroot\admin\img\elements\40.png
+wwwroot\admin\img\elements\41.png
+wwwroot\admin\img\elements\42.png
+wwwroot\admin\img\elements\43.png
+wwwroot\admin\img\elements\44.png
+wwwroot\admin\img\elements\45.png
+wwwroot\admin\img\elements\46.png
+wwwroot\admin\img\elements\47.png
+wwwroot\admin\img\elements\48.png
+wwwroot\admin\img\elements\49.png
+wwwroot\admin\img\elements\5.png
+wwwroot\admin\img\elements\50.png
+wwwroot\admin\img\elements\51.png
+wwwroot\admin\img\elements\52.png
+wwwroot\admin\img\elements\53.png
+wwwroot\admin\img\elements\54.png
+wwwroot\admin\img\elements\55.png
+wwwroot\admin\img\elements\56.jpg
+wwwroot\admin\img\elements\6.png
+wwwroot\admin\img\elements\7.png
+wwwroot\admin\img\elements\8.png
+wwwroot\admin\img\elements\9.png
+wwwroot\admin\img\favicon\favicon.ico
+wwwroot\admin\img\icons\brands\asana.png
+wwwroot\admin\img\icons\brands\aws.png
+wwwroot\admin\img\icons\brands\behance.png
+wwwroot\admin\img\icons\brands\dribbble.png
+wwwroot\admin\img\icons\brands\facebook.png
+wwwroot\admin\img\icons\brands\github.png
+wwwroot\admin\img\icons\brands\google.png
+wwwroot\admin\img\icons\brands\instagram.png
+wwwroot\admin\img\icons\brands\linkedin.png
+wwwroot\admin\img\icons\brands\mailchimp.png
+wwwroot\admin\img\icons\brands\slack.png
+wwwroot\admin\img\icons\brands\twitter-dark.png
+wwwroot\admin\img\icons\brands\twitter-label.png
+wwwroot\admin\img\icons\brands\twitter-light.png
+wwwroot\admin\img\icons\misc\aviato.png
+wwwroot\admin\img\icons\misc\bitbank.png
+wwwroot\admin\img\icons\misc\pdf.png
+wwwroot\admin\img\icons\misc\triangle-light.png
+wwwroot\admin\img\icons\misc\zipcar.png
+wwwroot\admin\img\icons\payments\american-bank.png
+wwwroot\admin\img\icons\payments\citi.png
+wwwroot\admin\img\icons\payments\digital-ocean.png
+wwwroot\admin\img\icons\payments\gumroad.png
+wwwroot\admin\img\icons\payments\mastercard-2.png
+wwwroot\admin\img\icons\payments\paypal-dark.png
+wwwroot\admin\img\icons\payments\stripes.png
+wwwroot\admin\img\icons\payments\visa-dark.png
+wwwroot\admin\img\illustrations\404.png
+wwwroot\admin\img\illustrations\auth-basic-mask-dark.png
+wwwroot\admin\img\illustrations\auth-basic-mask-light.png
+wwwroot\admin\img\illustrations\auth-cover-forgot-password-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-forgot-password-illustration-light.png
+wwwroot\admin\img\illustrations\auth-cover-login-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-login-illustration-light.png
+wwwroot\admin\img\illustrations\auth-cover-mask-light.png
+wwwroot\admin\img\illustrations\auth-cover-register-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-register-illustration-light.png
+wwwroot\admin\img\illustrations\auth-cover-reset-password-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-reset-password-illustration-light.png
+wwwroot\admin\img\illustrations\auth-cover-two-steps-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-two-steps-illustration-light.png
+wwwroot\admin\img\illustrations\auth-cover-verify-email-illustration-dark.png
+wwwroot\admin\img\illustrations\auth-cover-verify-email-illustration-light.png
+wwwroot\admin\img\illustrations\boy-app-academy.png
+wwwroot\admin\img\illustrations\girl-app-academy.png
+wwwroot\admin\img\illustrations\girl-with-laptop.png
+wwwroot\admin\img\illustrations\misc-mask-dark.png
+wwwroot\admin\img\illustrations\misc-mask-light.png
+wwwroot\admin\img\illustrations\misc-under-maintenance.png
+wwwroot\admin\img\illustrations\tree-3.png
+wwwroot\admin\img\illustrations\tree.png
+wwwroot\admin\img\illustrations\trophy.png
+wwwroot\admin\img\layouts\layout-container-light.png
+wwwroot\admin\img\layouts\layout-fluid-light.png
+wwwroot\admin\img\layouts\layout-without-menu-light.png
+wwwroot\admin\img\layouts\layout-without-navbar-light.png
+wwwroot\admin\js\config.js
+wwwroot\admin\js\dashboards-analytics.js
+wwwroot\admin\js\extended-ui-perfect-scrollbar.js
+wwwroot\admin\js\form-basic-inputs.js
+wwwroot\admin\js\main.js
+wwwroot\admin\js\pages-account-settings-account.js
+wwwroot\admin\js\site.js
+wwwroot\admin\js\ui-modals.js
+wwwroot\admin\js\ui-popover.js
+wwwroot\admin\js\ui-toasts.js
+wwwroot\admin\vendor\css\core.css
+wwwroot\admin\vendor\css\pages\page-account-settings.css
+wwwroot\admin\vendor\css\pages\page-auth.css
+wwwroot\admin\vendor\css\pages\page-icons.css
+wwwroot\admin\vendor\css\pages\page-misc.css
+wwwroot\admin\vendor\js\bootstrap.js
+wwwroot\admin\vendor\js\helpers.js
+wwwroot\admin\vendor\js\menu.js
+wwwroot\admin\vendor\libs\apex-charts\apex-charts.css
+wwwroot\admin\vendor\libs\apex-charts\apexcharts.js
+wwwroot\admin\vendor\libs\highlight\highlight-github.css
+wwwroot\admin\vendor\libs\highlight\highlight.css
+wwwroot\admin\vendor\libs\highlight\highlight.js
+wwwroot\admin\vendor\libs\jquery\jquery.js
+wwwroot\admin\vendor\libs\masonry\masonry.js
+wwwroot\admin\vendor\libs\node-waves\node-waves.css
+wwwroot\admin\vendor\libs\node-waves\node-waves.js
+wwwroot\admin\vendor\libs\perfect-scrollbar\perfect-scrollbar.css
+wwwroot\admin\vendor\libs\perfect-scrollbar\perfect-scrollbar.js
+wwwroot\admin\vendor\libs\popper\popper.js
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -61,65 +213,99 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\js\site.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\css\site.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\css\demo.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\css\site.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\img\favicon\favicon.ico
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\config.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\dashboards-analytics.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\extended-ui-perfect-scrollbar.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\form-basic-inputs.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\main.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\pages-account-settings-account.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\site.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\ui-modals.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\ui-popover.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\js\ui-toasts.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\css\core.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\css\pages\page-account-settings.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\css\pages\page-auth.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\css\pages\page-icons.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\css\pages\page-misc.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\js\bootstrap.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\js\helpers.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\js\menu.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\apex-charts\apex-charts.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\apex-charts\apexcharts.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\highlight\highlight-github.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\highlight\highlight.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\highlight\highlight.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\jquery\jquery.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\masonry\masonry.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\node-waves\node-waves.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\node-waves\node-waves.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\perfect-scrollbar\perfect-scrollbar.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\perfect-scrollbar\perfect-scrollbar.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\admin\vendor\libs\popper\popper.js
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\favicon.ico
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\js\site.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WorkingMVC\WorkingMVC\wwwroot\css\site.css
