@@ -5,6 +5,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 using WorkingMVC.Constants;
 using WorkingMVC.Data;
+using WorkingMVC.Data.Entities;
 using WorkingMVC.Data.Entities.Identity;
 using WorkingMVC.Interfaces;
 using WorkingMVC.Repositories;
@@ -137,6 +138,26 @@ using(var scoped = app.Services.CreateScope())
                 Console.ResetColor();
             }
         }
+    }
+
+    if (!myAppDbContext.OrderStatuses.Any())
+    {
+        List<string> names = new List<string>() {
+                "Нове", "Очікує оплати", "Оплачено",
+                "В обробці", "Готується до відправки",
+                "Відправлено", "У дорозі", "Доставлено",
+                "Завершено", "Скасовано (вручну)", "Скасовано (автоматично)",
+                "Повернення", "В обробці повернення" };
+
+        var orderStatuses = names.Select(name => new OrderStatusEntity { Name = name }).ToList();
+
+        await myAppDbContext.OrderStatuses.AddRangeAsync(orderStatuses);
+        await myAppDbContext.SaveChangesAsync();
+    }
+
+    if(!myAppDbContext.Products.Any())
+    {
+
     }
 }
 
