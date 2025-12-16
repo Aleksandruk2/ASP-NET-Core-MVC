@@ -91,6 +91,7 @@ using(var scoped = app.Services.CreateScope())
 {
     var myAppDbContext = scoped.ServiceProvider.GetRequiredService<MyAppDbContext>();
     var roleManeger = scoped.ServiceProvider.GetRequiredService<RoleManager<RoleEntity>>();
+    var userManager = scoped.ServiceProvider.GetService<UserManager<UserEntity>>();
 
     myAppDbContext.Database.Migrate(); //якщо ми не робили міграції
 
@@ -155,9 +156,56 @@ using(var scoped = app.Services.CreateScope())
         await myAppDbContext.SaveChangesAsync();
     }
 
-    if(!myAppDbContext.Products.Any())
+    if (!myAppDbContext.Users.Any())
     {
+        var admin = new UserEntity
+        {
+            LastName = "Root",
+            FirstName = "Admin",
+            Email = "admin@gmail.com",
+            UserName = "admin@gmail.com"
+        };
 
+        var user = new UserEntity
+        {
+            LastName = "Lopata",
+            FirstName = "Pavlo",
+            Email = "lopataP@gmail.com",
+            UserName = "lopataP@gmail.com"
+        };
+
+        var result = await userManager!.CreateAsync(admin, "123456");
+        if(result.Succeeded)
+            await userManager.AddToRoleAsync(admin, Roles.Admin);
+
+        result = await userManager.CreateAsync(user, "123456");
+        if(result.Succeeded)
+            await userManager.AddToRoleAsync(user, Roles.User);
+    }
+    
+    if (!myAppDbContext.Products.Any())
+    {
+        var category = myAppDbContext.Categories.First();
+        var products = new List<ProductEntity>
+        {
+            new ProductEntity
+            {
+                Name = "iPhone 15",
+                Description = "Apple smartphone",
+                Price = 39999,
+                CategoryId = category.Id
+            },
+            new ProductEntity
+            {
+                Name = "Samsung S24",
+                Description = "Android flagship",
+                Price = 32999,
+                CategoryId = category.Id
+            }
+        };
+
+        await myAppDbContext.Products.AddRangeAsync(products);
+        await myAppDbContext.SaveChangesAsync();
     }
 }
 
