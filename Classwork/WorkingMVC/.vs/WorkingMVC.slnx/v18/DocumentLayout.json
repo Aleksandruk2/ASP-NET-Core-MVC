@@ -344,7 +344,7 @@
               "RelativeDocumentMoniker": "WorkingMVC\\Program.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WorkingMVC\\WorkingMVC\\Program.cs",
               "RelativeToolTip": "WorkingMVC\\Program.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAANAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAANMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T17:29:07.546Z",
               "IsPinned": true,
@@ -374,8 +374,7 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T19:51:44.568Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -478,8 +477,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\OrderStatusEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T22:44:43.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T22:44:43.663Z"
             },
             {
               "$type": "Document",
@@ -491,8 +489,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\OrderItemEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T23:40:08.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T23:40:08.995Z"
             },
             {
               "$type": "Document",
@@ -504,8 +501,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\OrderEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T23:02:50.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T23:02:50.013Z"
             },
             {
               "$type": "Document",
@@ -517,8 +513,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\ProductImageEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T22:07:48.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T22:07:48.609Z"
             },
             {
               "$type": "Document",
@@ -530,8 +525,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\CategoryEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T22:54:10.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T22:54:10.622Z"
             },
             {
               "$type": "Document",
@@ -543,8 +537,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\CartEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T22:26:12.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T22:26:12.947Z"
             },
             {
               "$type": "Document",
@@ -556,8 +549,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserRoleEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:18.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T19:06:18.068Z"
             },
             {
               "$type": "Document",
@@ -569,8 +561,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:16.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T19:06:16.941Z"
             },
             {
               "$type": "Document",
@@ -582,8 +573,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\UserActiveRoleEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T20:08:18.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T20:08:18.027Z"
             },
             {
               "$type": "Document",
@@ -595,8 +585,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\MyAppDbContext.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvxsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:06:04.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T17:06:04.117Z"
             },
             {
               "$type": "Document",
@@ -608,8 +597,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\Identity\\RoleEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:06:18.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T19:06:18.108Z"
             },
             {
               "$type": "Document",
@@ -621,8 +609,7 @@
               "RelativeToolTip": "WorkingMVC\\Data\\Entities\\ProductEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T21:59:42.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T21:59:42.922Z"
             },
             {
               "$type": "Document",
