@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Core/Core.csproj" Id="0855ea3a-b5c5-494d-b257-f7f782029929" />
+  <Project Path="Domain/Domain.csproj" Id="04d430ed-8e96-4efb-8c61-9799f7a2b889" />
   <Project Path="WebApiTransfer/WebApiTransfer.csproj" />
 </Solution>

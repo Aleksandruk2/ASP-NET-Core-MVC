@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Name": "Ukraine",
+    "Code": "UA",
+    "Slug": "Ukraine",
+    "Image": "UA.jpg"
+  },
+  {
+    "Name": "United Kingdom",
+    "Code": "UK",
+    "Slug": "United Kingdom",
+    "Image": "UK.jpg"
+  },
+  {
+    "Name": "Poland",
+    "Code": "PL",
+    "Slug": "Poland",
+    "Image": "PL.jpg"
+  }
+]
