@@ -1,4 +1,4 @@
-@WebApiTransfer_HostAddress = http://localhost:5074
+@WebApiTransfer_HostAddress = http://localhost:6055
 
 GET {{WebApiTransfer_HostAddress}}/weatherforecast/
 Accept: application/json

@@ -10,6 +10,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApiTransfer.Controllers.CountriesController",
+    "Method": "CreateCountry",
+    "RelativePath": "api/Countries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiTransfer.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

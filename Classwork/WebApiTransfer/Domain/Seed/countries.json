@@ -2,19 +2,19 @@
   {
     "Name": "Ukraine",
     "Code": "UA",
-    "Slug": "Ukraine",
+    "Slug": "ukraine",
     "Image": "UA.jpg"
   },
   {
     "Name": "United Kingdom",
     "Code": "UK",
-    "Slug": "United Kingdom",
+    "Slug": "united-kingdom",
     "Image": "UK.jpg"
   },
   {
     "Name": "Poland",
     "Code": "PL",
-    "Slug": "Poland",
+    "Slug": "poland",
     "Image": "PL.jpg"
   }
 ]

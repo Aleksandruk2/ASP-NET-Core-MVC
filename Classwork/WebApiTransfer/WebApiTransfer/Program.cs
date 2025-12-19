@@ -1,6 +1,9 @@
+using Core.Interfaces;
+using Core.Services;
 using Domain;
 using Domain.Seed;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +20,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors();
 
+//Підключили Mapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<ICountryService, CountryService>();
+
+builder.Services.AddScoped<IImageService, ImageService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,12 +37,29 @@ app.UseCors(policy =>
 
 //Конфігуруємо swagger
 app.UseSwagger();
+
 app.UseSwaggerUI();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
+var dirImageName = builder.Configuration.GetValue<string>("DirImageName") ?? "images";
+
+string imageRoot = Directory.GetParent(AppContext.BaseDirectory)!
+                              .Parent!
+                              .Parent!
+                              .Parent!
+                              .Parent!
+                              .FullName;
+var path = Path.Combine(imageRoot, "Domain", dirImageName);
+Directory.CreateDirectory(path);
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(path),
+    RequestPath = $"/{dirImageName}"
+});
 
 using (var scoped = app.Services.CreateScope())
 {
@@ -47,8 +74,16 @@ using (var scoped = app.Services.CreateScope())
 
     foreach (var country in context.Countries.ToArray())
     {
-        Console.WriteLine("Country:" + country.Name + "image:" + country.Image);
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write($" [Country: {country.Name}]");
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.Write(" [image:" + country.Image + "]");
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.Write(" [Code: " + country.Code + "]");
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.WriteLine(" [slug:" + country.Slug + "]");
     }
+    Console.ResetColor();
 }
 
 app.Run(); 

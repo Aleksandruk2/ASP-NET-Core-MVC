@@ -39,10 +39,6 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Npgsql.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Core.dll
@@ -190,3 +186,12 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\SixLabors.ImageSharp.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
