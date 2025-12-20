@@ -29,7 +29,7 @@ function App() {
                 {countries.map(country => (
                     <div className="p-2 mt-5 border-gray-200 dark:border-gray-800">
                         <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
-                            <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg bg-gradient-to-r from-blue-500 to-blue-600">
+                            <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg bg-black/65 backdrop-blur-sm">
                                 <img style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={'https://karapus.itstep.click/images/' + country.image} alt={country.image} height="100%"/>
                             </div>
                             <div className="p-6">
