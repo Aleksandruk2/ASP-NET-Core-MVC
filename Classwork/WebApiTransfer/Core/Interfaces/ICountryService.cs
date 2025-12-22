@@ -1,11 +1,11 @@
-﻿using Core.Models.Location;
+﻿using Core.Models.Location.Country;
 
 namespace Core.Interfaces;
 
 public interface ICountryService
 {
-    Task<List<CountryItemModel>> GetListAsync();
-    Task<CountryItemModel> CreateAsync(CountryCreateModel model);
-    Task<CountryItemModel> EditAsync(CountryEditModel model);
+    Task<List<CityItemModel>> GetListAsync();
+    Task<CityItemModel> CreateAsync(CountryCreateModel model);
+    Task<CityItemModel> EditAsync(CountryEditModel model);
     Task DeleteAsync(int id);
 }

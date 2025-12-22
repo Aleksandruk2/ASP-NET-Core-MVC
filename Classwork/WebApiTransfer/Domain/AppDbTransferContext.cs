@@ -1,4 +1,5 @@
 ﻿using Domain.Entities.Loacation;
+using Domain.Entities.Location;
 using Microsoft.EntityFrameworkCore;
 
 namespace Domain;
@@ -10,4 +11,5 @@ public class AppDbTransferContext : DbContext
     }
 
     public DbSet<CountryEntity> Countries { get; set; }
+    public DbSet<CityEntity> Cities { get; set; }
 }

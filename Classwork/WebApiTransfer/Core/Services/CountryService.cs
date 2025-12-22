@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Core.Interfaces;
-using Core.Models.Location;
+using Core.Models.Location.Country;
 using Domain;
 using Domain.Entities.Loacation;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,7 @@ public class CountryService(IMapper mapper,
     AppDbTransferContext context,
     IImageService imageService) : ICountryService
 {
-    public async Task<CountryItemModel> CreateAsync(CountryCreateModel model)
+    public async Task<CityItemModel> CreateAsync(CountryCreateModel model)
     {
         var entity = mapper.Map<CountryEntity>(model);
         if (model.Image != null)
@@ -22,22 +22,22 @@ public class CountryService(IMapper mapper,
         }
         await context.Countries.AddAsync(entity);
         await context.SaveChangesAsync();
-        var item = mapper.Map<CountryItemModel>(entity);
+        var item = mapper.Map<CityItemModel>(entity);
         return item;
     }
 
 
-    public async Task<List<CountryItemModel>> GetListAsync()
+    public async Task<List<CityItemModel>> GetListAsync()
     {
         var query = context.Countries;
         var list = await query
             .Where(x => !x.IsDeleted)
-            .ProjectTo<CountryItemModel>(mapper.ConfigurationProvider)
+            .ProjectTo<CityItemModel>(mapper.ConfigurationProvider)
             .ToListAsync();
         return list;
     }
 
-    public async Task<CountryItemModel> EditAsync(CountryEditModel model)
+    public async Task<CityItemModel> EditAsync(CountryEditModel model)
     {
         var entity = await context.Countries.FindAsync(model.Id);
 
@@ -59,7 +59,7 @@ public class CountryService(IMapper mapper,
 
         await context.SaveChangesAsync();
 
-        var item = mapper.Map<CountryItemModel>(entity);
+        var item = mapper.Map<CityItemModel>(entity);
         return item;
     }
     public async Task DeleteAsync(int id)

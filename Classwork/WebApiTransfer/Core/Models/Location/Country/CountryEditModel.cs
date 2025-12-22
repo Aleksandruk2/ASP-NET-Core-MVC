@@ -1,10 +1,12 @@
-﻿namespace Core.Models.Location;
+﻿using Microsoft.AspNetCore.Http;
 
-public class CountryItemModel
+namespace Core.Models.Location.Country;
+
+public class CountryEditModel
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;
     public string Code { get; set; } = null!;
     public string Slug { get; set; } = null!;
-    public string? Image { get; set; }
+    public IFormFile? Image { get; set; } = null!;
 }

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Core.Models.Location;
+using Core.Models.Location.Country;
 using Domain.Entities.Loacation;
 
 namespace Core.Mappers;
@@ -8,7 +8,7 @@ public class CountryMapper : Profile
 {
     public CountryMapper()
     {
-        CreateMap<CountryEntity, CountryItemModel>();
+        CreateMap<CountryEntity, CityItemModel>();
 
         CreateMap<CountryCreateModel, CountryEntity>()
             .ForMember(x => x.Image, opt => opt.Ignore());

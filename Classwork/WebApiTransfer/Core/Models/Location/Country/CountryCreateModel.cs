@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Core.Models.Location;
+namespace Core.Models.Location.Country;
 public class CountryCreateModel
 {
     public string Name { get; set; } = null!;
