@@ -195,3 +195,5 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\SixLabors.ImageSharp.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

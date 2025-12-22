@@ -44,4 +44,21 @@ public class ImageService(IConfiguration configuration) : IImageService
             return String.Empty;
         }
     }
+    public void DeleteImage(string fileName)
+    {
+        if (string.IsNullOrEmpty(fileName)) return;
+
+        var dirImageName = configuration["DirImageName"] ?? "images";
+        string imageRoot = Directory.GetParent(AppContext.BaseDirectory)!
+                              .Parent!
+                              .Parent!
+                              .Parent!
+                              .Parent!
+                              .FullName;
+        var filePath = Path.Combine(imageRoot, "Domain", dirImageName, fileName);
+        if (File.Exists(filePath))
+        {
+            File.Delete(filePath);
+        }
+    }
 }

@@ -16,13 +16,27 @@ namespace WebApiTransfer.Controllers
             return Ok(list); //код 200
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> CreateCountry([FromForm] CountryCreateModel model)
         {
             var item = await countryService.CreateAsync(model);
 
             return CreatedAtAction(null, item);
             //return Created(); //код 201
+        }
+
+        [HttpPut("Edit")]
+        public async Task<IActionResult> UpdateAsync([FromForm] CountryEditModel model)
+        {
+            var result = await countryService.EditAsync(model);
+            return Ok(result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            await countryService.DeleteAsync(id);
+            return Ok();
         }
     }
 }

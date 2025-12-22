@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\validators\\country\\countrycreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\validators\\country\\countrycreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,32 +27,36 @@
       "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\location\\countrycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\location\\countrycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|solutionrelative:domain\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\mappers\\countrymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\mappers\\countrymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\location\\countrycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\location\\countrycreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\location\\countryeditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\location\\countryeditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\webapitransfer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -68,10 +80,36 @@
               "RelativeDocumentMoniker": "WebApiTransfer\\Program.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Program.cs",
               "RelativeToolTip": "WebApiTransfer\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwDYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T22:58:21.784Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:25:39.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\Country\\CountryCreateValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\Country\\CountryCreateValidator.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\Country\\CountryCreateValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\Country\\CountryCreateValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:15:21.714Z",
               "EditorCaption": ""
             },
             {
@@ -80,33 +118,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "CountryEditModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\CountryEditModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Location\\CountryEditModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\CountryEditModel.cs",
+              "RelativeToolTip": "Core\\Models\\Location\\CountryEditModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T01:28:59.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CountryService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\CountryService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
               "RelativeToolTip": "Core\\Services\\CountryService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T14:11:09.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CountryMapper.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Mappers\\CountryMapper.cs",
               "RelativeDocumentMoniker": "Core\\Mappers\\CountryMapper.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Mappers\\CountryMapper.cs",
               "RelativeToolTip": "Core\\Mappers\\CountryMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T14:09:05.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CountryCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\CountryCreateModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Location\\CountryCreateModel.cs",
@@ -119,33 +170,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "ImageService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\ImageService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\ImageService.cs",
               "RelativeToolTip": "Core\\Services\\ImageService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T13:46:16.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IImageService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IImageService.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IImageService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IImageService.cs",
               "RelativeToolTip": "Core\\Interfaces\\IImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T13:39:47.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\appsettings.json",
               "RelativeDocumentMoniker": "WebApiTransfer\\appsettings.json",
@@ -158,33 +209,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Core.csproj",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Core.csproj",
               "RelativeToolTip": "Core\\Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-18T14:18:21.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CountriesController.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CountriesController.cs",
               "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\CountriesController.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CountriesController.cs",
               "RelativeToolTip": "WebApiTransfer\\Controllers\\CountriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T01:06:25.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "WebApiTransfer.http",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\WebApiTransfer.http",
               "RelativeDocumentMoniker": "WebApiTransfer\\WebApiTransfer.http",
@@ -192,18 +243,17 @@
               "RelativeToolTip": "WebApiTransfer\\WebApiTransfer.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-19T13:27:50.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T13:27:50.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "ICountryService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\ICountryService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
               "RelativeToolTip": "Core\\Interfaces\\ICountryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T13:10:33.494Z",
               "EditorCaption": ""
@@ -216,7 +266,7 @@
               "RelativeDocumentMoniker": "Domain\\Seed\\DbSeeder.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\DbSeeder.cs",
               "RelativeToolTip": "Domain\\Seed\\DbSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T14:02:23.394Z",
               "EditorCaption": ""
