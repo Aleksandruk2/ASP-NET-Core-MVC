@@ -1,5 +1,6 @@
 import './App.css'
 import {useEffect, useState} from "react";
+import APP_ENV from "./env";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
     const [countries, setCountries] = useState<Country[]>([]);
 
     useEffect(() => {
-        const url = "https://karapus.itstep.click/api/Countries";
+        const url = `${APP_ENV.API_BASE_URL}/api/Countries`;
         fetch(url)
             .then(response => response.json())
             .then(data => {
@@ -28,9 +29,9 @@ function App() {
             <div className="w-full flex justify-around flex-wrap">
                 {countries.map(country => (
                     <div className="p-2 mt-5 border-gray-200 dark:border-gray-800">
-                        <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
-                            <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg bg-black/65 backdrop-blur-sm">
-                                <img style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={'https://karapus.itstep.click/images/' + country.image} alt={country.image} height="100%"/>
+                        <div className="relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-700" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
+                            <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
+                                <img className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${country.image}`} alt={country.image}/>
                             </div>
                             <div className="p-6">
                                 <div className="flex justify-between">
