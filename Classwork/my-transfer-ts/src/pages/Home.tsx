@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import type {ICountry} from "../Interfaces/ICountry.ts";
 import APP_ENV from "../env";
+import CountryModal from "../Modal/CountryModal.tsx";
 
 const  Home = () => {
     const [countries, setCountries] = useState<ICountry[]>([]);
@@ -10,14 +11,14 @@ const  Home = () => {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                console.log("Server data", data)
+                // console.log("Server data", data)
                 setCountries(data);
             });
     },[]);
 
     return (
         <>
-            <div className="w-full flex justify-around flex-wrap">
+            <div className="mt-2 w-full flex justify-around flex-wrap">
                 {countries.map(country => (
                     <div key={country.id} className="p-2 mt-5 border-gray-200 dark:border-gray-800">
                         <div className="relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-700" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
@@ -37,6 +38,9 @@ const  Home = () => {
                                 <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                                     {country.slug}
                                 </p>
+                            </div>
+                            <div className="m-1">
+                                <CountryModal country={country} onOpen={false} />
                             </div>
                         </div>
                     </div>

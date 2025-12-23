@@ -2,6 +2,10 @@
     background: linear-gradient(0deg, #4facfe 0%, #00f2fe 100%);
 }
 
+.myTextBG {
+    background: linear-gradient(0deg, #4facfe 0%, transparent 100%);
+}
+
 .myBGImage {
     background: radial-gradient(ellipse , #000000 24%, #164d50 100%);
 }
