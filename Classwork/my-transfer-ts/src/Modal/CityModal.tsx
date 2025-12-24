@@ -44,7 +44,7 @@ const CityModal: React.FC<ICytiModal> = ({onOpen, city}) => {
                                                 {city.slug}
                                             </p>
                                             <div className="flex justify-center items-center relative my-2 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
-                                                <img className="w-full" src={`${APP_ENV.API_BASE_URL}/images/${city.image}`} alt={city.image}/>
+                                                <img draggable={false} className="w-full" src={`${APP_ENV.API_BASE_URL}/images/${city.image}`} alt={city.image}/>
                                             </div>
                                             <p className="text-sm text-gray-400">
                                                 {city.description}

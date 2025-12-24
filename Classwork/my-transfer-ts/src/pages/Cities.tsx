@@ -21,9 +21,9 @@ const Cities = () => {
             <div className="mt-2 w-full flex justify-around flex-wrap">
                 {cities.map(city => (
                     <div key={city.id} className="p-2 mt-5 border-gray-200 dark:border-gray-800">
-                        <div className=" relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-700" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
+                        <div className=" relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-200" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
                             <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
-                                <img className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${city.image}`} alt={city.image}/>
+                                <img draggable={false} className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${city.image}`} alt={city.image}/>
                             </div>
                             <div className="p-6">
                                 <div className="flex justify-between">
@@ -34,7 +34,7 @@ const Cities = () => {
                                         {city.country}
                                     </h5>
                                 </div>
-                                <p className="block font-sans text-blue-900 leading-relaxed antialiased">
+                                <p className="block font-sans text-base font-light leading-relaxed text-blue-200 antialiased">
                                     {city.slug}
                                 </p>
                             </div>
