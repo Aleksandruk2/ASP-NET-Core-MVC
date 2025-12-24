@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -123,8 +123,11 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T22:58:21.784Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -132,9 +135,9 @@
               "Title": "CityCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\City\\CityCreateValidator.cs",
               "RelativeDocumentMoniker": "Core\\Validators\\City\\CityCreateValidator.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\City\\CityCreateValidator.cs*",
-              "RelativeToolTip": "Core\\Validators\\City\\CityCreateValidator.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB4AAABDAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\City\\CityCreateValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\City\\CityCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T22:11:04.571Z",
               "EditorCaption": ""
@@ -145,16 +148,11 @@
               "Title": "CityService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\CityService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs*",
-              "RelativeToolTip": "Core\\Services\\CityService.cs*",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
+              "RelativeToolTip": "Core\\Services\\CityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:05:18.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-12-22T22:05:18.782Z"
             },
             {
               "$type": "Document",
@@ -166,8 +164,7 @@
               "RelativeToolTip": "Domain\\Entities\\Loacation\\CountryEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:44:15.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T20:44:15.981Z"
             },
             {
               "$type": "Document",
@@ -179,8 +176,7 @@
               "RelativeToolTip": "Core\\Models\\Location\\City\\CityCreateModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:06:20.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:06:20.415Z"
             },
             {
               "$type": "Document",
@@ -192,8 +188,7 @@
               "RelativeToolTip": "Core\\Mappers\\CityMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:37:28.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:37:28.505Z"
             },
             {
               "$type": "Document",
@@ -205,8 +200,7 @@
               "RelativeToolTip": "Domain\\Entities\\Loacation\\CityEntity.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:47:13.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T20:47:13.997Z"
             },
             {
               "$type": "Document",
@@ -218,8 +212,7 @@
               "RelativeToolTip": "Core\\Models\\Location\\City\\CityItemModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:58:50.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T20:58:50.515Z"
             },
             {
               "$type": "Document",
@@ -231,8 +224,7 @@
               "RelativeToolTip": "WebApiTransfer\\Controllers\\CitiesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:21:34.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:21:34.837Z"
             },
             {
               "$type": "Document",
@@ -244,8 +236,7 @@
               "RelativeToolTip": "Domain\\Seed\\DbSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T14:02:23.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T14:02:23.394Z"
             },
             {
               "$type": "Document",
@@ -257,8 +248,7 @@
               "RelativeToolTip": "Core\\Interfaces\\ICityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:12:25.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:12:25.232Z"
             },
             {
               "$type": "Document",
@@ -270,8 +260,7 @@
               "RelativeToolTip": "Domain\\AppDbTransferContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:53:26.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T20:53:26.931Z"
             },
             {
               "$type": "Document",
@@ -295,8 +284,7 @@
               "RelativeToolTip": "Core\\Validators\\Country\\CountryCreateValidator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:15:21.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T02:15:21.714Z"
             },
             {
               "$type": "Document",
@@ -308,8 +296,7 @@
               "RelativeToolTip": "Core\\Models\\Location\\Country\\CountryEditModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T01:28:59.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T01:28:59.192Z"
             },
             {
               "$type": "Document",
@@ -321,8 +308,7 @@
               "RelativeToolTip": "Core\\Services\\CountryService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:11:09.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:11:09.226Z"
             },
             {
               "$type": "Document",
@@ -334,8 +320,7 @@
               "RelativeToolTip": "Core\\Mappers\\CountryMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:09:05.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:09:05.252Z"
             },
             {
               "$type": "Document",
@@ -347,8 +332,7 @@
               "RelativeToolTip": "Core\\Models\\Location\\Country\\CountryCreateModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:02:04.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:02:04.529Z"
             },
             {
               "$type": "Document",
@@ -408,8 +392,7 @@
               "RelativeToolTip": "WebApiTransfer\\Controllers\\CountriesController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:06:25.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:06:25.539Z"
             },
             {
               "$type": "Document",
@@ -433,8 +416,7 @@
               "RelativeToolTip": "Core\\Interfaces\\ICountryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:10:33.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T13:10:33.494Z"
             }
           ]
         }
