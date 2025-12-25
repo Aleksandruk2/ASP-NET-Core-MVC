@@ -3,7 +3,7 @@ import type {ICountry} from "../Interfaces/ICountry.ts";
 import APP_ENV from "../env";
 import CountryModal from "../Modal/CountryModal.tsx";
 
-const  Home = () => {
+const  Country = () => {
     const [countries, setCountries] = useState<ICountry[]>([]);
 
     useEffect(()  => {
@@ -22,7 +22,7 @@ const  Home = () => {
                 {countries.map(country => (
                     <div key={country.id} className="p-2 mt-5 border-gray-200 dark:border-gray-800">
                         <div className="relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-200" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
-                            <div className="flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
+                            <div className="border border-gray-500 flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
                                 <img draggable={false} className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${country.image}`} alt={country.image}/>
                             </div>
                             <div className="p-6">
@@ -50,4 +50,4 @@ const  Home = () => {
     );
 }
 
-export default Home;
+export default Country;

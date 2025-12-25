@@ -137,7 +137,7 @@
               "RelativeDocumentMoniker": "Core\\Validators\\City\\CityCreateValidator.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\City\\CityCreateValidator.cs",
               "RelativeToolTip": "Core\\Validators\\City\\CityCreateValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T22:11:04.571Z",
               "EditorCaption": ""
@@ -150,9 +150,10 @@
               "RelativeDocumentMoniker": "Core\\Services\\CityService.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
               "RelativeToolTip": "Core\\Services\\CityService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:05:18.782Z"
+              "WhenOpened": "2025-12-22T22:05:18.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
