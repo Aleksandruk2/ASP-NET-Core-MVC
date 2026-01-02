@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Domain.Entities.Loacation;
+namespace Domain.Entities.Location;
 
 [Table("tblCountries")]
 public class CountryEntity : BaseEntity<int>

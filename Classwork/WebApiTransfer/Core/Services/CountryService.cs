@@ -3,7 +3,7 @@ using AutoMapper.QueryableExtensions;
 using Core.Interfaces;
 using Core.Models.Location.Country;
 using Domain;
-using Domain.Entities.Loacation;
+using Domain.Entities.Location;
 using Microsoft.EntityFrameworkCore;
 using System;
 

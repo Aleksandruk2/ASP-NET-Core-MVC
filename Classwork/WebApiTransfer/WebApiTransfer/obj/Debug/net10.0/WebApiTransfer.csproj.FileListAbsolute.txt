@@ -33,7 +33,6 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\obj\Debug\net10.0\WebApiTransfer.csproj.AssemblyReference.cache
-C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\obj\Debug\net10.0\WebApiTransfer.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\obj\Debug\net10.0\WebApiTr.6E93D19F.Up2Date
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
@@ -197,3 +196,10 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\FluentValidation.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Google.Apis.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Google.Apis.Auth.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Google.Apis.Core.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\System.Management.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\obj\Debug\net10.0\WebApiTransfer.MvcApplicationPartsAssemblyInfo.cs

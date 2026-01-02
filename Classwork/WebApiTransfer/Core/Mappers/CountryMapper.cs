@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Core.Models.Location.Country;
-using Domain.Entities.Loacation;
+using Domain.Entities.Location;
 
 namespace Core.Mappers;
 

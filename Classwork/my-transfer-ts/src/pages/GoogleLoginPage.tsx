@@ -1,0 +1,70 @@
+import type { IGoogleCredentialResponse } from "../Interfaces/IGoogleCreditialResponse.ts";
+import {GoogleLogin} from "@react-oauth/google";
+import APP_ENV from "../env";
+import {useAuth} from "../hooks/useAuth.ts";
+import {useNavigate} from "react-router-dom";
+
+const GoogleLoginPage = () => {
+    const navigate = useNavigate();
+
+    const { login } = useAuth();
+    
+    const handleLogin = async (credentialResponse: IGoogleCredentialResponse) => {
+        try {
+            if (!credentialResponse.credential) return;
+            const idToken = credentialResponse.credential;
+            // console.log(idToken);
+
+            const res = await fetch(APP_ENV.API_BASE_URL + "/api/Auth/Google", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ idToken })
+            });
+
+            if (!res.ok) throw new Error("Login failed");
+
+            const data = await res.json();
+            // console.log("JWT from backend:", data.token);
+
+            await login(data.token);
+            navigate("/");
+            // localStorage.setItem("jwt", data.token);
+            //
+            // const profileRes = await fetch(APP_ENV.API_BASE_URL + "/api/Auth/Profile", {
+            //     headers: { Authorization: `Bearer ${data.token}` },
+            // });
+            //
+            // if (!profileRes.ok) {
+            //     console.error("Unauthorized or error", profileRes.status);
+            //     return;
+            // }
+            //
+            // const profileData = await profileRes.json();
+            // console.log(profileData);
+        } catch (err) {
+            console.error(err);
+        }
+    };
+    return (
+        <>
+            <div className="flex items-center justify-center w-full">
+                <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8">
+                    <div className="sm:col-span-3">
+                        <GoogleLogin
+                            onSuccess={handleLogin}
+                            onError={() => console.log('Login Failed')}
+                            ux_mode="popup"
+                            type="standard"
+                            size="large"
+                            width={250}
+                        />
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default GoogleLoginPage;

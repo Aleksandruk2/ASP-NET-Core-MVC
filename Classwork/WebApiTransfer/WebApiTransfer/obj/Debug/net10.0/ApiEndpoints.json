@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "WebApiTransfer.Controllers.AuthController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/Auth/Google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.Models.Account.Dto.GoogleAuthDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiTransfer.Controllers.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/Auth/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiTransfer.Controllers.CitiesController",
     "Method": "GetListAsync",
     "RelativePath": "api/Cities",
