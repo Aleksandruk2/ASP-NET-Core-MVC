@@ -1,28 +1,41 @@
 ﻿using Microsoft.AspNetCore.Http;
-using System.ComponentModel.DataAnnotations;
 
 namespace Core.Models.Account;
 
 public class RegisterModel
 {
-    [Required(ErrorMessage = "Вкажіть ім'я")]
+    /// <summary>
+    /// Ім'я
+    /// </summary>
+    /// <example>FirtsName</example>
     public string FirstName { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Вкажіть прізвище")]
+    /// <summary>
+    /// Прізвище
+    /// </summary>
+    /// <example>LastName</example>
     public string LastName { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Вкажіть пошту")]
+    /// <summary>
+    /// Електронна адреса
+    /// </summary>
+    /// <example>exampleEmail@gmail.com</example>
     public string Email { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Це поле обов'язкове!")]
-    [DataType(DataType.Password)]
+    /// <summary>
+    /// Пароль
+    /// </summary>
+    /// <example>examplePass123</example>
     public string Password { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Це поле обов'язкове!")]
-    [Compare("Password", ErrorMessage = "Паролі не співпадають")]
-    [DataType(DataType.Password)]
+    /// <summary>
+    /// Підтвердження пароля
+    /// </summary>
+    /// <example>examplePass123</example>
     public string PasswordConfirm { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Оберіть фото")]
-    public IFormFile? Image{ get; set; }
+    /// <summary>
+    /// Зображеня
+    /// </summary>
+    public IFormFile? Image { get; set; }
 }

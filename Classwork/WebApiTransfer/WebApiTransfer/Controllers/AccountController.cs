@@ -46,6 +46,8 @@ public class AccountController(UserManager<UserEntity> userManager,
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
         }
+        else
+            user.Image = imageService.GetDefaultUserImage();
 
         result = await userManager.AddToRoleAsync(user, Roles.User);
 

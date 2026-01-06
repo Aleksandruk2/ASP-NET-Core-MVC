@@ -9,6 +9,7 @@ namespace Core.Services;
 
 public class ImageService(IConfiguration configuration) : IImageService
 {
+
     public async Task<string> UploadImageAsync(IFormFile file)
     {
         try
@@ -60,5 +61,10 @@ public class ImageService(IConfiguration configuration) : IImageService
         {
             File.Delete(filePath);
         }
+    }
+
+    public string GetDefaultUserImage()
+    {
+        return "DefaultUser.webp";
     }
 }

@@ -99,9 +99,6 @@ const CreateCity = () => {
             if (errors)
                 getErrors(errors);
 
-            // if (!response.ok) {
-            //     throw new Error(`HTTP error: ${response.status}`);
-            // }
             if (response.ok)
                 navigate("/createCitySuccess");
         } catch (error) {

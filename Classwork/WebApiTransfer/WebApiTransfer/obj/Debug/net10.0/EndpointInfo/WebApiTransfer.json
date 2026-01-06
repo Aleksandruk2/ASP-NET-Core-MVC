@@ -45,35 +45,36 @@
           "content": {
             "multipart/form-data": {
               "schema": {
-                "required": [
-                  "Email",
-                  "FirstName",
-                  "Image",
-                  "LastName",
-                  "Password",
-                  "PasswordConfirm"
-                ],
                 "type": "object",
                 "properties": {
                   "FirstName": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Ім'я",
+                    "example": "FirtsName"
                   },
                   "LastName": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Прізвище",
+                    "example": "LastName"
                   },
                   "Email": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Електронна адреса",
+                    "example": "exampleEmail@gmail.com"
                   },
                   "Password": {
                     "type": "string",
-                    "format": "password"
+                    "description": "Пароль",
+                    "example": "examplePass123"
                   },
                   "PasswordConfirm": {
                     "type": "string",
-                    "format": "password"
+                    "description": "Підтвердження пароля",
+                    "example": "examplePass123"
                   },
                   "Image": {
                     "type": "string",
+                    "description": "Зображеня",
                     "format": "binary"
                   }
                 }

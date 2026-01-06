@@ -16,5 +16,40 @@
             </summary>
             <example>Admin123</example>
         </member>
+        <member name="P:Core.Models.Account.RegisterModel.FirstName">
+            <summary>
+            Ім'я
+            </summary>
+            <example>FirtsName</example>
+        </member>
+        <member name="P:Core.Models.Account.RegisterModel.LastName">
+            <summary>
+            Прізвище
+            </summary>
+            <example>LastName</example>
+        </member>
+        <member name="P:Core.Models.Account.RegisterModel.Email">
+            <summary>
+            Електронна адреса
+            </summary>
+            <example>exampleEmail@gmail.com</example>
+        </member>
+        <member name="P:Core.Models.Account.RegisterModel.Password">
+            <summary>
+            Пароль
+            </summary>
+            <example>examplePass123</example>
+        </member>
+        <member name="P:Core.Models.Account.RegisterModel.PasswordConfirm">
+            <summary>
+            Підтвердження пароля
+            </summary>
+            <example>examplePass123</example>
+        </member>
+        <member name="P:Core.Models.Account.RegisterModel.Image">
+            <summary>
+            Зображеня
+            </summary>
+        </member>
     </members>
 </doc>
