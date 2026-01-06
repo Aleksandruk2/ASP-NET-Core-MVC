@@ -203,3 +203,4 @@ C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\b
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\System.Management.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\obj\Debug\net10.0\WebApiTransfer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\My data\data\ASP NET Core MVC\Classwork\WebApiTransfer\WebApiTransfer\bin\Debug\net10.0\Core.xml

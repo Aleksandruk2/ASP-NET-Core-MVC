@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Cities from "./pages/Cities.tsx";
 import CreateCity from "./pages/CreateCity.tsx";
 import CreateCitySuccess from "./pages/CreateCitySuccess.tsx";
-import GoogleLoginPage from "./pages/GoogleLoginPage.tsx";
+import GoogleLoginPage from "./pages/Account/GoogleLoginPage.tsx";
 
 function App() {
     return (

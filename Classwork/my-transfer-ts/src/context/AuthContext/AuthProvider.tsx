@@ -25,7 +25,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
             }
 
             const data = await result.json();
-            // console.log("Data from backend:", data);
+            console.log("Data from backend:", data);
             setUser(data);
         } catch (err) {
             console.log(err);

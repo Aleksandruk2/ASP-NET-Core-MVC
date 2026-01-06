@@ -1,17 +1,17 @@
 using Core.Interfaces;
+using Core.Models.Account;
 using Core.Services;
 using Domain;
 using Domain.Entities.Identity;
 using Domain.Seed;
 using FluentValidation;
-using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
-using System.Diagnostics.Metrics;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,8 +36,40 @@ builder.Services.AddIdentity<UserEntity, RoleEntity>(options =>
 
 builder.Services.AddControllers();
 
+var assemblyName = typeof(LoginModel).Assembly.GetName().Name;
+
 //Добавили swagger
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(opt =>
+{
+    var fileDoc = $"{assemblyName}.xml";
+    var filePath = Path.Combine(AppContext.BaseDirectory, fileDoc);
+    opt.IncludeXmlComments(filePath);
+
+    opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "JWT Authorization header using the Bearer scheme.",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer"
+    });
+
+    opt.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type=ReferenceType.SecurityScheme,
+                    Id="Bearer"
+                }
+            },
+            new string[]{}
+        }
+    });
+
+});
 
 builder.Services.AddCors();
 
@@ -51,6 +83,8 @@ builder.Services.AddScoped<ICityService, CityService>();
 builder.Services.AddScoped<IImageService, ImageService>();
 
 builder.Services.AddScoped<IGoogleAuthService, GoogleAuthService>();
+
+builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -81,6 +115,7 @@ builder.Services.AddAuthentication(opt =>
                 return Task.CompletedTask;
             }
         };
+        opt.SaveToken = true;
 
         opt.TokenValidationParameters = new TokenValidationParameters
         {
@@ -150,6 +185,7 @@ using (var scoped = app.Services.CreateScope())
     var context = scoped.ServiceProvider.GetRequiredService<AppDbTransferContext>();
     context.Database.Migrate();
     var roleManeger = scoped.ServiceProvider.GetRequiredService<RoleManager<RoleEntity>>();
+    var userManager = scoped.ServiceProvider.GetRequiredService<UserManager<UserEntity>>();
 
     //var allItems = context.Countries.ToList(); // отримуємо всі записи
     //context.Countries.RemoveRange(allItems);   // видаляємо їх
@@ -170,6 +206,27 @@ using (var scoped = app.Services.CreateScope())
         Console.WriteLine(" [slug:" + country.Slug + "]");
     }
     Console.ResetColor();
+
+    //var adminUser = new UserEntity
+    //{
+    //    UserName = "admin@gmail.com",
+    //    Email = "admin@gmail.com",
+    //    FirstName = "System",
+    //    LastName = "Administrator",
+    //    Image = "default.jpg"
+    //};
+    //var result = await userManager.CreateAsync(adminUser, "Admin123");
+    //if (result.Succeeded)
+    //{
+    //    Console.ForegroundColor = ConsoleColor.Green;
+    //    Console.WriteLine("Користувача 'admin@gmail.com' додано. Очікується додавання ролі...");
+    //    result = await userManager.AddToRoleAsync(adminUser, "Admin");
+    //    if (result.Succeeded)
+    //    {
+    //        Console.ForegroundColor = ConsoleColor.Green;
+    //        Console.WriteLine("Роль успішно додана.");
+    //    }
+    //}
 }
 
 app.Run(); 

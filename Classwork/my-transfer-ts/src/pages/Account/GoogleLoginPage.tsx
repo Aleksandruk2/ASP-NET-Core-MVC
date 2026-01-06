@@ -1,7 +1,7 @@
-import type { IGoogleCredentialResponse } from "../Interfaces/IGoogleCreditialResponse.ts";
+import type { IGoogleCredentialResponse } from "../../Interfaces/IGoogleCreditialResponse.ts";
 import {GoogleLogin} from "@react-oauth/google";
-import APP_ENV from "../env";
-import {useAuth} from "../hooks/useAuth.ts";
+import APP_ENV from "../../env";
+import {useAuth} from "../../hooks/useAuth.ts";
 import {useNavigate} from "react-router-dom";
 
 const GoogleLoginPage = () => {
