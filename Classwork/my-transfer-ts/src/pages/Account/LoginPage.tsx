@@ -3,8 +3,9 @@ import {GoogleLogin} from "@react-oauth/google";
 import APP_ENV from "../../env";
 import {useAuth} from "../../hooks/useAuth.ts";
 import {useNavigate} from "react-router-dom";
+import Login from "../../components/Account/Login/Login.tsx";
 
-const GoogleLoginPage = () => {
+const LoginPage = () => {
     const navigate = useNavigate();
 
     const { login } = useAuth();
@@ -30,19 +31,6 @@ const GoogleLoginPage = () => {
 
             await login(data.token);
             navigate("/");
-            // localStorage.setItem("jwt", data.token);
-            //
-            // const profileRes = await fetch(APP_ENV.API_BASE_URL + "/api/Auth/Profile", {
-            //     headers: { Authorization: `Bearer ${data.token}` },
-            // });
-            //
-            // if (!profileRes.ok) {
-            //     console.error("Unauthorized or error", profileRes.status);
-            //     return;
-            // }
-            //
-            // const profileData = await profileRes.json();
-            // console.log(profileData);
         } catch (err) {
             console.error(err);
         }
@@ -58,13 +46,16 @@ const GoogleLoginPage = () => {
                             ux_mode="popup"
                             type="standard"
                             size="large"
-                            width={250}
+                            width={256}
                         />
                     </div>
                 </div>
+            </div>
+            <div>
+                <Login/>
             </div>
         </>
     );
 }
 
-export default GoogleLoginPage;
+export default LoginPage;

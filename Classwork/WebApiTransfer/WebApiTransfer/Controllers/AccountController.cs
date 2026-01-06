@@ -4,8 +4,10 @@ using Core.Models.Account;
 using Core.Services;
 using Domain.Constants;
 using Domain.Entities.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace WebApiTransfer.Controllers;
 
@@ -56,5 +58,21 @@ public class AccountController(UserManager<UserEntity> userManager,
 
         var token = await jwtTokenService.CreateAsync(user);
         return Ok(new { token });
+    }
+
+    [Authorize]
+    [HttpGet]
+    public IActionResult Profile()
+    {
+        return Ok(new
+        {
+            id = User.FindFirstValue(ClaimTypes.NameIdentifier),
+            email = User.FindFirstValue(ClaimTypes.Email),
+            userName = User.FindFirstValue("userName"),
+            firstName = User.FindFirstValue("firstName"),
+            lastName = User.FindFirstValue("lastName"),
+            image = User.FindFirstValue("image"),
+            roles = User.FindAll(ClaimTypes.Role).Select(r => r.Value)
+        });
     }
 }

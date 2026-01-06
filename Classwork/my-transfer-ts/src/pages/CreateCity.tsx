@@ -100,7 +100,7 @@ const CreateCity = () => {
                 getErrors(errors);
 
             if (response.ok)
-                navigate("/createCitySuccess");
+                navigate("/CreateCitySuccess");
         } catch (error) {
             console.error("Create City Error:", error);
         }

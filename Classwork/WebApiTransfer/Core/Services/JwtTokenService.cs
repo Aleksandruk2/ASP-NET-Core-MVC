@@ -19,8 +19,11 @@ public class JwtTokenService(IConfiguration config,
 
         var claims = new List<Claim>
         {
-            new Claim("email", user.Email ?? "noemail@gmail.com"),
-            new Claim("name", $"{user.LastName} {user.FirstName}"),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(ClaimTypes.Email, user.Email ?? "noemail@gmail.com"),
+            new Claim("userName", user.UserName ?? "nousername"),
+            new Claim("firstName", user.FirstName!),
+            new Claim("lastName", user.LastName!),
             new Claim("image", $"{user.Image}")
         };
         foreach (var role in await userManager.GetRolesAsync(user))
@@ -40,6 +43,8 @@ public class JwtTokenService(IConfiguration config,
 
         //створюємо токен
         var jwtSecurityToken = new JwtSecurityToken(
+            issuer: config["Jwt:Issuer"],
+            audience: config["Jwt:Audience"],
             claims: claims, //список параметрів у токені, які є доступні
             expires: DateTime.UtcNow.AddDays(7), // термін дії токена - після цього часу токен буде недійсний
             signingCredentials: signingCredentials);

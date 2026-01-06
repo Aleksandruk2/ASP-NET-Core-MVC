@@ -13,6 +13,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
         localStorage.removeItem("jwt");
         setUser(null);
     }, []);
+
     const fetchProfile = useCallback(async (jwt: string) => {
         try {
             const result = await fetch(APP_ENV.API_BASE_URL + "/api/Auth/Profile", {
@@ -25,7 +26,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
             }
 
             const data = await result.json();
-            console.log("Data from backend:", data);
+            // console.log("Data from backend:", data);
             setUser(data);
         } catch (err) {
             console.log(err);
@@ -37,7 +38,6 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
         // console.log("Вхід через login");
         await fetchProfile(jwt);
     }, [fetchProfile]);
-
 
     useEffect(() => {
         if(!token) {
@@ -57,7 +57,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     }, [token, fetchProfile, user]);
 
     return (
-        <AuthContext.Provider value={{user, isAuthenticated, logout ,login}}>
+        <AuthContext.Provider value={{user, isAuthenticated, logout, login}}>
             {children}
         </AuthContext.Provider>
     );

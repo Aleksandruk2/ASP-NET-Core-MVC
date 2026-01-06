@@ -109,6 +109,18 @@
         }
       }
     },
+    "/api/Account/Profile": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/Google": {
       "post": {
         "tags": [

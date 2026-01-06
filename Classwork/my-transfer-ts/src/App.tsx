@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Cities from "./pages/Cities.tsx";
 import CreateCity from "./pages/CreateCity.tsx";
 import CreateCitySuccess from "./pages/CreateCitySuccess.tsx";
-import GoogleLoginPage from "./pages/Account/GoogleLoginPage.tsx";
+import LoginPage from "./pages/Account/LoginPage.tsx";
 
 function App() {
     return (
@@ -13,10 +13,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Header/>}>
                     <Route index element={<Country/>}></Route>
-                    <Route path="cities" element={<Cities/>}></Route>
-                    <Route path="createCity" element={<CreateCity/>}></Route>
-                    <Route path="createCitySuccess" element={<CreateCitySuccess/>}></Route>
-                    <Route path="googleLoginPage" element={<GoogleLoginPage/>}></Route>
+                    <Route path="Cities" element={<Cities/>}></Route>
+                    <Route path="CreateCity" element={<CreateCity/>}></Route>
+                    <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
+                    <Route path="LoginPage" element={<LoginPage/>}></Route>
                 </Route>
             </Routes>
         </>

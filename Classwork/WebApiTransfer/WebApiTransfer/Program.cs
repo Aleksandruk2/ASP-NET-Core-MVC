@@ -227,6 +227,19 @@ using (var scoped = app.Services.CreateScope())
     //        Console.WriteLine("Роль успішно додана.");
     //    }
     //}
+
+    //foreach (var user in context.Users.ToArray())
+    //{
+    //    Console.ForegroundColor = ConsoleColor.Red;
+    //    Console.Write($" [Email: {user.Email}]");
+    //    Console.ForegroundColor = ConsoleColor.Magenta;
+    //    Console.Write(" [image:" + user.Image + "]");
+    //    Console.ForegroundColor = ConsoleColor.DarkCyan;
+    //    Console.Write(" [LastName: " + user.LastName + "]");
+    //    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    //    Console.WriteLine(" [FirstName:" + user.FirstName+ "]");
+    //}
+    //Console.ResetColor();
 }
 
 app.Run(); 

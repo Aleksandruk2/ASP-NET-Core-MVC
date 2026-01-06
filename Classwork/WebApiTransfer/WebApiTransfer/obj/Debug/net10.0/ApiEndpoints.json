@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "WebApiTransfer.Controllers.AccountController",
+    "Method": "Profile",
+    "RelativePath": "api/Account/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiTransfer.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/Register",
     "HttpMethod": "POST",
@@ -74,7 +84,7 @@
   },
   {
     "ContainingType": "WebApiTransfer.Controllers.AuthController",
-    "Method": "Me",
+    "Method": "Profile",
     "RelativePath": "api/Auth/Profile",
     "HttpMethod": "GET",
     "IsController": true,

@@ -16,11 +16,11 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <NavLink className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
-                                             to="cities">Міста</NavLink>
+                                             to="Cities">Міста</NavLink>
                                 </li>
                                 <li>
                                     <NavLink className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
-                                             to="createCity">Додати місто</NavLink>
+                                             to="CreateCity">Додати місто</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@ const Header = () => {
                                     <div>
                                         <NavLink
                                             className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
-                                            to="googleLoginPage">Увійти</NavLink>
+                                            to="LoginPage">Увійти</NavLink>
                                     </div>
                                 </div>
                             </div>)

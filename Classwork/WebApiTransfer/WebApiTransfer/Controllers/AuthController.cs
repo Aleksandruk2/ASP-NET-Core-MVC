@@ -22,7 +22,7 @@ public class AuthController(IGoogleAuthService googleAuthService) : ControllerBa
 
     [Authorize]
     [HttpGet("Profile")]
-    public IActionResult Me()
+    public IActionResult Profile()
     {
         return Ok(new
         {
