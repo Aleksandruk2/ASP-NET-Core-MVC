@@ -6,6 +6,7 @@ import Cities from "./pages/Cities.tsx";
 import CreateCity from "./pages/CreateCity.tsx";
 import CreateCitySuccess from "./pages/CreateCitySuccess.tsx";
 import LoginPage from "./pages/Account/LoginPage.tsx";
+import RegisterPage from "./pages/Account/RegisterPage.tsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="CreateCity" element={<CreateCity/>}></Route>
                     <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
                     <Route path="LoginPage" element={<LoginPage/>}></Route>
+                    <Route path="RegisterPage" element={<RegisterPage/>}></Route>
                 </Route>
             </Routes>
         </>

@@ -24,7 +24,7 @@ public class AccountController(UserManager<UserEntity> userManager,
         var user = await userManager.FindByEmailAsync(model.Email);
         if (user == null || !await userManager.CheckPasswordAsync(user, model.Password))
         {
-            return Unauthorized("Invalid email or password.");
+            return Unauthorized("Невірний email або пароль.");
         }
         var token = await jwtTokenService.CreateAsync(user);
         return Ok(new { token });

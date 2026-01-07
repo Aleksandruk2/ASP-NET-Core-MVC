@@ -11,7 +11,10 @@ export const AccountLoginAsync = async (props: IAccountLogin) => {
             body: JSON.stringify(props),
         });
 
-        if (!res.ok) throw new Error("Login failed");
+        if (!res.ok) {
+            return res;
+            // throw new Error("Login failed");
+        }
 
         const data = await res.json();
         // console.log("JWT from backend:", data.token);

@@ -5,10 +5,7 @@ import APP_ENV from "../env";
 import * as React from "react";
 import {useNavigate} from "react-router-dom";
 import SimpleMDE from "react-simplemde-editor";
-
-interface Errors {
-    [key: string]: string[];
-}
+import type {IErrors} from "../Interfaces/IErrors/IError.ts";
 
 const CreateCity = () => {
     const MAX_SIZE= 5 * 1024 * 1024; //5MB
@@ -55,7 +52,7 @@ const CreateCity = () => {
             });
     },[]);
 
-    const getErrors = (errors: Errors) => {
+    const getErrors = (errors: IErrors) => {
         setNameError(undefined);
         setSlugError(undefined);
         setImageError(undefined);
@@ -78,7 +75,6 @@ const CreateCity = () => {
                 }
             });
         });
-
     }
 
     const sendData = async () => {
@@ -95,7 +91,8 @@ const CreateCity = () => {
                 body: formData,
             });
             const data = await response.json();
-            const errors: Errors = data.errors;
+            console.log(data);
+            const errors: IErrors = data.errors;
             if (errors)
                 getErrors(errors);
 

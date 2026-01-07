@@ -1,13 +1,13 @@
 import {useState} from "react";
-import {AccountLoginAsync} from "../../../services/Account/AccountLogin.ts";
+import {AccountLoginAsync} from "../../../services/Account/AccountLoginService.ts";
 import * as React from "react";
 import {useAuth} from "../../../hooks/useAuth.ts";
 import {useNavigate} from "react-router-dom";
 
-
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [error, setError] = useState<string | undefined>();
 
     const { login } = useAuth();
     const navigate = useNavigate();
@@ -16,6 +16,13 @@ const Login = () => {
         e.preventDefault();
 
         const data = await AccountLoginAsync({ email, password });
+        setError(undefined);
+
+        if (!data.token) {
+            const err = await data.text();
+            setError(err);
+            return;
+        }
 
         await login(data.token);
         navigate("/");
@@ -28,7 +35,7 @@ const Login = () => {
                     <div className="mt-10">
                         <div className="sm:col-span-3 mb-2 w-64">
                             <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
-                                Email
+                                Електрона адреса
                             </label>
                             <div className="mt-2">
                                 <input
@@ -38,12 +45,11 @@ const Login = () => {
                                     className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
-                            {/*{nameError && (<div className="text-red-400 max-w-72">{nameError}</div>)}*/}
                         </div>
 
                         <div className="sm:col-span-3">
                             <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
-                                Password
+                                Пароль
                             </label>
                             <div className="mt-2">
                                 <input
@@ -53,7 +59,7 @@ const Login = () => {
                                     className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
-                            {/*{slugError && (<div className="text-red-400 max-w-72">{slugError}</div>)}*/}
+                            {error && (<div className="text-red-400 max-w-72">{error}</div>)}
                         </div>
                     </div>
                     <div className="pb-3 mt-6 flex items-center justify-center gap-x-6">
