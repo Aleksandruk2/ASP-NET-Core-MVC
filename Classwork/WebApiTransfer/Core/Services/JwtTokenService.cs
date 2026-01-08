@@ -24,7 +24,7 @@ public class JwtTokenService(IConfiguration config,
             new Claim("userName", user.UserName ?? "nousername"),
             new Claim("firstName", user.FirstName!),
             new Claim("lastName", user.LastName!),
-            new Claim("image", $"{user.Image}")
+            new Claim("image", $"http://localhost:6055/images/{user.Image}")
         };
         foreach (var role in await userManager.GetRolesAsync(user))
         {

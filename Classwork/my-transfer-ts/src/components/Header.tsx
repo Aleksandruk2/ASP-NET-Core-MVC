@@ -26,17 +26,21 @@ const Header = () => {
                         </div>
                         { user ?
                             (<div className="flex items-center w-full md:flex md:w-auto md:order-1">
-                                <div className="px-3">
-                                    <div className="text-gray-400 rounded md:text-right">
-                                        { user.firstName } {user.lastName }
+                                <NavLink to="ProfilePage"
+                                    className="p-1 rounded hover:bg-gray-700 cursor-pointer flex items-center md:flex">
+                                    <div className="px-3">
+                                        <div className="text-gray-400 rounded md:text-right">
+                                            { user.firstName } {user.lastName }
+                                        </div>
+                                        <div className="text-gray-400 rounded md:text-right">
+                                            { user.email }
+                                        </div>
                                     </div>
-                                    <div className="text-gray-400 rounded md:text-right">
-                                        { user.email }
+                                    <div className="h-12 w-12 rounded-full overflow-hidden">
+                                        <img src={user.image} width={100} alt=""/>
                                     </div>
-                                </div>
-                                <div className="h-12 w-12 rounded-full overflow-hidden">
-                                    <img src={user.image} width={100} alt=""/>
-                                </div>
+                                </NavLink>
+
                                 <LogOutModal onOpen={false}></LogOutModal>
                             </div>)
                             :
