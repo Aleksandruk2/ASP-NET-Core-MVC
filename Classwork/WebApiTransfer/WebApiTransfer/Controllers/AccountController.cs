@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Core.Interfaces;
 using Core.Models.Account;
-using Core.Services;
 using Domain.Constants;
 using Domain.Entities.Identity;
 using Microsoft.AspNetCore.Authorization;
@@ -16,7 +15,8 @@ namespace WebApiTransfer.Controllers;
 public class AccountController(UserManager<UserEntity> userManager,
     IJwtTokenService jwtTokenService,
     IMapper mapper,
-    IImageService imageService) : ControllerBase
+    IImageService imageService,
+    IUserService userService) : ControllerBase
 {
     [HttpPost]
     public async Task<IActionResult> Login([FromBody] LoginModel model)
@@ -62,7 +62,7 @@ public class AccountController(UserManager<UserEntity> userManager,
 
     [Authorize]
     [HttpGet]
-    public IActionResult Profile()
+    public async Task<IActionResult> Profile()
     {
         return Ok(new
         {
@@ -75,4 +75,14 @@ public class AccountController(UserManager<UserEntity> userManager,
             roles = User.FindAll(ClaimTypes.Role).Select(r => r.Value)
         });
     }
+
+    [Authorize]
+    [HttpGet]
+    public async Task<IActionResult> MyProfile()
+    {
+        var model = await userService.GetUserProfileAsync();
+        return Ok(model);
+    }
+
+
 }

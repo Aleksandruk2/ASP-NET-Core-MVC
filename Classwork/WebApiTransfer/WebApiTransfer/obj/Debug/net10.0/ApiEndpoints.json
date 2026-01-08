@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "WebApiTransfer.Controllers.AccountController",
+    "Method": "MyProfile",
+    "RelativePath": "api/Account/MyProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiTransfer.Controllers.AccountController",
     "Method": "Profile",
     "RelativePath": "api/Account/Profile",
     "HttpMethod": "GET",

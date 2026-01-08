@@ -38,6 +38,9 @@ builder.Services.AddControllers();
 
 var assemblyName = typeof(LoginModel).Assembly.GetName().Name;
 
+//Щоб отримати доступ до HttpContext в сервісах
+builder.Services.AddHttpContextAccessor();
+
 //Добавили swagger
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -85,6 +88,10 @@ builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<IGoogleAuthService, GoogleAuthService>();
 
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
