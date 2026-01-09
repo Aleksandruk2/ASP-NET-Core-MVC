@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Transactions;
 
 namespace Domain.Entities.Location;
 
@@ -19,7 +20,10 @@ public class CityEntity : BaseEntity<int>
     // Зовнішній ключ на країну
     [ForeignKey(nameof(Country))]
     public int CountryId { get; set; }
-
     public CountryEntity Country { get; set; } = null!;
+
+
+    public ICollection<TransportationEntity> Departures { get; set; }
+    public ICollection<TransportationEntity> Arrivals { get; set; }
 
 }
