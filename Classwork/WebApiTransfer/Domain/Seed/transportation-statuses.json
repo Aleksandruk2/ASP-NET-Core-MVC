@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "scheduled"
+  },
+  {
+    "Name": "delayed"
+  },
+  {
+    "Name": "canceled"
+  },
+  {
+    "Name": "completed"
+  },
+  {
+    "Name": "no place"
+  }
+]

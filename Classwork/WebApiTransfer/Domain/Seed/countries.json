@@ -6,15 +6,21 @@
     "Image": "UA.jpg"
   },
   {
-    "Name": "United Kingdom",
-    "Code": "UK",
-    "Slug": "united-kingdom",
-    "Image": "UK.jpg"
-  },
-  {
     "Name": "Poland",
     "Code": "PL",
     "Slug": "poland",
     "Image": "PL.jpg"
+  },
+  {
+    "Name": "Germany",
+    "Code": "DE",
+    "Slug": "germany",
+    "Image": "DE.jpg"
+  },
+  {
+    "Name": "United Kingdom",
+    "Code": "UK",
+    "Slug": "united-kingdom",
+    "Image": "UK.jpg"
   }
 ]

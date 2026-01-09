@@ -199,7 +199,12 @@ using (var scoped = app.Services.CreateScope())
     //context.SaveChanges();
 
     await DbSeeder.SeedCountriesAsync(context);
+    await DbSeeder.SeedCitiesAsync(context);
     await DbSeeder.SeedRolesAsync(context, roleManeger);
+    await DbSeeder.SeedUsersAsync(context, userManager);
+    await DbSeeder.SeedTransportationStatusesAsync(context);
+    await DbSeeder.SeedTransportationAsync(context);
+    
 
     foreach (var country in context.Countries.ToArray())
     {

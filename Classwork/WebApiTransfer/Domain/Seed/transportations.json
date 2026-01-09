@@ -1,0 +1,32 @@
+[
+  {
+    "Code": "PS101",
+    "FromCityId": 1,
+    "ToCityId": 2,
+    "DepartureTime": "2026-02-01T08:30:00Z",
+    "ArrivalTime": "2026-02-01T14:00:00Z",
+    "SeatsTotal": 50,
+    "SeatsAvailable": 50,
+    "StatusId": 1
+  },
+  {
+    "Code": "PS202",
+    "FromCityId": 2,
+    "ToCityId": 3,
+    "DepartureTime": "2026-02-02T09:15:00Z",
+    "ArrivalTime": "2026-02-02T16:45:00Z",
+    "SeatsTotal": 45,
+    "SeatsAvailable": 12,
+    "StatusId": 2
+  },
+  {
+    "Code": "PS303",
+    "FromCityId": 1,
+    "ToCityId": 3,
+    "DepartureTime": "2026-02-03T07:00:00Z",
+    "ArrivalTime": "2026-02-03T13:20:00Z",
+    "SeatsTotal": 60,
+    "SeatsAvailable": 0,
+    "StatusId": 5
+  }
+]
