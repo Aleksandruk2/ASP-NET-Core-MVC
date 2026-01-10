@@ -32,6 +32,19 @@ public class GoogleAuthService(IConfiguration config, UserManager<UserEntity> us
             await userManager.AddToRoleAsync(user, Roles.User);
         }
 
+        var info = new UserLoginInfo
+        (
+            loginProvider: "Google",
+            providerKey: payload.Subject,
+            providerDisplayName: "Google"
+        );
+
+        var existingLogins = await userManager.GetLoginsAsync(user);
+        if (!existingLogins.Any(l => l.LoginProvider == info.LoginProvider && l.ProviderKey == info.ProviderKey))
+        {
+            await userManager.AddLoginAsync(user, info);
+        }
+
         return user;
     }
     public async Task<string> GenerateJwtAsync(UserEntity user)

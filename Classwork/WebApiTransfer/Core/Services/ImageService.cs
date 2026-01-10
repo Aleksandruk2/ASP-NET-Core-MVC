@@ -1,4 +1,5 @@
 ﻿using Core.Interfaces;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using SixLabors.ImageSharp;
@@ -19,23 +20,19 @@ public class ImageService(IConfiguration configuration) : IImageService
             var fileName = Path.GetRandomFileName() + ".webp";
             var bytes = memoryStream.ToArray();
             using var image = Image.Load(bytes);
+            var width = 600;
+            var height = 600;
             image.Mutate(imgc =>
             {
                 imgc.Resize(new ResizeOptions
                 {
-                    Size = new Size(600, 600),
+                    Size = new Size(width, height),
                     Mode = ResizeMode.Max
                 });
             });
             var dirImageName = configuration["DirImageName"] ?? "images";
-            string imageRoot = Directory.GetParent(AppContext.BaseDirectory)!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .FullName;
 
-            var path = Path.Combine(imageRoot, "Domain", dirImageName, fileName);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), dirImageName, fileName);
 
             await image.SaveAsync(path, new WebpEncoder());
             return fileName;
@@ -50,13 +47,7 @@ public class ImageService(IConfiguration configuration) : IImageService
         if (string.IsNullOrEmpty(fileName)) return;
 
         var dirImageName = configuration["DirImageName"] ?? "images";
-        string imageRoot = Directory.GetParent(AppContext.BaseDirectory)!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .FullName;
-        var filePath = Path.Combine(imageRoot, "Domain", dirImageName, fileName);
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(), dirImageName, fileName);
         if (File.Exists(filePath))
         {
             File.Delete(filePath);

@@ -28,5 +28,35 @@
 		<EmbeddedResource Include="Seed\**\*.json" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Remove="images\**" />
+	  <EmbeddedResource Remove="images\**" />
+	  <None Remove="images\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Seed\DefaultImages\berlin.webp" />
+	  <None Remove="Seed\DefaultImages\DE.jpg" />
+	  <None Remove="Seed\DefaultImages\DefaultUser.webp" />
+	  <None Remove="Seed\DefaultImages\kyiv.webp" />
+	  <None Remove="Seed\DefaultImages\lviv.webp" />
+	  <None Remove="Seed\DefaultImages\PL.jpg" />
+	  <None Remove="Seed\DefaultImages\UA.jpg" />
+	  <None Remove="Seed\DefaultImages\UK.jpg" />
+	  <None Remove="Seed\DefaultImages\warsaw.webp" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Seed\DefaultImages\berlin.webp" />
+	  <EmbeddedResource Include="Seed\DefaultImages\DE.jpg" />
+	  <EmbeddedResource Include="Seed\DefaultImages\DefaultUser.webp" />
+	  <EmbeddedResource Include="Seed\DefaultImages\kyiv.webp" />
+	  <EmbeddedResource Include="Seed\DefaultImages\lviv.webp" />
+	  <EmbeddedResource Include="Seed\DefaultImages\PL.jpg" />
+	  <EmbeddedResource Include="Seed\DefaultImages\UA.jpg" />
+	  <EmbeddedResource Include="Seed\DefaultImages\UK.jpg" />
+	  <EmbeddedResource Include="Seed\DefaultImages\warsaw.webp" />
+	</ItemGroup>
+
 
 </Project>

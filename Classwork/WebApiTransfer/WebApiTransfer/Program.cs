@@ -172,13 +172,8 @@ app.MapControllers();
 
 var dirImageName = builder.Configuration.GetValue<string>("DirImageName") ?? "images";
 
-string imageRoot = Directory.GetParent(AppContext.BaseDirectory)!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .Parent!
-                              .FullName;
-var path = Path.Combine(imageRoot, "Domain", dirImageName);
+var path = Path.Combine(Directory.GetCurrentDirectory(), dirImageName);
+
 Directory.CreateDirectory(path);
 
 app.UseStaticFiles(new StaticFileOptions
@@ -204,6 +199,7 @@ using (var scoped = app.Services.CreateScope())
     await DbSeeder.SeedUsersAsync(context, userManager);
     await DbSeeder.SeedTransportationStatusesAsync(context);
     await DbSeeder.SeedTransportationAsync(context);
+    await DbSeeder.SeedImagesAsync(path);
     
 
     foreach (var country in context.Countries.ToArray())
@@ -252,6 +248,12 @@ using (var scoped = app.Services.CreateScope())
     //    Console.WriteLine(" [FirstName:" + user.FirstName+ "]");
     //}
     //Console.ResetColor();
+
+
+    //Console.ForegroundColor = ConsoleColor.Red;
+    //var logger = app.Services.GetRequiredService<ILogger<Program>>();
+    //logger.LogInformation("WebRootPath = {Path}", app.Environment.WebRootPath);
+
 }
 
 app.Run(); 

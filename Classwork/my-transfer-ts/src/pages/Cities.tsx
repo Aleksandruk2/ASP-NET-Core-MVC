@@ -27,7 +27,7 @@ const Cities = () => {
                                     <img draggable={false} className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${city.image}`} alt={city.image}/>
                                 </div>
                                 <div className="absolute mx-4 bottom-0">
-                                    <div className="px-2 pb-2 p-1 m-1 bg-black/50 rounded-xl">
+                                    <div className="px-2 pb-2 p-1 m-1 bg-black/50 rounded-md">
                                         <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal antialiased">
                                             {city.name}
                                         </h5>

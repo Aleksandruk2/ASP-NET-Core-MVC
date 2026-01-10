@@ -21,7 +21,7 @@ const ProfilePage = () => {
                     </div>
                     <div>
                         <div className="border-b border-gray-300 py-2">
-                            <h1>{user?.lastName} {user?.firstName}</h1>
+                            <h1>{user?.firstName} {user?.lastName}</h1>
                         </div>
                         <div className="text-gray-400 py-2">
                             {user?.email}

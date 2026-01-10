@@ -60,41 +60,44 @@ const RegisterPage = () => {
         setFormDataError(prev => ({...prev, emailError: undefined}));
         setFormDataError(prev => ({...prev, passwordError: undefined}));
         setFormDataError(prev => ({...prev, passwordConfirmError: undefined}));
-        Object.entries(errors).forEach(([field, messages]) => {
-            messages.forEach((msg: string) => {
-                switch (field) {
-                    case "FirstName":
-                        setFormDataError(prev => ({...prev, firstNameError: msg}));
-                        break;
-                    case "LastName":
-                        setFormDataError(prev => ({...prev, lastNameError: msg}))
-                        break;
-                    case "Email":
-                        setFormDataError(prev => ({...prev, emailError: msg}));
-                        break;
-                    case "Password":
-                        setFormDataError(prev => ({...prev, passwordError: msg}));
-                        break;
-                    case "PasswordConfirm":
-                        setFormDataError(prev => ({...prev, passwordConfirmError: msg}));
-                        break;
-                    case "Image":
-                        setFormDataError(prev => ({...prev, imageError: msg}));
-                        break;
-                }
+        if(errors !== undefined && errors !== null) {
+            Object.entries(errors).forEach(([field, messages]) => {
+                messages.forEach((msg: string) => {
+                    switch (field) {
+                        case "FirstName":
+                            setFormDataError(prev => ({...prev, firstNameError: msg}));
+                            break;
+                        case "LastName":
+                            setFormDataError(prev => ({...prev, lastNameError: msg}))
+                            break;
+                        case "Email":
+                            setFormDataError(prev => ({...prev, emailError: msg}));
+                            break;
+                        case "Password":
+                            setFormDataError(prev => ({...prev, passwordError: msg}));
+                            break;
+                        case "PasswordConfirm":
+                            setFormDataError(prev => ({...prev, passwordConfirmError: msg}));
+                            break;
+                        case "Image":
+                            setFormDataError(prev => ({...prev, imageError: msg}));
+                            break;
+                    }
+                });
             });
-        });
+        }
     }
 
     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         const data = await AccountRegisterAsync(formData);
-        if (!data.success) {
+        if (!data.token) {
+            console.log("error", data);
             getErrors(data.errors);
             throw new Error("Register failed");
         }
-
+        console.log("Register successfully => login", data.token);
         await login(data.token);
         navigate("/");
     }
