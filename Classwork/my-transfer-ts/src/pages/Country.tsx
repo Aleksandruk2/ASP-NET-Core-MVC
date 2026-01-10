@@ -20,7 +20,7 @@ const  Country = () => {
         <>
             <div className="mt-2 w-full flex justify-around flex-wrap">
                 {countries.map(country => (
-                    <div key={country.id} className="p-2 mt-5 border-gray-200 dark:border-gray-800">
+                    <div key={country.id} className="transition-transform duration-300 ease-out hover:scale-102 p-2 mt-5 border-gray-200 dark:border-gray-800">
                         <div className="relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-200" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
                             <div className="border border-gray-500 flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
                                 <img draggable={false} className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${country.image}`} alt={country.image}/>

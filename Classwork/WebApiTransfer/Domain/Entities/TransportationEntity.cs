@@ -51,6 +51,7 @@ public class TransportationEntity : BaseEntity<int>
     /// затримується
     /// скасований
     /// виконаний
+    /// виконується
     /// немає мість
     /// </summary>
     [ForeignKey(nameof(Status))]

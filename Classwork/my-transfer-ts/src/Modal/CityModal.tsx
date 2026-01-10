@@ -34,13 +34,13 @@ const CityModal: React.FC<ICytiModal> = ({onOpen, city}) => {
                                                 {city.name}
                                             </div>
                                             <div>
-                                                <h6 className="m-0 bg-emerald-500 border-1 border-emerald-700 rounded-lg px-1 block font-sans font-semibold text-base leading-snug tracking-normal text-gray-100 antialiased">
+                                                <h6 className="m-0 bg-blue-500 border-2 border-blue-700 rounded-lg px-1 block font-sans font-semibold text-base leading-snug tracking-normal text-gray-100 antialiased">
                                                     {city.country}
                                                 </h6>
                                             </div>
                                         </DialogTitle>
                                         <div>
-                                            <p className="mb-2 text-sm text-gray-500">
+                                            <p className="mb-2 text-sm text-blue-200">
                                                 {city.slug}
                                             </p>
                                             <div className="flex justify-center items-center relative my-2 overflow-hidden rounded-xl text-white shadow-lg myBGImage">

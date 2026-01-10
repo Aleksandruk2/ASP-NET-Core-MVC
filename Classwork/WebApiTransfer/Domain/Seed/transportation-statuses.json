@@ -1,17 +1,20 @@
 [
   {
-    "Name": "scheduled"
+    "Name": "запланований"
   },
   {
-    "Name": "delayed"
+    "Name": "затримується"
   },
   {
-    "Name": "canceled"
+    "Name": "скасований"
   },
   {
-    "Name": "completed"
+    "Name": "виконаний"
   },
   {
-    "Name": "no place"
+    "Name": "виконується"
+  },
+  {
+    "Name": "немає мість"
   }
 ]

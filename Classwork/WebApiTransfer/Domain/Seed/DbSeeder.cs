@@ -5,6 +5,7 @@ using Domain.Entities.Location;
 using Domain.Seed.SeedModel;
 using Microsoft.AspNetCore.Identity;
 using System.Text.Json;
+using System.Text;
 
 namespace Domain.Seed;
 
@@ -15,7 +16,7 @@ public static class DbSeeder
         if (context.Countries.Any())
             return;
         var jsonPath = "../Domain/Seed/countries.json";
-        var json = await File.ReadAllTextAsync(jsonPath);
+        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
         var countries = JsonSerializer.Deserialize<List<CountryEntity>>(json);
 
         if (countries == null || countries.Count == 0)
@@ -31,7 +32,7 @@ public static class DbSeeder
             return;
 
         var jsonPath = "../Domain/Seed/cities.json";
-        var json = await File.ReadAllTextAsync(jsonPath);
+        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
         var cities = JsonSerializer.Deserialize<List<CityEntity>>(json);
 
         if (cities == null || cities.Count == 0)
@@ -47,7 +48,7 @@ public static class DbSeeder
             return;
 
         var jsonPath = "../Domain/Seed/transportation-statuses.json";
-        var json = await File.ReadAllTextAsync(jsonPath);
+        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
         var statuses = JsonSerializer.Deserialize<List<TransportationStatusEntity>>(json);
 
         if (statuses == null || statuses.Count == 0)
@@ -63,7 +64,7 @@ public static class DbSeeder
             return;
 
         var jsonPath = "../Domain/Seed/transportations.json";
-        var json = await File.ReadAllTextAsync(jsonPath);
+        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
         var transportations = JsonSerializer.Deserialize<List<TransportationEntity>>(json);
 
         if (transportations == null || transportations.Count == 0)
@@ -92,7 +93,7 @@ public static class DbSeeder
             return;
 
         var jsonPath = "../Domain/Seed/users.json";
-        var json = await File.ReadAllTextAsync(jsonPath);
+        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
         var users = JsonSerializer.Deserialize<List<UserSeedModel>>(json);
 
         if (users == null || users.Count == 0)
