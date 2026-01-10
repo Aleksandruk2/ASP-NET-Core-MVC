@@ -15,8 +15,15 @@ public static class DbSeeder
     {
         if (context.Countries.Any())
             return;
-        var jsonPath = "../Domain/Seed/countries.json";
-        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+        //var jsonPath = "../Domain/Seed/countries.json";
+        //var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+
+        var domainAssembly = typeof(DbSeeder).Assembly;
+
+        using var stream = domainAssembly.GetManifestResourceStream("Domain.Seed.countries.json");
+        using var reader = new StreamReader(stream!);
+        var json = await reader.ReadToEndAsync();
+
         var countries = JsonSerializer.Deserialize<List<CountryEntity>>(json);
 
         if (countries == null || countries.Count == 0)
@@ -31,8 +38,15 @@ public static class DbSeeder
         if (context.Cities.Any())
             return;
 
-        var jsonPath = "../Domain/Seed/cities.json";
-        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+        //var jsonPath = "../Domain/Seed/cities.json";
+        //var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+
+        var domainAssembly = typeof(DbSeeder).Assembly;
+
+        using var stream = domainAssembly.GetManifestResourceStream("Domain.Seed.cities.json");
+        using var reader = new StreamReader(stream!);
+        var json = await reader.ReadToEndAsync();
+
         var cities = JsonSerializer.Deserialize<List<CityEntity>>(json);
 
         if (cities == null || cities.Count == 0)
@@ -47,8 +61,15 @@ public static class DbSeeder
         if (context.TransportationStatuses.Any())
             return;
 
-        var jsonPath = "../Domain/Seed/transportation-statuses.json";
-        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+        //var jsonPath = "../Domain/Seed/transportation-statuses.json";
+        //var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+
+        var domainAssembly = typeof(DbSeeder).Assembly;
+
+        using var stream = domainAssembly.GetManifestResourceStream("Domain.Seed.transportation-statuses.json");
+        using var reader = new StreamReader(stream!);
+        var json = await reader.ReadToEndAsync();
+
         var statuses = JsonSerializer.Deserialize<List<TransportationStatusEntity>>(json);
 
         if (statuses == null || statuses.Count == 0)
@@ -63,8 +84,15 @@ public static class DbSeeder
         if (context.Transportations.Any())
             return;
 
-        var jsonPath = "../Domain/Seed/transportations.json";
-        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+        //var jsonPath = "../Domain/Seed/transportations.json";
+        //var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+
+        var domainAssembly = typeof(DbSeeder).Assembly;
+
+        using var stream = domainAssembly.GetManifestResourceStream("Domain.Seed.transportations.json");
+        using var reader = new StreamReader(stream!);
+        var json = await reader.ReadToEndAsync();
+
         var transportations = JsonSerializer.Deserialize<List<TransportationEntity>>(json);
 
         if (transportations == null || transportations.Count == 0)
@@ -92,8 +120,15 @@ public static class DbSeeder
         if (context.Users.Any())
             return;
 
-        var jsonPath = "../Domain/Seed/users.json";
-        var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+        //var jsonPath = "../Domain/Seed/users.json";
+        //var json = await File.ReadAllTextAsync(jsonPath, Encoding.UTF8);
+
+        var domainAssembly = typeof(DbSeeder).Assembly;
+
+        using var stream = domainAssembly.GetManifestResourceStream("Domain.Seed.users.json");
+        using var reader = new StreamReader(stream!);
+        var json = await reader.ReadToEndAsync();
+
         var users = JsonSerializer.Deserialize<List<UserSeedModel>>(json);
 
         if (users == null || users.Count == 0)
