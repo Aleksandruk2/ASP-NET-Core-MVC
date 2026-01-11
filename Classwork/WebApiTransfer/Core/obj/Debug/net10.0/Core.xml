@@ -4,6 +4,19 @@
         <name>Core</name>
     </assembly>
     <members>
+        <member name="T:Core.Interfaces.IEmailService">
+            <summary>
+            Інтерфейс для посилання повідомлення на email (SMTP)
+            </summary>
+        </member>
+        <member name="M:Core.Interfaces.IEmailService.SendAsync(System.String,System.String,System.String)">
+            <summary>
+            Відправляє електронний лист за вказаною адресою.
+            </summary>
+            <param name="to">Email отримувача.</param>
+            <param name="subject">Тема листа.</param>
+            <param name="body">Текст листа.</param>
+        </member>
         <member name="P:Core.Models.Account.LoginModel.Email">
             <summary>
             Елктронна пошта користувача
@@ -50,6 +63,70 @@
             <summary>
             Зображеня
             </summary>
+        </member>
+        <member name="T:Core.Models.Email.EmailSettingsModel">
+            <summary>
+            Модель налаштувань для відправки електронної пошти через SMTP.
+            Містить параметри підключення до поштового сервера
+            (хост, порт, SSL) та облікові дані відправника.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Email.EmailSettingsModel.Host">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Core.Services.EmailService">
+            <summary>
+            Сервіс для відправки електронних листів через SMTP.
+            Реалізує <see cref="T:Core.Interfaces.IEmailService"/> та використовує налаштування,
+            визначені у конфігурації застосунку.
+            </summary>
+        </member>
+        <member name="M:Core.Services.EmailService.#ctor(Microsoft.Extensions.Options.IOptions{Core.Models.Email.EmailSettingsModel})">
+            <summary>
+            Сервіс для відправки електронних листів через SMTP.
+            Реалізує <see cref="T:Core.Interfaces.IEmailService"/> та використовує налаштування,
+            визначені у конфігурації застосунку.
+            </summary>
+        </member>
+        <member name="M:Core.Services.EmailService.SendAsync(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Core.Services.SiteStartupNotifierService">
+            <summary>
+            Фоновий сервіс, який відправляє email-повідомлення адміністраторам при запуску сайту,
+            повідомляючи, що веб-додаток успішно запущено та готовий до роботи.
+            Виконує одноразову ініціалізацію при старті сервера.
+            </summary>
+        </member>
+        <member name="M:Core.Services.SiteStartupNotifierService.#ctor(System.IServiceProvider)">
+            <summary>
+            Фоновий сервіс, який відправляє email-повідомлення адміністраторам при запуску сайту,
+            повідомляючи, що веб-додаток успішно запущено та готовий до роботи.
+            Виконує одноразову ініціалізацію при старті сервера.
+            </summary>
+        </member>
+        <member name="M:Core.Services.SiteStartupNotifierService.StartAsync(System.Threading.CancellationToken)">
+            <summary>
+            Викликається при старті веб-додатку.
+            </summary>
+            <param name="cancellationToken">Токен для скасування операцій при зупинці сервера.</param>
+            <remarks>
+            Метод створює scope для отримання UserManager, знаходить усіх користувачів у ролі "Admin"
+            і відправляє їм email-повідомлення про запуск сайту.
+            Підтримує скасування через CancellationToken.
+            </remarks>
+        </member>
+        <member name="M:Core.Services.SiteStartupNotifierService.StopAsync(System.Threading.CancellationToken)">
+            <summary>
+            Викликається перед зупинкою веб-додатку.
+            </summary>
+            <param name="cancellationToken">Токен для скасування операцій при завершенні роботи сервера.</param>
+            <remarks>
+            У даному сервісі метод не виконує жодних дій, оскільки відправка листів відбувається лише при старті.
+            Можна використовувати для завершення фонтових задач або звільнення ресурсів при потребі.
+            </remarks>
         </member>
     </members>
 </doc>

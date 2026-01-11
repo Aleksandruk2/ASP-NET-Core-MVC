@@ -219,6 +219,12 @@ public static class DbSeeder
             if (!result.Succeeded)
                 throw new Exception(string.Join(", ",
                     result.Errors.Select(e => e.Description)));
+
+            result = await userManager.AddToRolesAsync(user, model.Roles);
+
+            if (!result.Succeeded)
+                throw new Exception(string.Join(", ",
+                    result.Errors.Select(e => e.Description)));
         }
     }
 

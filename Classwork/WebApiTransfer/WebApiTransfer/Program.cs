@@ -1,5 +1,6 @@
 using Core.Interfaces;
 using Core.Models.Account;
+using Core.Models.Email;
 using Core.Services;
 using Domain;
 using Domain.Entities.Identity;
@@ -92,6 +93,12 @@ builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IEmailService, EmailService>();
+
+builder.Services.AddHostedService<SiteStartupNotifierService>();
+
+builder.Services.Configure<EmailSettingsModel>(builder.Configuration.GetSection("EmailSettings"));
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -249,11 +256,14 @@ using (var scoped = app.Services.CreateScope())
     //}
     //Console.ResetColor();
 
-
     //Console.ForegroundColor = ConsoleColor.Red;
     //var logger = app.Services.GetRequiredService<ILogger<Program>>();
     //logger.LogInformation("WebRootPath = {Path}", app.Environment.WebRootPath);
 
+
+    //var user = await userManager.FindByEmailAsync("aaleksandruk2018@gmail.com");
+    //if(user != null)
+    //    await userManager.AddToRoleAsync(user, "Admin");
 }
 
 app.Run(); 
