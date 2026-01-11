@@ -149,11 +149,12 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddCors(opt =>
 {
-    opt.AddPolicy("AllowReact",
-        p => p
-            .WithOrigins("http://localhost:5173")
-            .AllowAnyHeader()
-            .AllowAnyMethod());
+    opt.AddPolicy("AllowTwoDomains", p => 
+    {
+        p.WithOrigins("http://localhost:5173", "http://mysinglesite.somee.com")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    }); 
 });
 
 var app = builder.Build();

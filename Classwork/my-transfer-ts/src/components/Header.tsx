@@ -26,7 +26,7 @@ const Header = () => {
                         </div>
                         { user ?
                             (<div className="flex items-center w-full md:flex md:w-auto md:order-1">
-                                <NavLink to="ProfilePage"
+                                <NavLink to="Profile"
                                     className="p-1 rounded hover:bg-gray-700 cursor-pointer flex items-center md:flex">
                                     <div className="px-3">
                                         <div className="text-gray-400 rounded md:text-right">
@@ -49,14 +49,14 @@ const Header = () => {
                                     <div>
                                         <NavLink
                                             className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white hover:underline"
-                                            to="RegisterPage">Створити обліковий запис</NavLink>
+                                            to="Register">Створити обліковий запис</NavLink>
                                     </div>
                                 </div>
                                 <div className="p-1 px-2 rounded hover:bg-gray-700 cursor-pointer">
                                     <div>
                                         <NavLink
                                             className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white hover:underline"
-                                            to="LoginPage">Увійти</NavLink>
+                                            to="Login">Увійти</NavLink>
                                     </div>
                                 </div>
                             </div>)

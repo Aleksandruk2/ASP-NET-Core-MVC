@@ -18,9 +18,9 @@ function App() {
                     <Route path="Cities" element={<Cities/>}></Route>
                     <Route path="CreateCity" element={<CreateCity/>}></Route>
                     <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
-                    <Route path="LoginPage" element={<LoginPage/>}></Route>
-                    <Route path="RegisterPage" element={<RegisterPage/>}></Route>
-                    <Route path="ProfilePage" element={<ProfilePage/>}></Route>
+                    <Route path="Login" element={<LoginPage/>}></Route>
+                    <Route path="Register" element={<RegisterPage/>}></Route>
+                    <Route path="Profile" element={<ProfilePage/>}></Route>
                 </Route>
             </Routes>
         </>

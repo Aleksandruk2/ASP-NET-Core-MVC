@@ -23,11 +23,15 @@ const  Country = () => {
                     <div key={country.id} className="transition-transform duration-300 ease-out hover:scale-102 p-2 mt-5 border-gray-200 dark:border-gray-800">
                         <div className="relative flex w-80 flex-col rounded-xl myBG bg-clip-border text-gray-200" style={{boxShadow: "0px 0px 20px -3px rgba(0, 0, 0, 0.3)"}} >
                             <div className="relative">
-                                <div className="border border-gray-500 flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
-                                    <img draggable={false} className="w-full" style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}} src={`${APP_ENV.API_BASE_URL}/images/${country.image}`} alt={country.image}/>
+                                <div className="shadow border-b border-gray-400 flex justify-center items-center relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl text-white shadow-lg myBGImage">
+                                    <img draggable={false}
+                                         className="w-full"
+                                         style={{boxShadow: "0px 0px 30px 5px rgba(0, 0, 0, 0.3)"}}
+                                         src={`${APP_ENV.API_BASE_URL}/images/${country.image}`}
+                                         alt={country.image}/>
                                 </div>
-                                <div className="absolute mx-4 bottom-0">
-                                    <div className="px-2 pb-2 p-1 m-1 bg-black/50 rounded-md">
+                                <div className="absolute px-4 mb-2.5 bottom-0">
+                                    <div className="px-2 pb-2 p-1 bg-black/50 rounded-r-xl">
                                         <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal antialiased">
                                             {country.name}
                                         </h5>
