@@ -44,7 +44,7 @@ const Header = () => {
                                 <LogOutModal onOpen={false}></LogOutModal>
                             </div>)
                             :
-                            (<div className=" flex items-center w-full md:flex md:w-auto md:order-1">
+                            (<div className="md:flex items-center w-full md:flex md:w-auto md:order-1">
                                 <div className="p-1 px-2 rounded hover:bg-gray-700 cursor-pointer">
                                     <div>
                                         <NavLink

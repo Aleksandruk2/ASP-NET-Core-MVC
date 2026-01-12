@@ -3,12 +3,15 @@ import {AccountLoginAsync} from "../../../services/Account/AccountLoginService.t
 import * as React from "react";
 import {useAuth} from "../../../hooks/useAuth.ts";
 import {useNavigate} from "react-router-dom";
+// import {loginSuccess} from "../../../services/AuthSliceService/AuthSliceService.ts";
+// import {useAppDispatch} from "../../../store";
 
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState<string | undefined>();
 
+    // const appDispatch = useAppDispatch();
     const { login } = useAuth();
     const navigate = useNavigate();
 
@@ -24,6 +27,7 @@ const Login = () => {
             return;
         }
 
+        // appDispatch(loginSuccess(data.token));
         await login(data.token);
         navigate("/");
     }

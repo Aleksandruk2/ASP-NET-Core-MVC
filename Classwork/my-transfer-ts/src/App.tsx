@@ -16,10 +16,10 @@ function App() {
                 <Route path="/" element={<Header/>}>
                     <Route index element={<Country/>}></Route>
                     <Route path="Cities" element={<Cities/>}></Route>
-                    <Route path="CreateCity" element={<CreateCity/>}></Route>
-                    <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
                     <Route path="Login" element={<LoginPage/>}></Route>
                     <Route path="Register" element={<RegisterPage/>}></Route>
+                    <Route path="CreateCity" element={<CreateCity/>}></Route>
+                    <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
                     <Route path="Profile" element={<ProfilePage/>}></Route>
                 </Route>
             </Routes>

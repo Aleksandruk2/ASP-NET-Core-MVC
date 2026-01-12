@@ -14,7 +14,7 @@ const LoginPage = () => {
 
     useEffect(() => {
         if(isAuthenticated)
-            navigate("/Profile");
+            navigate("/Profile", {replace: true});
     },[isAuthenticated, navigate]);
 
     

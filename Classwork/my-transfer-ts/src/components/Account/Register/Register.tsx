@@ -107,7 +107,7 @@ const RegisterPage = () => {
             <div className="flex items-center justify-center w-full mb-10">
                 <form onSubmit={onSubmit}>
                     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                        <div className="sm:col-span-3 mb-2 w-64">
+                        <div className="sm:col-span-3 mb-2">
                             <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
                                 Ім'я
                             </label>
@@ -122,7 +122,7 @@ const RegisterPage = () => {
                             {formDataError.firstNameError && (<div className="text-red-400 max-w-72">{formDataError.firstNameError}</div>)}
                         </div>
 
-                        <div className="sm:col-span-3 mb-2 w-64">
+                        <div className="sm:col-span-3 mb-2">
                             <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
                                 Прізвище
                             </label>
@@ -137,7 +137,7 @@ const RegisterPage = () => {
                             {formDataError.lastNameError && (<div className="text-red-400 max-w-72">{formDataError.lastNameError}</div>)}
                         </div>
 
-                        <div className="sm:col-span-full mb-2 w-64">
+                        <div className="sm:col-span-full mb-2">
                             <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
                                 Електронна адреса
                             </label>
@@ -152,7 +152,7 @@ const RegisterPage = () => {
                             {formDataError.emailError && (<div className="text-red-400 max-w-72">{formDataError.emailError}</div>)}
                         </div>
 
-                        <div className="sm:col-span-3 mb-2 w-64">
+                        <div className="sm:col-span-3 mb-2">
                             <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
                                 Пароль
                             </label>
@@ -167,7 +167,7 @@ const RegisterPage = () => {
                             {formDataError.passwordError && (<div className="text-red-400 max-w-72">{formDataError.passwordError}</div>)}
                         </div>
 
-                        <div className="sm:col-span-3 mb-2 w-64">
+                        <div className="sm:col-span-3 mb-2">
                             <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
                                 Підтвердження пароля
                             </label>
