@@ -4,8 +4,8 @@ import type {ICountry} from "../Interfaces/ICountry.ts";
 import APP_ENV from "../env";
 import * as React from "react";
 import {useNavigate} from "react-router-dom";
-import SimpleMDE from "react-simplemde-editor";
 import type {IErrors} from "../Interfaces/IErrors/IError.ts";
+import {Editor} from "@tinymce/tinymce-react";
 
 const CreateCity = () => {
     const MAX_SIZE= 5 * 1024 * 1024; //5MB
@@ -22,6 +22,7 @@ const CreateCity = () => {
     const [countries, setCountries] = useState<ICountry[]>([]);
     const [error, setError] = useState<boolean>(false);
     const inputRef = useRef<HTMLInputElement>(null);
+    const editorRef = useRef(null);
     const navigate = useNavigate();
 
     const handleFiles = (files: FileList | null) => {
@@ -105,14 +106,14 @@ const CreateCity = () => {
 
     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // console.log(name, slug, countryId, description, image);
+        console.log(name, slug, countryId, description, image);
         await sendData();
     }
 
 
     return (
         <>
-            <div className="flex items-center justify-center w-full">
+            <div className="flex items-center justify-center w-full mb-10">
                 <form onSubmit={onSubmit}>
                     <h2 className="text-base/7 font-semibold text-white">Додавання міста</h2>
                     <p className="mt-1 text-sm/6 text-gray-400">Будь ласка, додавайте лише міста, які дійсно існують.</p>
@@ -216,12 +217,23 @@ const CreateCity = () => {
                             Опис
                             </label>
                             <div className="mt-2">
-                                {/*<textarea*/}
-                                {/*    value={description}*/}
-                                {/*    onChange={(e) => setDescription(e.target.value)}*/}
-                                {/*    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"*/}
-                                {/*/>*/}
-                                <SimpleMDE value={description} onChange={setDescription} />
+                                <Editor
+                                    apiKey="1qgd1x0o4882cqsq3v0woqlitogzxsp4q7yh8h4a3buvuhhb"   // або свій ключ з tiny.cloud
+                                    value={description}
+                                    onInit={(editor) => editorRef.current = editor}
+                                    onEditorChange={setDescription}
+                                    init={{
+                                        height: 300,
+                                        menubar: false,
+                                        plugins: [
+                                            'lists', 'link', 'table', 'code'
+                                        ],
+                                        toolbar:
+                                            'undo redo | bold italic underline | ' +
+                                            'alignleft aligncenter alignright | ' +
+                                            'bullist numlist | link image | code',
+                                    }}
+                                />
                             </div>
                         </div>
                     </div>
