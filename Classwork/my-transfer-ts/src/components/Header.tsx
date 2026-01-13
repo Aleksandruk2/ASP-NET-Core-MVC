@@ -1,34 +1,47 @@
 import {NavLink, Outlet} from "react-router-dom";
 import {useAuth} from "../hooks/useAuth.ts";
 import LogOutModal from "../Modal/LogOutModal.tsx";
+import linkClass from "./LinkClass/IsActive.ts";
 
 const Header = () => {
-    const { user } = useAuth();
+    const { user, isAdmin } = useAuth();
+
+    const headerNavLink = ({isActive}: {isActive: boolean}) =>
+        "p-1 md:p-4 rounded hover:bg-gray-700 cursor-pointer block rounded bg-primary-700 md:bg-transparent" + linkClass({isActive});
+
     return (
         <>
             <header className="">
                 <nav className="border-b border-gray-500 px-4 lx:px-6 py-2 dark:bg-gray-800">
-                    <div className="flex flex-wrap justify-around items-center mx-auto max-w-screen-xl">
+                    <div className="text-gray-300 flex flex-wrap justify-around items-center mx-auto max-w-screen-xl">
                         <div className="justify-around items-center w-full md:flex md:w-auto md:order-1">
-                            <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+                            <ul className={"flex flex-col mt-4 font-medium md:flex-row md:space-x-1 md:space-y-0 space-y-1 md:mt-0"}>
                                 <li>
-                                    <NavLink className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white" aria-current="page" to="/">Країни</NavLink>
+                                    <NavLink className={headerNavLink}
+                                             aria-current="page"
+                                             to="/">Країни</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
+                                    <NavLink className={headerNavLink}
                                              to="Cities">Міста</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
+                                    <NavLink className={headerNavLink}
                                              to="CreateCity">Додати місто</NavLink>
                                 </li>
+                                { isAdmin && (
+                                    <li>
+                                        <NavLink className={headerNavLink}
+                                                 to="AdminLayout">Адмін панель</NavLink>
+                                    </li>
+                                )}
                             </ul>
                         </div>
                         { user ?
-                            (<div className="flex items-center w-full md:flex md:w-auto md:order-1">
+                            (<div className="flex items-center justify-between w-full md:flex md:w-auto md:order-1 mt-1 md:mt-0 md:space-y-0 space-y-1 md:space-x-1">
                                 <NavLink to="Profile"
-                                    className="p-1 rounded hover:bg-gray-700 cursor-pointer flex items-center md:flex">
-                                    <div className="px-3">
+                                    className={({isActive}) => `md:px-4 cursor-pointer items-center flex w-full ${linkClass({isActive})}`}>
+                                    <div className="pe-3">
                                         <div className="text-gray-400 rounded md:text-right">
                                             { user.firstName } {user.lastName }
                                         </div>
@@ -44,20 +57,16 @@ const Header = () => {
                                 <LogOutModal onOpen={false}></LogOutModal>
                             </div>)
                             :
-                            (<div className="md:flex items-center w-full md:flex md:w-auto md:order-1">
-                                <div className="p-1 px-2 rounded hover:bg-gray-700 cursor-pointer">
-                                    <div>
-                                        <NavLink
-                                            className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white hover:underline"
-                                            to="Register">Створити обліковий запис</NavLink>
-                                    </div>
+                            (<div className="md:flex items-center w-full md:flex md:w-auto md:order-1 md:space-y-0 space-y-1 md:space-x-1">
+                                <div>
+                                    <NavLink
+                                        className={({isActive}) => `${linkClass({isActive})} md:p-4 rounded hover:bg-gray-700 cursor-pointer text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 dark:text-white hover:underline`}
+                                        to="Register">Створити обліковий запис</NavLink>
                                 </div>
-                                <div className="p-1 px-2 rounded hover:bg-gray-700 cursor-pointer">
-                                    <div>
-                                        <NavLink
-                                            className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white hover:underline"
-                                            to="Login">Увійти</NavLink>
-                                    </div>
+                                <div>
+                                    <NavLink
+                                        className={({isActive}) => `${linkClass({isActive})} md:p-4 rounded hover:bg-gray-700 cursor-pointer text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 dark:text-white hover:underline`}
+                                        to="Login">Увійти</NavLink>
                                 </div>
                             </div>)
                         }

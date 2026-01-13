@@ -8,6 +8,7 @@ import CreateCitySuccess from "./pages/CreateCitySuccess.tsx";
 import LoginPage from "./pages/Account/LoginPage.tsx";
 import RegisterPage from "./pages/Account/RegisterPage.tsx";
 import ProfilePage from "./pages/Account/ProfilePage/ProfilePage.tsx";
+import AdminLayout from "./components/AdminLauout/AdminLayout.tsx";
 
 function App() {
     return (
@@ -20,7 +21,14 @@ function App() {
                     <Route path="Register" element={<RegisterPage/>}></Route>
                     <Route path="CreateCity" element={<CreateCity/>}></Route>
                     <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
+                    <Route path="Login" element={<LoginPage/>}></Route>
+                    <Route path="Register" element={<RegisterPage/>}></Route>
                     <Route path="Profile" element={<ProfilePage/>}></Route>
+                    <Route path="AdminLayout" element={<AdminLayout/>}>
+                        <Route path="Countries" element={<Country/>}></Route>
+                        <Route path="Cities" element={<Cities/>}></Route>
+                        <Route index element={<ProfilePage/>}></Route>
+                    </Route>
                 </Route>
             </Routes>
         </>

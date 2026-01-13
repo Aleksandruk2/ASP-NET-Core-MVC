@@ -8,6 +8,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     const [user, setUser] = useState<IAuthUser | null>(null);
     const token = localStorage.getItem("jwt");
     const isAuthenticated = !!user;
+    const isAdmin = !!user?.roles?.includes('Admin');
 
     const logout = useCallback(() => {
         localStorage.removeItem("jwt");
@@ -57,7 +58,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     }, [token, fetchProfile, user]);
 
     return (
-        <AuthContext.Provider value={{user, isAuthenticated, logout, login}}>
+        <AuthContext.Provider value={{user, isAuthenticated, isAdmin, logout, login}}>
             {children}
         </AuthContext.Provider>
     );
