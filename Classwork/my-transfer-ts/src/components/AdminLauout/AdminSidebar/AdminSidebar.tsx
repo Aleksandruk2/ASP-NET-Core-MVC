@@ -9,15 +9,15 @@ const AdminSidebar = () => {
             <h2 className="mb-6 text-xl font-bold">Адмін панель</h2>
 
             <nav className="space-y-2">
-                <NavLink to="/AdminLayout" className={linkClass} end>
+                <NavLink to="/Admin" className={linkClass} end>
                     Dashboard
                 </NavLink>
 
-                <NavLink to="/AdminLayout/Countries" className={linkClass} end>
+                <NavLink to="Countries" className={linkClass} end>
                     Countries
                 </NavLink>
 
-                <NavLink to="/AdminLayout/Cities" className={linkClass} end>
+                <NavLink to="Cities" className={linkClass} end>
                     Cities
                 </NavLink>
             </nav>
