@@ -6,6 +6,7 @@ import {AuthContext} from "./AuthContext.ts";
 
 export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     const [user, setUser] = useState<IAuthUser | null>(null);
+    const [isAuthChecked, setIsAuthChecked] = useState(false);
     const token = localStorage.getItem("jwt");
     const isAuthenticated = !!user;
     const isAdmin = !!user?.roles?.includes('Admin');
@@ -43,6 +44,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     useEffect(() => {
         if(!token) {
             console.log("Токен пустий, вихід із useEffect")
+            setIsAuthChecked(true);
             return;
         }
         if(token && !user) {
@@ -52,13 +54,15 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
                     await fetchProfile(token);
                 } catch (err) {
                     console.log(err);
+                } finally {
+                    setIsAuthChecked(true);
                 }
             })();
         }
     }, [token, fetchProfile, user]);
 
     return (
-        <AuthContext.Provider value={{user, isAuthenticated, isAdmin, logout, login}}>
+        <AuthContext.Provider value={{user, isAuthenticated, isAuthChecked, isAdmin, logout, login}}>
             {children}
         </AuthContext.Provider>
     );

@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="z-50">
+            <header className="fixed z-99999 top-0 left-0 w-full">
                 <nav className="border-b border-gray-500 px-2 lx:px-6 py-2 dark:bg-gray-800">
                     <div className="text-gray-300 flex flex-wrap justify-around items-center mx-auto max-w-screen-xl">
                         <div className="justify-around items-center w-full md:flex md:w-auto md:order-1">
@@ -25,10 +25,10 @@ const Header = () => {
                                     <NavLink className={headerNavLink}
                                              to="Cities">Міста</NavLink>
                                 </li>
-                                <li>
-                                    <NavLink className={headerNavLink}
-                                             to="CreateCity">Додати місто</NavLink>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <NavLink className={headerNavLink}*/}
+                                {/*             to="CreateCity">Додати місто</NavLink>*/}
+                                {/*</li>*/}
                                 { isAdmin && (
                                     <li>
                                         <NavLink className={headerNavLink}

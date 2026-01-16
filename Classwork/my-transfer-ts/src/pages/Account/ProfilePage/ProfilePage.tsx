@@ -1,17 +1,7 @@
 import {useAuth} from "../../../hooks/useAuth.ts";
-import {useEffect} from "react";
-import {useNavigate} from "react-router-dom";
 
 const ProfilePage = () => {
     const {user} = useAuth();
-    const {isAuthenticated} = useAuth();
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        if(!isAuthenticated)
-            navigate("/");
-    },[isAuthenticated, navigate]);
-
     return (
         <>
             <div className="flex justify-center items-center relative pt-10">

@@ -3,9 +3,19 @@ import { Outlet } from "react-router";
 import AppHeader from "./AppHeader";
 import Backdrop from "./Backdrop";
 import AppSidebar from "./AppSidebar";
+import {useEffect} from "react";
+import {useAuth} from "../../hooks/useAuth.ts";
+import {useNavigate} from "react-router-dom";
 
 const LayoutContent: React.FC = () => {
   const { isExpanded, isHovered, isMobileOpen } = useSidebar();
+  const { isAuthenticated, isAdmin } = useAuth()
+    const navigate = useNavigate();
+    useEffect(() => {
+        if(!isAuthenticated)
+            if(!isAdmin)
+                navigate("/")
+    }, [isAuthenticated, isAdmin, navigate]);
 
   return (
     <div className="min-h-screen xl:flex">

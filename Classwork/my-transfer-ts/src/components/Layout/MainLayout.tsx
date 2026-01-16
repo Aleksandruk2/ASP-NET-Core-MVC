@@ -5,7 +5,7 @@ const MainLayout = () => {
     return (
         <>
             <Header />
-            <main className="min-h-screen">
+            <main className="min-h-screen pt-21.5">
                 <Outlet />
             </main>
         </>

@@ -4,18 +4,11 @@ import APP_ENV from "../../env";
 import {useAuth} from "../../hooks/useAuth.ts";
 import {useNavigate} from "react-router-dom";
 import Login from "../../components/Account/Login/Login.tsx";
-import {useEffect} from "react";
 
 const LoginPage = () => {
     const navigate = useNavigate();
 
     const { login } = useAuth();
-    const {isAuthenticated} = useAuth();
-
-    useEffect(() => {
-        if(isAuthenticated)
-            navigate("/Profile", {replace: true});
-    },[isAuthenticated, navigate]);
 
     
     const handleLogin = async (credentialResponse: IGoogleCredentialResponse) => {

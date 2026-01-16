@@ -27,6 +27,9 @@ import BarChart from "./admin/pages/Charts/BarChart.tsx";
 import SignIn from "./admin/pages/AuthPages/SignIn.tsx";
 import SignUp from "./admin/pages/AuthPages/SignUp.tsx";
 import NotFound from "./admin/pages/OtherPage/NotFound.tsx";
+import ProtectedAdminRoute from "./Routes/ProtectedAdminRoute.tsx";
+import ProtectedGuestRoute from "./Routes/ProtectedGuestRoute.tsx";
+import ProtectedUserRoute from "./Routes/ProtectedUserRoute.tsx";
 
 function App() {
     return (
@@ -35,44 +38,57 @@ function App() {
                 <Route path="/" element={<MainLayout/>}>
                     <Route index element={<Country/>}></Route>
                     <Route path="Cities" element={<Cities/>}></Route>
-                    <Route path="Login" element={<LoginPage/>}></Route>
-                    <Route path="Register" element={<RegisterPage/>}></Route>
-                    <Route path="CreateCity" element={<CreateCity/>}></Route>
+                    {/*<Route path="CreateCity" element={<CreateCity/>}></Route>*/}
                     <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
-                    <Route path="Login" element={<LoginPage/>}></Route>
-                    <Route path="Register" element={<RegisterPage/>}></Route>
-                    <Route path="Profile" element={<ProfilePage/>}></Route>
-                    <Route path="Admin" element={<AdminLayout/>}>
-                        <Route path="Countries" element={<Country/>}></Route>
-                        <Route path="Cities" element={<Cities/>}></Route>
-                        <Route index element={<ProfilePage/>}></Route>
+
+                    {/*Захищений маршрут від авторизованих коритсувачів*/}
+                    <Route element={<ProtectedGuestRoute/>}>
+                        <Route path="Login" element={<LoginPage/>}></Route>
+                        <Route path="Register" element={<RegisterPage/>}></Route>
                     </Route>
 
-                    <Route path={"AdminPanel"} element={<AppLayout />}>
-                        <Route index element={<HomeAdmin />} />
+                    {/*Захищений маршрут від неавторизованих коритсувачів*/}
+                    <Route element={<ProtectedUserRoute/>}>
+                        <Route path="Profile" element={<ProfilePage/>}></Route>
+                    </Route>
 
-                        {/* Others Page */}
-                        <Route path="profile" element={<UserProfiles />} />
-                        <Route path="calendar" element={<Calendar />} />
-                        <Route path="blank" element={<Blank />} />
+                    {/*Захищений маршрут від неавторизованих коритсувачів і для тих хто не містирь роль - Адмін*/}
+                    <Route element={<ProtectedAdminRoute/>}>
+                        <Route path="Admin" element={<AdminLayout/>}>
+                            <Route path="Countries" element={<Country/>}></Route>
+                            <Route path="Cities" element={<Cities/>}></Route>
+                            <Route index element={<ProfilePage/>}></Route>
+                        </Route>
 
-                        {/* Forms */}
-                        <Route path="form-elements" element={<FormElements />} />
+                        <Route path={"AdminPanel"} element={<AppLayout />}>
+                            <Route index element={<HomeAdmin />} />
 
-                        {/* Tables */}
-                        <Route path="basic-tables" element={<BasicTables />} />
+                            {/* Others Page */}
+                            <Route path="profile" element={<UserProfiles />} />
+                            <Route path="calendar" element={<Calendar />} />
+                            <Route path="blank" element={<Blank />} />
 
-                        {/* Ui Elements */}
-                        <Route path="alerts" element={<Alerts />} />
-                        <Route path="avatars" element={<Avatars />} />
-                        <Route path="badge" element={<Badges />} />
-                        <Route path="buttons" element={<Buttons />} />
-                        <Route path="images" element={<Images />} />
-                        <Route path="videos" element={<Videos />} />
+                            {/* Forms */}
+                            <Route path="form-elements" element={<FormElements />} />
 
-                        {/* Charts */}
-                        <Route path="line-chart" element={<LineChart />} />
-                        <Route path="bar-chart" element={<BarChart />} />
+                            {/* Tables */}
+                            <Route path="basic-tables" element={<BasicTables />} />
+
+                            {/*My Tables edit*/}
+                            <Route path="CreateCity" element={<CreateCity/>}></Route>
+
+                            {/* Ui Elements */}
+                            <Route path="alerts" element={<Alerts />} />
+                            <Route path="avatars" element={<Avatars />} />
+                            <Route path="badge" element={<Badges />} />
+                            <Route path="buttons" element={<Buttons />} />
+                            <Route path="images" element={<Images />} />
+                            <Route path="videos" element={<Videos />} />
+
+                            {/* Charts */}
+                            <Route path="line-chart" element={<LineChart />} />
+                            <Route path="bar-chart" element={<BarChart />} />
+                        </Route>
                     </Route>
 
                     {/* Auth Layout */}
