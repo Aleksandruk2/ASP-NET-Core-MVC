@@ -39,7 +39,7 @@ function App() {
                     <Route index element={<Country/>}></Route>
                     <Route path="Cities" element={<Cities/>}></Route>
                     {/*<Route path="CreateCity" element={<CreateCity/>}></Route>*/}
-                    <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
+                    {/*<Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>*/}
 
                     {/*Захищений маршрут від авторизованих коритсувачів*/}
                     <Route element={<ProtectedGuestRoute/>}>
@@ -76,6 +76,7 @@ function App() {
 
                             {/*My Tables edit*/}
                             <Route path="CreateCity" element={<CreateCity/>}></Route>
+                            <Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>
 
                             {/* Ui Elements */}
                             <Route path="alerts" element={<Alerts />} />

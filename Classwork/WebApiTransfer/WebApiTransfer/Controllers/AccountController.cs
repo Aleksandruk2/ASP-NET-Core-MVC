@@ -84,5 +84,40 @@ public class AccountController(UserManager<UserEntity> userManager,
         return Ok(model);
     }
 
+    //Відновленя паролю
+    //1. Спочатку користувач вказує пошту
+    //2.На пошту приходить лист, де ми можемо перейти на відновлення
+    //2.1. Дане посилання має бути на fronend частину, де користувач зможе ввести новий пароль.
+    //2.2. Коли користувач вводить новий пароль, frontend частина має відправити запит на acjend з новим паролем та токеном(токен - ключ для відновлення паролю).
+    //3. Тобто при відновлені паролю, ми маємо знати хто є клієнт, який хоче відновити пароль (тобто домен клієнта react).
 
+    [HttpPost]
+    public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordModel model)
+    {
+        bool res = await userService.ForgotPasswordAsync(model);
+        if (res)
+            return Ok();
+        else
+            return BadRequest(new
+            {
+                Status = 400,
+                IsValid = false,
+                Errors = new { Email = "Користувача з такою поштою не існує" }
+            });
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordModel model)
+    {
+        var result = await userService.ResetPasswordAsync(model);
+        if (result)
+            return Ok();
+        else
+            return BadRequest(new
+            {
+                Status = 400,
+                IsValid = false,
+                Errors = new { Email = "Невірні дані для відновлення паролюн" }
+            });
+    }
 }

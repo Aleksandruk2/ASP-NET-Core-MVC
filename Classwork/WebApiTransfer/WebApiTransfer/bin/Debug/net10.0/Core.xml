@@ -17,6 +17,20 @@
             <param name="subject">Тема листа.</param>
             <param name="body">Текст листа.</param>
         </member>
+        <member name="T:Core.Models.Account.ForgotPasswordModel">
+            <summary>
+            Модель запиту для ініціалізації процесу відновлення пароля користувача.
+            Використовується для передачі email-адреси, на яку буде надіслано
+            інструкції щодо скидання пароля.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.ForgotPasswordModel.Email">
+            <summary>
+            Email-адреса користувача, для якого потрібно розпочати процес
+            відновлення пароля. На цю адресу буде надіслано лист
+            з посиланням або кодом для скидання пароля.
+            </summary>
+        </member>
         <member name="P:Core.Models.Account.LoginModel.Email">
             <summary>
             Елктронна пошта користувача
@@ -64,6 +78,36 @@
             Зображеня
             </summary>
         </member>
+        <member name="T:Core.Models.Account.ResetPasswordModel">
+            <summary>
+            Модель запиту для завершення процесу скидання пароля користувача.
+            Містить необхідні дані для перевірки токена та встановлення нового пароля.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.ResetPasswordModel.Email">
+            <summary>
+            Email-адреса користувача, для якого виконується скидання пароля.
+            Використовується для ідентифікації облікового запису.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.ResetPasswordModel.Token">
+            <summary>
+            Токен скидання пароля, згенерований системою та надісланий користувачу
+            електронною поштою. Використовується для перевірки дійсності запиту.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.ResetPasswordModel.NewPassword">
+            <summary>
+            Новий пароль користувача.
+            Повинен відповідати вимогам безпеки, визначеним у системі.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.ResetPasswordModel.ConfirmNewPassword">
+            <summary>
+            Підтвердження нового пароля.
+            Повинно співпадати зі значенням властивості <see cref="P:Core.Models.Account.ResetPasswordModel.NewPassword"/>.
+            </summary>
+        </member>
         <member name="T:Core.Models.Email.EmailSettingsModel">
             <summary>
             Модель налаштувань для відправки електронної пошти через SMTP.
@@ -73,7 +117,33 @@
         </member>
         <member name="P:Core.Models.Email.EmailSettingsModel.Host">
             <summary>
-            
+            Адреса SMTP-сервера поштового провайдера.
+            Наприклад: <c>smtp.gmail.com</c>, <c>smtp.office365.com</c>.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Email.EmailSettingsModel.Port">
+            <summary>
+            Порт SMTP-сервера.
+            Зазвичай: 25, 465 (SSL) або 587 (STARTTLS).
+            </summary>
+        </member>
+        <member name="P:Core.Models.Email.EmailSettingsModel.EnableSsl">
+            <summary>
+            Визначає, чи потрібно використовувати SSL/TLS
+            для захищеного зʼєднання з SMTP-сервером.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Email.EmailSettingsModel.UserName">
+            <summary>
+            Імʼя користувача для автентифікації на SMTP-сервері.
+            Зазвичай це повна email-адреса відправника.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Email.EmailSettingsModel.Password">
+            <summary>
+            Пароль для автентифікації на SMTP-сервері.
+            Рекомендується зберігати у захищеному сховищі
+            або використовувати секрети середовища.
             </summary>
         </member>
         <member name="T:Core.Services.EmailService">

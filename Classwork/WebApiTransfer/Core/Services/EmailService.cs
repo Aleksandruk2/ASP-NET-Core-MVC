@@ -14,32 +14,42 @@ namespace Core.Services;
 public class EmailService(IOptions<EmailSettingsModel> options) : IEmailService
 {
     /// <inheritdoc />
-    public async Task SendAsync(string to, string subject, string body)
+    public async Task<bool> SendAsync(string to, string subject, string body)
     {
-        var settings = options.Value;
-
-        // SMTP клієнт
-        using var client = new SmtpClient(settings.Host, settings.Port)
+        try
         {
-            Credentials = new NetworkCredential(
-                settings.UserName,
-                settings.Password),
-            EnableSsl = settings.EnableSsl
-        };
+            var settings = options.Value;
 
-        // Email повідомлення
-        using var message = new MailMessage
+            // SMTP клієнт
+            using var client = new SmtpClient(settings.Host, settings.Port)
+            {
+                Credentials = new NetworkCredential(
+                    settings.UserName,
+                    settings.Password),
+                EnableSsl = settings.EnableSsl
+            };
+
+            // Email повідомлення
+            using var message = new MailMessage
+            {
+                From = new MailAddress(settings.UserName),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true
+            };
+
+            message.To.Add(to);
+
+            // Відправка
+            await client.SendMailAsync(message);
+
+            return true;
+        }
+        catch
         {
-            From = new MailAddress(settings.UserName),
-            Subject = subject,
-            Body = body,
-            IsBodyHtml = false
-        };
-
-        message.To.Add(to);
-
-        // Відправка
-        await client.SendMailAsync(message);
+            return false;
+        }
+        
     }
 }
 

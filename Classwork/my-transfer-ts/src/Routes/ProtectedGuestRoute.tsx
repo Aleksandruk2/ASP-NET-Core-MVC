@@ -8,7 +8,6 @@ const ProtectedGuestRoute = () => {
         return null;
     }
 
-    console.log("Check is:",isAuthChecked, "isAuthenticated is", isAuthenticated,);
     if (isAuthenticated) {
         return <Navigate to="Profile" />;
     }

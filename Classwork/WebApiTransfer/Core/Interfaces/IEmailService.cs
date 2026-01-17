@@ -11,6 +11,6 @@ public interface IEmailService
     /// <param name="to">Email отримувача.</param>
     /// <param name="subject">Тема листа.</param>
     /// <param name="body">Текст листа.</param>
-    Task SendAsync(string to, string subject, string body);
+    Task<bool> SendAsync(string to, string subject, string body);
 }
 

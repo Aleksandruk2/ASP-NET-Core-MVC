@@ -133,6 +133,68 @@
         }
       }
     },
+    "/api/Account/ForgotPassword": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgotPasswordModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgotPasswordModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgotPasswordModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/ResetPassword": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetPasswordModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetPasswordModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetPasswordModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/Google": {
       "post": {
         "tags": [
@@ -428,6 +490,18 @@
   },
   "components": {
     "schemas": {
+      "ForgotPasswordModel": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email-адреса користувача, для якого потрібно розпочати процес\r\nвідновлення пароля. На цю адресу буде надіслано лист\r\nз посиланням або кодом для скидання пароля.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Модель запиту для ініціалізації процесу відновлення пароля користувача.\r\nВикористовується для передачі email-адреси, на яку буде надіслано\r\nінструкції щодо скидання пароля."
+      },
       "GoogleAuthDto": {
         "type": "object",
         "properties": {
@@ -455,6 +529,33 @@
           }
         },
         "additionalProperties": false
+      },
+      "ResetPasswordModel": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email-адреса користувача, для якого виконується скидання пароля.\r\nВикористовується для ідентифікації облікового запису.",
+            "nullable": true
+          },
+          "token": {
+            "type": "string",
+            "description": "Токен скидання пароля, згенерований системою та надісланий користувачу\r\nелектронною поштою. Використовується для перевірки дійсності запиту.",
+            "nullable": true
+          },
+          "newPassword": {
+            "type": "string",
+            "description": "Новий пароль користувача.\r\nПовинен відповідати вимогам безпеки, визначеним у системі.",
+            "nullable": true
+          },
+          "confirmNewPassword": {
+            "type": "string",
+            "description": "Підтвердження нового пароля.\r\nПовинно співпадати зі значенням властивості Core.Models.Account.ResetPasswordModel.NewPassword.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Модель запиту для завершення процесу скидання пароля користувача.\r\nМістить необхідні дані для перевірки токена та встановлення нового пароля."
       },
       "WeatherForecast": {
         "type": "object",

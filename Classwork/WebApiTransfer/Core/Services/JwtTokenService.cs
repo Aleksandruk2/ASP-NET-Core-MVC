@@ -17,14 +17,20 @@ public class JwtTokenService(IConfiguration config,
         //ключ для шифрования токена
         var key = config["Jwt:Key"];
 
-        var claims = new List<Claim>
+        string imageClaim;
+        if (Uri.IsWellFormedUriString(user.Image, UriKind.Absolute))
+            imageClaim = user.Image!;
+        else
+            imageClaim = $"{config["DirImagePath"]}{user.Image}";
+
+            var claims = new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
             new Claim(ClaimTypes.Email, user.Email ?? "noemail@gmail.com"),
             new Claim("userName", user.UserName ?? "nousername"),
-            new Claim("firstName", user.FirstName!),
-            new Claim("lastName", user.LastName!),
-            new Claim("image", $"{config["DirImagePath"]}{user.Image}")
+            new Claim("firstName", user.FirstName ?? ""),
+            new Claim("lastName", user.LastName ?? ""),
+            new Claim("image", imageClaim)
         };
         foreach (var role in await userManager.GetRolesAsync(user))
         {
