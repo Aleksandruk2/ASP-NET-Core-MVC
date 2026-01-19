@@ -108,6 +108,81 @@
             Повинно співпадати зі значенням властивості <see cref="P:Core.Models.Account.ResetPasswordModel.NewPassword"/>.
             </summary>
         </member>
+        <member name="T:Core.Models.Account.UserItemModel">
+            <summary>
+            Модель представлення користувача для виведення у списках або деталях.
+            Містить основну інформацію про користувача, включаючи ідентифікатор,
+            повне ім'я, електронну адресу, аватар та перелік ролей.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserItemModel.Id">
+            <summary>
+            Унікальний ідентифікатор користувача.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserItemModel.FullName">
+            <summary>
+            Повне ім'я користувача.
+            Формується на основі імені та прізвища.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserItemModel.Email">
+            <summary>
+            Електронна адреса користувача.
+            Використовується для ідентифікації та комунікації.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserItemModel.Image">
+            <summary>
+            Посилання на зображення (аватар) користувача.
+            Може містити як повний URL, так і відносний шлях до ресурсу.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserItemModel.Roles">
+            <summary>
+            Список ролей, призначених користувачу.
+            Використовується для керування доступом та авторизації.
+            </summary>
+        </member>
+        <member name="T:Core.Models.Account.UserSearchModel">
+            <summary>
+            Модель параметрів пошуку та пагінації користувачів.
+            Використовується для фільтрації результатів за іменем,
+            діапазоном дат та керування посторінковим виведенням даних.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserSearchModel.Name">
+            <summary>
+            Ім'я або частина імені користувача для пошуку.
+            Якщо значення не задане, фільтрація за іменем не застосовується.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserSearchModel.StartDate">
+            <summary>
+            Початкова дата для фільтрації користувачів.
+            Вибираються записи, створені не раніше вказаної дати.
+            Якщо значення не задане, нижня межа діапазону не враховується.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserSearchModel.EndDate">
+            <summary>
+            Кінцева дата для фільтрації користувачів.
+            Вибираються записи, створені не пізніше вказаної дати.
+            Якщо значення не задане, верхня межа діапазону не враховується.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserSearchModel.Page">
+            <summary>
+            Номер сторінки для пагінації.
+            За замовчуванням встановлено значення 1.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Account.UserSearchModel.ItemPerPage">
+            <summary>
+            Кількість елементів на одній сторінці.
+            За замовчуванням встановлено значення 10.
+            </summary>
+        </member>
         <member name="T:Core.Models.Email.EmailSettingsModel">
             <summary>
             Модель налаштувань для відправки електронної пошти через SMTP.
@@ -145,6 +220,47 @@
             Рекомендується зберігати у захищеному сховищі
             або використовувати секрети середовища.
             </summary>
+        </member>
+        <member name="T:Core.Models.Search.PaginationModel">
+            <summary>
+            Зберігає інформацію для пагінації результатів пошуку.
+            </summary>
+            <remarks>
+            Використовується для передачі метаданих про пагінацію (загальна кількість елементів,
+            кількість сторінок, елементів на сторінку та поточна сторінка).
+            Зазвичай: `TotalPages = (TotalCount + ItemsPerPage - 1) / ItemsPerPage`.
+            CurrentPage зазвичай індексується від 1.
+            </remarks>
+        </member>
+        <member name="P:Core.Models.Search.PaginationModel.TotalCount">
+            <summary>
+            Загальна кількість елементів, що відповідають критеріям пошуку.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Search.PaginationModel.TotalPages">
+            <summary>
+            Загальна кількість сторінок, доступних при поточному значенні <see cref="P:Core.Models.Search.PaginationModel.ItemsPerPage"/>.
+            </summary>
+            <remarks>
+            Розраховується як округлення вгору від TotalCount / ItemsPerPage.
+            Може бути 0, якщо TotalCount дорівнює 0.
+            </remarks>
+        </member>
+        <member name="P:Core.Models.Search.PaginationModel.ItemsPerPage">
+            <summary>
+            Кількість елементів на одну сторінку.
+            </summary>
+            <remarks>
+            Очікується значення > 0. Якщо значення дорівнює 0 або від'ємне, слід обробити це на рівні логіки сервісу.
+            </remarks>
+        </member>
+        <member name="P:Core.Models.Search.PaginationModel.CurrentPage">
+            <summary>
+            Номер поточної сторінки (індексація зазвичай від 1).
+            </summary>
+            <remarks>
+            Якщо використовуєте нульову індексацію, конвертуйте відповідно у логіці виклику.
+            </remarks>
         </member>
         <member name="T:Core.Services.EmailService">
             <summary>
@@ -197,6 +313,28 @@
             У даному сервісі метод не виконує жодних дій, оскільки відправка листів відбувається лише при старті.
             Можна використовувати для завершення фонтових задач або звільнення ресурсів при потребі.
             </remarks>
+        </member>
+        <member name="T:SearchResult`1">
+            <summary>
+            Універсальна модель результату пошуку з підтримкою пагінації.
+            Містить колекцію знайдених елементів та метадані пагінації.
+            Використовується для повернення списків даних у API.
+            </summary>
+            <typeparam name="T">
+            Тип елементів, що повертаються у результаті пошуку.
+            </typeparam>
+        </member>
+        <member name="P:SearchResult`1.Items">
+            <summary>
+            Колекція елементів, що відповідають умовам пошуку.
+            </summary>
+        </member>
+        <member name="P:SearchResult`1.Pagination">
+            <summary>
+            Інформація про пагінацію:
+            поточна сторінка, загальна кількість сторінок,
+            кількість елементів на сторінці та загальна кількість елементів.
+            </summary>
         </member>
     </members>
 </doc>

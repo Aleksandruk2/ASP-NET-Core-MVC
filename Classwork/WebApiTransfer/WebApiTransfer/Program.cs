@@ -1,8 +1,10 @@
+using Bogus;
 using Core.Interfaces;
 using Core.Models.Account;
 using Core.Models.Email;
 using Core.Services;
 using Domain;
+using Domain.Constants;
 using Domain.Entities.Identity;
 using Domain.Seed;
 using FluentValidation;
@@ -208,7 +210,7 @@ using (var scoped = app.Services.CreateScope())
     await DbSeeder.SeedTransportationStatusesAsync(context);
     await DbSeeder.SeedTransportationAsync(context);
     await DbSeeder.SeedImagesAsync(path);
-    
+
 
     foreach (var country in context.Countries.ToArray())
     {
@@ -265,6 +267,28 @@ using (var scoped = app.Services.CreateScope())
     //var user = await userManager.FindByEmailAsync("aaleksandruk2018@gmail.com");
     //if(user != null)
     //    await userManager.AddToRoleAsync(user, "Admin");
-}
 
-app.Run(); 
+    //int countUsers = 100;
+    //var faker = new Faker("uk");
+    //for (int i = 0; i < countUsers; i++)
+    //{
+    //    var firstName = faker.Name.FirstName();
+    //    var lastName = faker.Name.LastName();
+    //    var email = faker.Internet.Email(firstName, lastName);
+    //    var user = new UserEntity
+    //    {
+    //        UserName = email,
+    //        Email = email,
+    //        FirstName = firstName,
+    //        LastName = lastName,
+    //        Image = "DefaultUser.webp"
+    //    };
+    //    var userResult = await userManager.CreateAsync(user, "User123");
+    //    if (userResult.Succeeded)
+    //    {
+    //        await userManager.AddToRoleAsync(user, Roles.User);
+    //    }
+    //}
+
+    app.Run();
+}

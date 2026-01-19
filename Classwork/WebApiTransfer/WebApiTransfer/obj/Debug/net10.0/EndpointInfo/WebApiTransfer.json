@@ -195,6 +195,64 @@
         }
       }
     },
+    "/api/Account/Search": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "Name",
+            "in": "query",
+            "description": "Ім'я або частина імені користувача для пошуку.\r\nЯкщо значення не задане, фільтрація за іменем не застосовується.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "StartDate",
+            "in": "query",
+            "description": "Початкова дата для фільтрації користувачів.\r\nВибираються записи, створені не раніше вказаної дати.\r\nЯкщо значення не задане, нижня межа діапазону не враховується.",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "EndDate",
+            "in": "query",
+            "description": "Кінцева дата для фільтрації користувачів.\r\nВибираються записи, створені не пізніше вказаної дати.\r\nЯкщо значення не задане, верхня межа діапазону не враховується.",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Page",
+            "in": "query",
+            "description": "Номер сторінки для пагінації.\r\nЗа замовчуванням встановлено значення 1.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ItemPerPage",
+            "in": "query",
+            "description": "Кількість елементів на одній сторінці.\r\nЗа замовчуванням встановлено значення 10.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/Google": {
       "post": {
         "tags": [

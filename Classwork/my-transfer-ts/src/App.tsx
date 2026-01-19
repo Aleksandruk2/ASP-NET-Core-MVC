@@ -33,6 +33,7 @@ import ProtectedUserRoute from "./Routes/ProtectedUserRoute.tsx";
 import ForgotPasswordPage from "./pages/Account/ForgotPasswordPage/ForgotPasswordPage.tsx";
 import ForgotPasswordSuccess from "./pages/Account/ForgotPasswordPage/ForgotPasswordSuccess.tsx";
 import ResetPasswordPage from "./pages/Account/ResetPasswordPage/ResetPasswordPage.tsx";
+import UserSearch from "./pages/Search/UserSearch.tsx";
 
 function App() {
     return (
@@ -98,6 +99,9 @@ function App() {
                             {/* Charts */}
                             <Route path="line-chart" element={<LineChart />} />
                             <Route path="bar-chart" element={<BarChart />} />
+
+                            {/*Тестування пошуку користувачів*/}
+                            <Route path="user-search" element={<UserSearch/>}></Route>
                         </Route>
                     </Route>
 

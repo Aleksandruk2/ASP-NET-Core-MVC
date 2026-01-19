@@ -17,7 +17,7 @@ import {
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 import SidebarWidget from "./SidebarWidget";
-import {SettingsIcon} from "lucide-react";
+import {SearchIcon, SettingsIcon} from "lucide-react";
 
 type NavItem = {
   name: string;
@@ -31,6 +31,11 @@ const navItems: NavItem[] = [
     icon: <GridIcon />,
     name: "Dashboard",
     subItems: [{ name: "Ecommerce", path: "/AdminPanel/", pro: false }],
+  },
+  {
+    icon: <SearchIcon />,
+    name: "Search",
+    subItems: [{ name: "User Search", path: "/AdminPanel/user-search", pro: false }],
   },
   {
     icon: <CalenderIcon />,
