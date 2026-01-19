@@ -20,35 +20,51 @@ public class UserService(IAuthService authService,
 {
     public async Task<bool> ForgotPasswordAsync(ForgotPasswordModel model)
     {
-        var user = await userManager.FindByEmailAsync(model.Email);
+        try
+        {
+            var user = await userManager.FindByEmailAsync(model.Email);
 
-        if (user == null)
+            if (user == null)
+            {
+                return false;
+            }
+
+            string token = await userManager.GeneratePasswordResetTokenAsync(user);
+            var resetLink = $"{config["ClientUrl"]}/reset-password?token={Uri.EscapeDataString(token)}&email={Uri.EscapeDataString(model.Email)}";
+
+            var result = await emailService.SendAsync(model.Email, "Password Reset", $"<p>Click the link below to reset your password:</p><a href='{resetLink}'>Reset Password</a>");
+
+            return result;
+        }
+        catch
         {
             return false;
         }
-
-        string token = await userManager.GeneratePasswordResetTokenAsync(user);
-        var resetLink = $"{config["ClientUrl"]}/reset-password?token={Uri.EscapeDataString(token)}&email={Uri.EscapeDataString(model.Email)}";
-
-        var result = await emailService.SendAsync(model.Email, "Password Reset", $"<p>Click the link below to reset your password:</p><a href='{resetLink}'>Reset Password</a>");
-
-        return result;
+        
     }
 
     public async Task<bool> ResetPasswordAsync(ResetPasswordModel model)
     {
-        var user = await userManager.FindByEmailAsync(model.Email);
-
-        if (user != null)
+        try
         {
-            var result = await userManager.ResetPasswordAsync(user, model.Token, model.NewPassword);
-            if(!result.Succeeded)
-                return false;
-        }
-        else
-            return false;
+            var user = await userManager.FindByEmailAsync(model.Email);
 
-        return true;
+            if (user != null)
+            {
+                var result = await userManager.ResetPasswordAsync(user, model.Token, model.NewPassword);
+                if(!result.Succeeded)
+                    return false;
+            }
+            else
+                return false;
+
+            return true;
+        }
+        catch
+        {
+            return false; 
+        }
+        
     }
 
     public async Task<UserProfileModel> GetUserProfileAsync()

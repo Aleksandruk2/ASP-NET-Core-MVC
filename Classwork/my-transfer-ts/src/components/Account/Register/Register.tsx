@@ -108,7 +108,7 @@ const RegisterPage = () => {
                 <form onSubmit={onSubmit}>
                     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                         <div className="sm:col-span-3 mb-2">
-                            <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Ім'я
                             </label>
                             <div className="mt-2">
@@ -123,7 +123,7 @@ const RegisterPage = () => {
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Прізвище
                             </label>
                             <div className="mt-2">
@@ -138,7 +138,7 @@ const RegisterPage = () => {
                         </div>
 
                         <div className="sm:col-span-full mb-2">
-                            <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Електронна адреса
                             </label>
                             <div className="mt-2">
@@ -153,7 +153,7 @@ const RegisterPage = () => {
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Пароль
                             </label>
                             <div className="mt-2">
@@ -168,7 +168,7 @@ const RegisterPage = () => {
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Підтвердження пароля
                             </label>
                             <div className="mt-2">
@@ -183,7 +183,7 @@ const RegisterPage = () => {
                         </div>
 
                         <div className="col-span-full">
-                            <label htmlFor="cover-photo" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Зображення міста
                             </label>
                             <div onDragOver={e => {

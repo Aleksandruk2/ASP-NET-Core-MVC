@@ -1,6 +1,12 @@
-import {NavLink} from "react-router-dom";
+import {Navigate} from "react-router-dom";
+import {useLocation} from "react-router";
 
-const CreateCitySuccess = () => {
+const ForgotPasswordSuccess = () => {
+    const location = useLocation();
+
+    if (!location.state?.fromForgotPassword) {
+        return <Navigate to="/forgot-password" replace />;
+    }
     return (
         <>
             <div className="text-center flex items-center justify-center h-screen p-5">
@@ -13,15 +19,13 @@ const CreateCitySuccess = () => {
                         </svg>
                     </div>
 
-                    <h1 className="text-2xl font-bold text-white">
-                        Місто успішно додано.
-                    </h1>
-                    <NavLink className="block py-2 pr-4 pl-3 text-blue-300 rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0 dark:text-blue-300"
-                             to="/cities">Перейти до сиписку міст</NavLink>
+                    <h6 className="text-2xl font-bold text-white">
+                        На вказану електронну адресу надіслано інструкції щодо відновлення пароля.
+                    </h6>
                 </div>
             </div>
         </>
     );
 }
 
-export default CreateCitySuccess;
+export default ForgotPasswordSuccess;

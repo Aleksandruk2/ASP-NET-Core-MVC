@@ -9,7 +9,7 @@ const ProtectedGuestRoute = () => {
     }
 
     if (isAuthenticated) {
-        return <Navigate to="Profile" />;
+        return <Navigate to="Profile" replace/>;
     }
 
     return <Outlet />;

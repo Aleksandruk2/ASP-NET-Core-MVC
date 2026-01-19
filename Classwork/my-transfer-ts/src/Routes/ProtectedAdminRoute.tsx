@@ -9,11 +9,11 @@ const ProtectedAdminRoute = () => {
     }
 
     if (!isAuthenticated) {
-        return <Navigate to="*" />;
+        return <Navigate to="*" replace/>;
     }
 
     if (!isAdmin) {
-        return <Navigate to="*" />;
+        return <Navigate to="*" replace/>;
     }
 
     return <Outlet />;

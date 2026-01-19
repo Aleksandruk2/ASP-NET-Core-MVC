@@ -115,12 +115,11 @@ const CreateCity = () => {
         <>
             <div className="flex items-center justify-center w-full mb-10">
                 <form onSubmit={onSubmit}>
-                    <h2 className="text-base/7 font-semibold text-white">Додавання міста</h2>
-                    <p className="mt-1 text-sm/6 text-gray-400">Будь ласка, додавайте лише міста, які дійсно існують.</p>
+         4
 
                     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                         <div className="sm:col-span-3">
-                            <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Назва міста
                             </label>
                             <div className="mt-2">
@@ -135,7 +134,7 @@ const CreateCity = () => {
                         </div>
 
                         <div className="sm:col-span-3">
-                            <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Slug
                             </label>
                             <div className="mt-2">
@@ -150,7 +149,7 @@ const CreateCity = () => {
                         </div>
 
                         <div className="sm:col-span-3">
-                            <label htmlFor="country" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 До якої країни належить місто
                             </label>
                             <div className="mt-2 grid grid-cols-1">
@@ -172,7 +171,7 @@ const CreateCity = () => {
                         </div>
 
                         <div className="col-span-full">
-                            <label htmlFor="cover-photo" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                                 Зображення міста
                             </label>
                             <div onDragOver={e => {
@@ -192,7 +191,6 @@ const CreateCity = () => {
 
                                     <div className="flex justify-center mt-4 text-sm/6 text-gray-400">
                                         <label
-                                            htmlFor="file-upload"
                                             className="relative cursor-pointer rounded-md bg-transparent font-semibold text-indigo-400 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-indigo-500 hover:text-indigo-300"
                                         >
                                             { !image ? <span>Завантажте файл</span> : <span>{image.name}</span> }
@@ -213,7 +211,7 @@ const CreateCity = () => {
                         </div>
 
                         <div className="sm:col-span-full">
-                            <label htmlFor="email" className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium text-white">
                             Опис
                             </label>
                             <div className="mt-2">

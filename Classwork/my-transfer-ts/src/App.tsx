@@ -30,6 +30,9 @@ import NotFound from "./admin/pages/OtherPage/NotFound.tsx";
 import ProtectedAdminRoute from "./Routes/ProtectedAdminRoute.tsx";
 import ProtectedGuestRoute from "./Routes/ProtectedGuestRoute.tsx";
 import ProtectedUserRoute from "./Routes/ProtectedUserRoute.tsx";
+import ForgotPasswordPage from "./pages/Account/ForgotPasswordPage/ForgotPasswordPage.tsx";
+import ForgotPasswordSuccess from "./pages/Account/ForgotPasswordPage/ForgotPasswordSuccess.tsx";
+import ResetPasswordPage from "./pages/Account/ResetPasswordPage/ResetPasswordPage.tsx";
 
 function App() {
     return (
@@ -45,6 +48,12 @@ function App() {
                     <Route element={<ProtectedGuestRoute/>}>
                         <Route path="Login" element={<LoginPage/>}></Route>
                         <Route path="Register" element={<RegisterPage/>}></Route>
+
+                        {/*Відновлення пароля*/}
+                        <Route path="forgot-password" element={<ForgotPasswordPage/>}></Route>
+                        <Route path="forgot-password-success" element={<ForgotPasswordSuccess/>}></Route>
+
+                        <Route path="reset-password" element={<ResetPasswordPage/>}></Route>
                     </Route>
 
                     {/*Захищений маршрут від неавторизованих коритсувачів*/}
