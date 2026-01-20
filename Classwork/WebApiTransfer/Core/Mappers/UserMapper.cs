@@ -2,6 +2,7 @@
 using Core.Models.Account;
 using Domain.Entities.Identity;
 using Google.Apis.Auth;
+using Microsoft.Extensions.Configuration;
 
 namespace Core.Mappers;
 

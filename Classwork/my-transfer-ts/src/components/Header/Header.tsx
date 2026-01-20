@@ -7,11 +7,11 @@ const Header = () => {
     const { user, isAdmin } = useAuth();
 
     const headerNavLink = ({isActive}: {isActive: boolean}) =>
-        "p-1 md:p-4 md:px-2 rounded hover:bg-gray-700 cursor-pointer block rounded bg-primary-700 md:bg-transparent" + linkClass({isActive});
+        "p-1 md:p-4 md:px-2 rounded hover:bg-gray-700 cursor-pointer block bg-primary-700 md:bg-transparent" + linkClass({isActive});
 
     return (
         <>
-            <header className="fixed z-99999 top-0 left-0 w-full">
+            <header className="md:fixed z-99999 top-0 left-0 w-full">
                 <nav className="border-b border-gray-500 px-2 lx:px-6 py-2 dark:bg-gray-800">
                     <div className="text-gray-300 flex flex-wrap justify-around items-center mx-auto max-w-screen-xl">
                         <div className="justify-around items-center w-full md:flex md:w-auto md:order-1">

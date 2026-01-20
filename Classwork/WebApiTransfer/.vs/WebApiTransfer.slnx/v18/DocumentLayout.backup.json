@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\account\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\account\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\account\\usersearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\account\\usersearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\search\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\search\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\search\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\search\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\account\\usersearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\models\\account\\usersearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\webapitransfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27D32BD4-F206-418F-776E-2A87B342D70B}|WebApiTransfer\\WebApiTransfer.csproj|solutionrelative:webapitransfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\models\\account\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0855EA3A-B5C5-494D-B257-F7F782029929}|Core\\Core.csproj|solutionrelative:core\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\entities\\location\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\location\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04D430ED-8E96-4EFB-8C61-9799F7A2B889}|Domain\\Domain.csproj|c:\\users\\my data\\data\\asp net core mvc\\classwork\\webapitransfer\\domain\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,47 +182,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Program.cs",
               "RelativeDocumentMoniker": "WebApiTransfer\\Program.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Program.cs",
               "RelativeToolTip": "WebApiTransfer\\Program.cs",
-              "ViewState": "AgIAAAcBAAAAAAAAAADwvxkBAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAcBAAAAAAAAAADwvxYBAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T22:58:21.784Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\UserService.cs",
-              "RelativeToolTip": "Core\\Services\\UserService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwFgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:38:10.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApiTransfer\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAswIAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T09:51:35.084Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -252,75 +205,10 @@
               "RelativeDocumentMoniker": "Core\\Models\\Account\\UserItemModel.cs",
               "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserItemModel.cs",
               "RelativeToolTip": "Core\\Models\\Account\\UserItemModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T17:30:38.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Mappers\\UserMapper.cs",
-              "RelativeDocumentMoniker": "Core\\Mappers\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Mappers\\UserMapper.cs",
-              "RelativeToolTip": "Core\\Mappers\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T15:03:58.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaginationModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\PaginationModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Search\\PaginationModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\PaginationModel.cs",
-              "RelativeToolTip": "Core\\Models\\Search\\PaginationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:33:38.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T16:22:05.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SearchResult.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\SearchResult.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Search\\SearchResult.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\SearchResult.cs",
-              "RelativeToolTip": "Core\\Models\\Search\\SearchResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:39:02.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserSearchModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserSearchModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Account\\UserSearchModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserSearchModel.cs",
-              "RelativeToolTip": "Core\\Models\\Account\\UserSearchModel.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:23:37.906Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -328,280 +216,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ValidationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
-              "RelativeDocumentMoniker": "WebApiTransfer\\Filters\\ValidationFilter.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
-              "RelativeToolTip": "WebApiTransfer\\Filters\\ValidationFilter.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAWwDgAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\UserService.cs",
+              "RelativeToolTip": "Core\\Services\\UserService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:34:27.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T15:38:10.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\JwtTokenService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\JwtTokenService.cs",
-              "RelativeToolTip": "Core\\Services\\JwtTokenService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAWwBQAAABEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApiTransfer\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T08:38:15.013Z",
+              "WhenOpened": "2026-01-03T09:51:35.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApiTransfer\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAABRwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserSearchModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserSearchModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Account\\UserSearchModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserSearchModel.cs",
+              "RelativeToolTip": "Core\\Models\\Account\\UserSearchModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T10:32:37.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T17:23:37.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "WebApiTransfer\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAWwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:21:34.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\EmailService.cs",
-              "RelativeToolTip": "Core\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T12:26:31.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiTransfer\\appsettings.json",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\appsettings.json",
-              "RelativeToolTip": "WebApiTransfer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-17T15:42:14.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ResetPasswordModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ResetPasswordModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Account\\ResetPasswordModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ResetPasswordModel.cs",
-              "RelativeToolTip": "Core\\Models\\Account\\ResetPasswordModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:34:52.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ForgotPasswordModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ForgotPasswordModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Account\\ForgotPasswordModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ForgotPasswordModel.cs",
-              "RelativeToolTip": "Core\\Models\\Account\\ForgotPasswordModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:23:15.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ICityService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICityService.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\ICityService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICityService.cs",
-              "RelativeToolTip": "Core\\Interfaces\\ICityService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:12:25.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "Domain\\Seed\\DbSeeder.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\DbSeeder.cs",
-              "RelativeToolTip": "Domain\\Seed\\DbSeeder.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAUwN8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:40:05.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CountryService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\CountryService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
-              "RelativeToolTip": "Core\\Services\\CountryService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:32:31.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GoogleAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\GoogleAuthService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\GoogleAuthService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\GoogleAuthService.cs",
-              "RelativeToolTip": "Core\\Services\\GoogleAuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T14:21:35.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CityService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\CityService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
-              "RelativeToolTip": "Core\\Services\\CityService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:05:18.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\AuthService.cs",
-              "RelativeToolTip": "Core\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T15:08:25.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\ImageService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\ImageService.cs",
-              "RelativeToolTip": "Core\\Services\\ImageService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAWwBwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T14:40:56.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICountryService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\ICountryService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
-              "RelativeToolTip": "Core\\Interfaces\\ICountryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:10:33.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T15:07:29.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AppDbTransferContext.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\AppDbTransferContext.cs",
-              "RelativeDocumentMoniker": "Domain\\AppDbTransferContext.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\AppDbTransferContext.cs",
-              "RelativeToolTip": "Domain\\AppDbTransferContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:53:26.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CityItemModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\City\\CityItemModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Location\\City\\CityItemModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\City\\CityItemModel.cs",
-              "RelativeToolTip": "Core\\Models\\Location\\City\\CityItemModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:58:50.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserSeedModel.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\SeedModel\\UserSeedModel.cs",
-              "RelativeDocumentMoniker": "Domain\\Seed\\SeedModel\\UserSeedModel.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\SeedModel\\UserSeedModel.cs",
-              "RelativeToolTip": "Domain\\Seed\\SeedModel\\UserSeedModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:43:07.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CityEntity.cs",
-              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Location\\CityEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Location\\CityEntity.cs",
-              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Location\\CityEntity.cs",
-              "RelativeToolTip": "Domain\\Entities\\Location\\CityEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:47:13.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 4,
               "Title": "UserRoleEntity.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Identity\\UserRoleEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Identity\\UserRoleEntity.cs",
@@ -609,12 +261,251 @@
               "RelativeToolTip": "Domain\\Entities\\Identity\\UserRoleEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T23:44:29.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T23:44:29.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 5,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Identity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Identity\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Identity\\UserEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Identity\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:18:46.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaginationModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\PaginationModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Search\\PaginationModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Search\\PaginationModel.cs",
+              "RelativeToolTip": "Core\\Models\\Search\\PaginationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T17:33:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "WebApiTransfer\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAWwDgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:34:27.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApiTransfer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:32:37.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "WebApiTransfer\\Controllers\\CitiesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T21:21:34.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\EmailService.cs",
+              "RelativeToolTip": "Core\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T12:26:31.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Account\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ResetPasswordModel.cs",
+              "RelativeToolTip": "Core\\Models\\Account\\ResetPasswordModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:34:52.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Account\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "Core\\Models\\Account\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:23:15.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICityService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICityService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ICityService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICityService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ICityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T21:12:25.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Domain\\Seed\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\DbSeeder.cs",
+              "RelativeToolTip": "Domain\\Seed\\DbSeeder.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAUwN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:40:05.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\CountryService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CountryService.cs",
+              "RelativeToolTip": "Core\\Services\\CountryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:32:31.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GoogleAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\GoogleAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\GoogleAuthService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\GoogleAuthService.cs",
+              "RelativeToolTip": "Core\\Services\\GoogleAuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:21:35.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CityService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\CityService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\CityService.cs",
+              "RelativeToolTip": "Core\\Services\\CityService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:05:18.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Services\\AuthService.cs",
+              "RelativeToolTip": "Core\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:08:25.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICountryService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ICountryService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\ICountryService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ICountryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:10:33.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:07:29.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbTransferContext.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\AppDbTransferContext.cs",
+              "RelativeDocumentMoniker": "Domain\\AppDbTransferContext.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\AppDbTransferContext.cs",
+              "RelativeToolTip": "Domain\\AppDbTransferContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:53:26.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CityItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\City\\CityItemModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Location\\City\\CityItemModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\City\\CityItemModel.cs",
+              "RelativeToolTip": "Core\\Models\\Location\\City\\CityItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:58:50.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserSeedModel.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\SeedModel\\UserSeedModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Seed\\SeedModel\\UserSeedModel.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Seed\\SeedModel\\UserSeedModel.cs",
+              "RelativeToolTip": "Domain\\Seed\\SeedModel\\UserSeedModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T15:43:07.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CityEntity.cs",
+              "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Location\\CityEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Location\\CityEntity.cs",
+              "ToolTip": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Location\\CityEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Location\\CityEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:47:13.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "RoleEntity.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Identity\\RoleEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Identity\\RoleEntity.cs",
@@ -622,12 +513,11 @@
               "RelativeToolTip": "Domain\\Entities\\Identity\\RoleEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T09:40:23.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T09:40:23.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 27,
               "Title": "UserProfileModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\UserProfileModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Account\\UserProfileModel.cs",
@@ -635,12 +525,11 @@
               "RelativeToolTip": "Core\\Models\\Account\\UserProfileModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T15:20:11.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T15:20:11.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 28,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\RegisterModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Account\\RegisterModel.cs",
@@ -648,12 +537,11 @@
               "RelativeToolTip": "Core\\Models\\Account\\RegisterModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T07:55:07.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T07:55:07.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 29,
               "Title": "CountriesController.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\WebApiTransfer\\Controllers\\CountriesController.cs",
               "RelativeDocumentMoniker": "WebApiTransfer\\Controllers\\CountriesController.cs",
@@ -661,12 +549,11 @@
               "RelativeToolTip": "WebApiTransfer\\Controllers\\CountriesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:06:25.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:06:25.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 30,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\LoginModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Account\\LoginModel.cs",
@@ -674,12 +561,11 @@
               "RelativeToolTip": "Core\\Models\\Account\\LoginModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T09:49:51.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T09:49:51.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 32,
               "Title": "CityCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\City\\CityCreateModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Location\\City\\CityCreateModel.cs",
@@ -687,12 +573,11 @@
               "RelativeToolTip": "Core\\Models\\Location\\City\\CityCreateModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:06:20.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:06:20.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 31,
               "Title": "CityCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\City\\CityCreateValidator.cs",
               "RelativeDocumentMoniker": "Core\\Validators\\City\\CityCreateValidator.cs",
@@ -700,12 +585,11 @@
               "RelativeToolTip": "Core\\Validators\\City\\CityCreateValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:11:04.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T22:11:04.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 33,
               "Title": "GoogleAuthDto.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Account\\Dto\\GoogleAuthDto.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Account\\Dto\\GoogleAuthDto.cs",
@@ -713,12 +597,11 @@
               "RelativeToolTip": "Core\\Models\\Account\\Dto\\GoogleAuthDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T10:03:47.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T10:03:47.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 34,
               "Title": "IGoogleAuthService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IGoogleAuthService.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IGoogleAuthService.cs",
@@ -726,12 +609,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IGoogleAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T10:34:48.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T10:34:48.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 35,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Interfaces\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IJwtTokenService.cs",
@@ -739,12 +621,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IJwtTokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T08:35:55.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T08:35:55.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 36,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Constants\\Roles.cs",
               "RelativeDocumentMoniker": "Domain\\Constants\\Roles.cs",
@@ -752,12 +633,11 @@
               "RelativeToolTip": "Domain\\Constants\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T23:47:15.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T23:47:15.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 37,
               "Title": "20251226130442_Add Identity Tables.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Migrations\\20251226130442_Add Identity Tables.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\20251226130442_Add Identity Tables.cs",
@@ -765,12 +645,11 @@
               "RelativeToolTip": "Domain\\Migrations\\20251226130442_Add Identity Tables.cs",
               "ViewState": "AgIAAMIAAAAAAAAAAAAgwNgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T13:04:42.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T13:04:42.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 38,
               "Title": "AppDbTransferContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Migrations\\AppDbTransferContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\AppDbTransferContextModelSnapshot.cs",
@@ -778,12 +657,11 @@
               "RelativeToolTip": "Domain\\Migrations\\AppDbTransferContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T12:59:12.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T12:59:12.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 39,
               "Title": "CountryEntity.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Domain\\Entities\\Location\\CountryEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Location\\CountryEntity.cs",
@@ -791,12 +669,11 @@
               "RelativeToolTip": "Domain\\Entities\\Location\\CountryEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T20:44:15.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T20:44:15.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 41,
               "Title": "CountryCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Validators\\Country\\CountryCreateValidator.cs",
               "RelativeDocumentMoniker": "Core\\Validators\\Country\\CountryCreateValidator.cs",
@@ -804,12 +681,11 @@
               "RelativeToolTip": "Core\\Validators\\Country\\CountryCreateValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwCkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:15:21.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T02:15:21.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 42,
               "Title": "CountryEditModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\Country\\CountryEditModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Location\\Country\\CountryEditModel.cs",
@@ -817,12 +693,11 @@
               "RelativeToolTip": "Core\\Models\\Location\\Country\\CountryEditModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T01:28:59.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T01:28:59.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 40,
               "Title": "CountryCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\My data\\data\\ASP NET Core MVC\\Classwork\\WebApiTransfer\\Core\\Models\\Location\\Country\\CountryCreateModel.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Location\\Country\\CountryCreateModel.cs",
@@ -830,8 +705,7 @@
               "RelativeToolTip": "Core\\Models\\Location\\Country\\CountryCreateModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:02:04.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:02:04.529Z"
             }
           ]
         }

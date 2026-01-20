@@ -22,11 +22,12 @@ export const UserSearchAsync = async (props: IUserSearch) => {
         });
 
         if (!res.ok) {
-            console.error("Forgot password request failed.");
+            console.error("User search request failed.");
         }
 
         const data = await res.json();
         console.log("Search data from backend:", data);
+        return data;
     } catch (err) {
         console.error(err);
     }

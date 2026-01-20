@@ -90,14 +90,24 @@ public class UserService(IAuthService authService,
                 || u.LastName.ToLower().Contains(nameFilter));
         }
 
-        if (model?.StartDate != null)
+        if (model?.StartDate.HasValue == true)
         {
-            query = query.Where(u => u.DateCreated >= model.StartDate);
+            var startUtc = DateTime.SpecifyKind(
+                model.StartDate.Value,
+                DateTimeKind.Utc);
+
+            query = query.Where(u => u.DateCreated >= startUtc);
         }
-        if (model?.StartDate != null)
+
+        if (model?.EndDate.HasValue == true)
         {
-            query = query.Where(u => u.DateCreated <= model.EndDate);
+            var endUtc = DateTime.SpecifyKind(
+                model.EndDate.Value,
+                DateTimeKind.Utc);
+
+            query = query.Where(u => u.DateCreated < endUtc);
         }
+
         //кількіть загальних елементів для пагінації
         var totalItems = await query.CountAsync();
         //кількість записів на сторінку
@@ -112,6 +122,13 @@ public class UserService(IAuthService authService,
             .Take(safeItemsPerPage) //беремо елементи для поточної сторінки
             .ProjectTo<UserItemModel>(mapper.ConfigurationProvider)
             .ToListAsync();
+
+        foreach (var user in users) 
+        {
+            if (!Uri.IsWellFormedUriString(user.Image, UriKind.Absolute))
+                user.Image = $"{config["DirImagePath"]}{user.Image}";
+        }
+
         var result = new SearchResult<UserItemModel>
         {
             Items = users,
