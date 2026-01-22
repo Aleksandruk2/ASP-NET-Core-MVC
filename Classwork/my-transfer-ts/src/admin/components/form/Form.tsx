@@ -1,3 +1,4 @@
+//@ts-ignore
 import { FC, ReactNode, FormEvent } from "react";
 
 interface FormProps {

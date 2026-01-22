@@ -1,3 +1,4 @@
+//@ts-ignore
 import { ReactNode } from "react";
 
 // Props for Table

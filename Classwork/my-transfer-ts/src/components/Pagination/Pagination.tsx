@@ -30,10 +30,10 @@ const Pagination = ({ pagination, onPageChange }: IPaginationProps) => {
                 </button>
 
                 {pages.map((p, idx) =>
-                    p === "..." ? (
+                    typeof p === "string" ? (
                         <span key={`dots-${idx}`} className="font-bold p-1 px-2">
-                        ...
-                    </span>
+                            ...
+                        </span>
                     ) : (
                         <button
                             key={p}

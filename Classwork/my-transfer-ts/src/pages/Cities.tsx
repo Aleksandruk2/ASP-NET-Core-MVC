@@ -43,7 +43,7 @@ const Cities = () => {
                                     <h5 className="bg-blue-500 border-2 border-blue-700 rounded-lg px-1 mb-2 block font-sans font-semibold text-base leading-snug tracking-normal text-gray-100 antialiased">
                                         {city.country}
                                     </h5>
-                                    <p className="block font-sans text-base font-light leading-relaxed text-blue-200 antialiased">
+                                    <p className="block font-sans dark:text-blue-300 text-blue-100 font-light leading-relaxed text-blue-200 antialiased">
                                         {city.slug}
                                     </p>
 

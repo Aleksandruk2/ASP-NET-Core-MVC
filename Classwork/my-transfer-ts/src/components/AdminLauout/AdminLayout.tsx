@@ -4,7 +4,7 @@ import AdminSidebar from "./AdminSidebar/AdminSidebar.tsx";
 const AdminLayout = () => {
     return (
         <>
-            <div className="flex min-h-screen bg-gray-700">
+            <div className="flex min-h-screen dark:bg-gray-800 bg-gray-100">
                 <AdminSidebar/>
 
                 <main className="flex-1 p-6">

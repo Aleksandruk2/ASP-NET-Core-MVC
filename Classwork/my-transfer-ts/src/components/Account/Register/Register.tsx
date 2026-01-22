@@ -93,22 +93,22 @@ const RegisterPage = () => {
 
         const data = await AccountRegisterAsync(formData);
         if (!data.token) {
-            console.log("error", data);
+            // console.log("error", data);
             getErrors(data.errors);
             throw new Error("Register failed");
         }
-        console.log("Register successfully => login", data.token);
+        // console.log("Register successfully => login", data.token);
         await login(data.token);
         navigate("/");
     }
 
     return (
         <>
-            <div className="flex items-center justify-center w-full mb-10">
+            <div className="flex items-center justify-center w-full">
                 <form onSubmit={onSubmit}>
                     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                         <div className="sm:col-span-3 mb-2">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Ім'я
                             </label>
                             <div className="mt-2">
@@ -116,14 +116,14 @@ const RegisterPage = () => {
                                     value={formData.firstName}
                                     onChange={(e) => setFormData(prev => ({...prev, firstName: e.target.value}))}
                                     type="text"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {formDataError.firstNameError && (<div className="text-red-400 max-w-72">{formDataError.firstNameError}</div>)}
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Прізвище
                             </label>
                             <div className="mt-2">
@@ -131,14 +131,14 @@ const RegisterPage = () => {
                                     value={formData.lastName}
                                     onChange={(e) => setFormData(prev => ({...prev, lastName: e.target.value}))}
                                     type="text"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {formDataError.lastNameError && (<div className="text-red-400 max-w-72">{formDataError.lastNameError}</div>)}
                         </div>
 
                         <div className="sm:col-span-full mb-2">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Електронна адреса
                             </label>
                             <div className="mt-2">
@@ -146,14 +146,14 @@ const RegisterPage = () => {
                                     value={formData.email}
                                     onChange={(e) => setFormData(prev => ({...prev, email: e.target.value}))}
                                     type="text"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {formDataError.emailError && (<div className="text-red-400 max-w-72">{formDataError.emailError}</div>)}
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Пароль
                             </label>
                             <div className="mt-2">
@@ -161,14 +161,14 @@ const RegisterPage = () => {
                                     value={formData.password}
                                     onChange={(e) => setFormData(prev => ({...prev, password: e.target.value}))}
                                     type="password"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {formDataError.passwordError && (<div className="text-red-400 max-w-72">{formDataError.passwordError}</div>)}
                         </div>
 
                         <div className="sm:col-span-3 mb-2">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Підтвердження пароля
                             </label>
                             <div className="mt-2">
@@ -176,14 +176,14 @@ const RegisterPage = () => {
                                     value={formData.passwordConfirm}
                                     onChange={(e) => setFormData(prev => ({...prev, passwordConfirm: e.target.value}))}
                                     type="password"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {formDataError.passwordConfirmError && (<div className="text-red-400 max-w-72">{formDataError.passwordConfirmError}</div>)}
                         </div>
 
                         <div className="col-span-full">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Зображення міста
                             </label>
                             <div onDragOver={e => {
@@ -193,7 +193,7 @@ const RegisterPage = () => {
                                      e.preventDefault();
                                      handleFiles(e.dataTransfer.files);
                                  }}
-                                 className={`mt-2 flex justify-center rounded-lg border border-dashed border-white/25 px-6 ${ formData.image ? "py-4" : "py-10"}`}>
+                                 className={`mt-2 flex justify-center rounded-lg border border-dashed dark:border-white/25 border-gray-700 px-6 ${ formData.image ? "py-4" : "py-10"}`}>
                                 <div className="text-center">
                                     { formData.image ? <div className="rounded p-1 border-dashed border-white/25 border">
                                         <img

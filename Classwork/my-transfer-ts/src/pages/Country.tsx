@@ -40,7 +40,7 @@ const  Country = () => {
                             </div>
                             <div className="p-5 pb-0">
                                 <div className="flex justify-between">
-                                    <p className="block font-sans text-base font-light leading-relaxed text-blue-200 antialiased">
+                                    <p className="block font-sans dark:text-blue-300 text-blue-100 font-light leading-relaxed text-blue-200 antialiased">
                                         {country.slug}
                                     </p>
                                     <h5 className="bg-emerald-600 border-2 border-gray-700 rounded-lg px-1 mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-100 antialiased">

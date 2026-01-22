@@ -5,7 +5,7 @@ const AdminSidebar = () => {
 
 
     return (
-        <aside className="w-64 bg-gray-900 text-white p-4">
+        <aside className="w-64 dark:bg-gray-900 bg-gray-200 dark:text-white text-gray-700 p-4">
             <h2 className="mb-6 text-xl font-bold">Адмін панель</h2>
 
             <nav className="space-y-2">

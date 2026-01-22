@@ -2,7 +2,11 @@ import {createSlice, type PayloadAction} from "@reduxjs/toolkit";
 import type {IAuthUser} from "../../Interfaces/IAuth/IAuthUser.ts";
 import {jwtDecode} from "jwt-decode";
 
-const getUserFromToken = (token: string) : IAuthUser | null => {
+const getUserFromToken = (token: string | null) : IAuthUser | null => {
+    if (!token) {
+        return null;
+    }
+
     try {
         const decode = jwtDecode<IAuthUser>(token);
         return decode ?? null;
@@ -13,7 +17,7 @@ const getUserFromToken = (token: string) : IAuthUser | null => {
 }
 
 const token = localStorage.getItem("token");
-const user = getUserFromToken(token!);
+const user = getUserFromToken(token);
 
 const initialState = {
     user: user,

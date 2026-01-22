@@ -1,3 +1,4 @@
+//@ts-ignore
 import { FC } from "react";
 
 interface FileInputProps {

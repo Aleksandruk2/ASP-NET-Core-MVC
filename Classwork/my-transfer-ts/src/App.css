@@ -1,9 +1,8 @@
-.myBG {
+.dark .myBG {
     background: linear-gradient(180deg, #4e5988 0%, #382f42 100%);
 }
-
-.myTextBG {
-    background: linear-gradient(0deg, #4facfe 0%, transparent 100%);
+.myBG {
+    background: linear-gradient(180deg, #c1ceef 0%, #8787c8 100%);
 }
 
 .myBGImage {

@@ -38,7 +38,7 @@ const Login = () => {
                 <form onSubmit={onSubmit}>
                     <div className="mt-10">
                         <div className="sm:col-span-3 mb-2 w-64">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Електрона адреса
                             </label>
                             <div className="mt-2">
@@ -52,7 +52,7 @@ const Login = () => {
                         </div>
 
                         <div className="sm:col-span-3">
-                            <label className="block text-sm/6 font-medium text-white">
+                            <label className="block text-sm/6 font-medium dark:text-white text-gray-800">
                                 Пароль
                             </label>
                             <div className="mt-2">
@@ -60,14 +60,14 @@ const Login = () => {
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
                                     type="password"
-                                    className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                                    className="block w-full rounded-md dark:bg-white/5 bg-blue-200 px-3 py-1.5 dark:text-white text-gray-900 outline-1 -outline-offset-1 dark:outline-white/10 outline-blue-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                                 />
                             </div>
                             {error && (<div className="text-red-400 max-w-72">{error}</div>)}
                         </div>
                         <div className="sm:col-span-3 pt-3">
                             <NavLink
-                                className="cursor-pointer text-blue-200 hover:underline hover:text-blue-500"
+                                className="cursor-pointer dark:text-blue-200 text-blue-500 hover:underline hover:text-blue-500"
                                 to="/forgot-password">Забув пароль</NavLink>
                         </div>
                     </div>
