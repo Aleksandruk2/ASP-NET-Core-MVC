@@ -296,6 +296,49 @@
         }
       }
     },
+    "/api/Carts/GetList": {
+      "get": {
+        "tags": [
+          "Carts"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Carts/AddUpdate": {
+      "post": {
+        "tags": [
+          "Carts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartAddUpdateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartAddUpdateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartAddUpdateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cities": {
       "get": {
         "tags": [
@@ -507,6 +550,18 @@
         }
       }
     },
+    "/api/Transportations": {
+      "get": {
+        "tags": [
+          "Transportations"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -548,6 +603,23 @@
   },
   "components": {
     "schemas": {
+      "CartAddUpdateModel": {
+        "type": "object",
+        "properties": {
+          "transportationId": {
+            "type": "integer",
+            "description": "Ідентифікатор транспортного рейсу (перевезення),\r\nякий додається до кошика або оновлюється.",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "description": "Кількість квитків для обраного рейсу.\r\nВикористовується як при додаванні нового елемента,\r\nтак і при зміні вже існуючого.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Модель запиту для додавання або оновлення позиції в кошику користувача."
+      },
       "ForgotPasswordModel": {
         "type": "object",
         "properties": {

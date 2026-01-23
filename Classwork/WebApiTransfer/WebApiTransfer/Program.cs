@@ -98,6 +98,10 @@ builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddScoped<IEmailService, EmailService>();
 
+builder.Services.AddScoped<ITransportationService, TransportationService>();
+
+builder.Services.AddScoped<ICartService, CartService>();
+
 builder.Services.AddHostedService<SiteStartupNotifierService>();
 
 builder.Services.Configure<EmailSettingsModel>(builder.Configuration.GetSection("EmailSettings"));

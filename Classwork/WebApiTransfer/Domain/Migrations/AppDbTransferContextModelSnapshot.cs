@@ -22,6 +22,24 @@ namespace Domain.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Entities.CartEntity", b =>
+                {
+                    b.Property<int>("TransportationId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.Property<short>("CountTikets")
+                        .HasColumnType("smallint");
+
+                    b.HasKey("TransportationId", "UserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tblCarts");
+                });
+
             modelBuilder.Entity("Domain.Entities.Identity.RoleEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -384,6 +402,25 @@ namespace Domain.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.CartEntity", b =>
+                {
+                    b.HasOne("Domain.Entities.TransportationEntity", "Transportation")
+                        .WithMany()
+                        .HasForeignKey("TransportationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Identity.UserEntity", "User")
+                        .WithMany("Carts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Transportation");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Domain.Entities.Identity.UserRoleEntity", b =>
                 {
                     b.HasOne("Domain.Entities.Identity.RoleEntity", "Role")
@@ -484,6 +521,8 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Entities.Identity.UserEntity", b =>
                 {
+                    b.Navigation("Carts");
+
                     b.Navigation("UserRoles");
                 });
 

@@ -4,6 +4,38 @@
         <name>Core</name>
     </assembly>
     <members>
+        <member name="T:Core.Interfaces.ICartService">
+            <summary>
+            Сервіс для роботи з кошиком користувача.
+            Надає методи для додавання та оновлення елементів кошика,
+            прив’язаних до поточного автентифікованого користувача.
+            </summary>
+        </member>
+        <member name="M:Core.Interfaces.ICartService.AddUpdateAsync(Core.Models.Cart.CartAddUpdateModel)">
+            <summary>
+            Додає новий елемент до кошика користувача або оновлює
+            кількість квитків для вже існуючої позиції.
+            </summary>
+            <param name="model">
+            Модель, що містить ідентифікатор рейсу та кількість квитків.
+            </param>
+            <remarks>
+            Користувач визначається автоматично з контексту автентифікації.
+            Якщо позиція з таким рейсом уже існує в кошику — кількість оновлюється.
+            Якщо не існує — створюється новий запис.
+            </remarks>
+        </member>
+        <member name="M:Core.Interfaces.ICartService.GetListAsync">
+            <summary>
+            Отримує список елементів кошика поточного користувача.
+            Повертає перелік рейсів, доданих до кошика,
+            разом із кількістю обраних квитків.
+            </summary>
+            <returns>
+            Список елементів кошика користувача.
+            Якщо кошик порожній — повертається порожній список.
+            </returns>
+        </member>
         <member name="T:Core.Interfaces.IEmailService">
             <summary>
             Інтерфейс для посилання повідомлення на email (SMTP)
@@ -16,6 +48,39 @@
             <param name="to">Email отримувача.</param>
             <param name="subject">Тема листа.</param>
             <param name="body">Текст листа.</param>
+        </member>
+        <member name="T:Core.Interfaces.ITransportationService">
+            <summary>
+            Сервіс для роботи з транспортними рейсами.
+            Надає методи для отримання списків транспортних перевезень
+            з подальшим використанням у бізнес-логіці або API.
+            </summary>
+        </member>
+        <member name="M:Core.Interfaces.ITransportationService.GetTransportationsListAsync">
+            <summary>
+            Отримує список транспортних рейсів у вигляді моделей
+            для відображення або передачі на клієнт.
+            </summary>
+            <returns>
+            Асинхронну операцію, що повертає колекцію транспортних рейсів
+            у форматі <see cref="T:Core.Models.Transportation.TransportationItemModel"/>.
+            </returns>
+        </member>
+        <member name="T:Core.Mappers.CartMapper">
+            <summary>
+            Мапер для перетворення елемента кошика (CartEntity)
+            у модель для відображення (CartItemModel).
+            Використовує пов’язані дані рейсу (Transportation),
+            щоб заповнити інформацію про маршрут, часи поїздки,
+            статус рейсу та кількість обраних квитків.
+            </summary>
+        </member>
+        <member name="T:Core.Mappers.TransportationMapper">
+            <summary>
+            Виконує мапінг вкладених об'єктів (місто, країна, статус),
+            а також форматує дати відправлення та прибуття у зручний
+            для фронтенду строковий формат.
+            </summary>
         </member>
         <member name="T:Core.Models.Account.ForgotPasswordModel">
             <summary>
@@ -193,6 +258,38 @@
             За замовчуванням встановлено значення 10.
             </summary>
         </member>
+        <member name="T:Core.Models.Cart.CartAddUpdateModel">
+            <summary>
+            Модель запиту для додавання або оновлення позиції в кошику користувача.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Cart.CartAddUpdateModel.TransportationId">
+            <summary>
+            Ідентифікатор транспортного рейсу (перевезення),
+            який додається до кошика або оновлюється.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Cart.CartAddUpdateModel.Quantity">
+            <summary>
+            Кількість квитків для обраного рейсу.
+            Використовується як при додаванні нового елемента,
+            так і при зміні вже існуючого.
+            </summary>
+        </member>
+        <member name="T:Core.Models.Cart.CartItemModel">
+            <summary>
+            Модель елемента кошика користувача.
+            Наслідує інформацію про рейс та доповнює її
+            кількістю заброньованих квитків.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Cart.CartItemModel.Quantity">
+            <summary>
+            Кількість квитків, обраних користувачем для даного рейсу.
+            Значення відповідає кількості місць,
+            які планується придбати або зарезервувати.
+            </summary>
+        </member>
         <member name="T:Core.Models.Email.EmailSettingsModel">
             <summary>
             Модель налаштувань для відправки електронної пошти через SMTP.
@@ -272,6 +369,117 @@
             Якщо використовуєте нульову індексацію, конвертуйте відповідно у логіці виклику.
             </remarks>
         </member>
+        <member name="T:Core.Models.Transportation.TransportationItemModel">
+            <summary>
+            Модель, що описує окремий транспортний рейс
+            для відображення у списках
+            та результатах пошуку.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.Id">
+            <summary>
+            Унікальний ідентифікатор рейсу або перевезення.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.Code">
+            <summary>
+            Унікальний код рейсу або ідентифікатор перевезення.
+            Використовується для ідентифікації рейсу в системі.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.FromCityName">
+            <summary>
+            Назва міста відправлення.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.FromCountryName">
+            <summary>
+            Назва країни відправлення.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.ToCityName">
+            <summary>
+            Назва міста прибуття.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.ToCountryName">
+            <summary>
+            Назва країни прибуття.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.DepartureTime">
+            <summary>
+            Дата та час відправлення рейсу.
+            Значення передається у строковому форматі
+            (наприклад, ISO 8601) для зручності відображення на фронтенді.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.ArrivalTime">
+            <summary>
+            Дата та час прибуття рейсу.
+            Значення передається у строковому форматі
+            (наприклад, ISO 8601) для зручності відображення на фронтенді.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.SeatsTotal">
+            <summary>
+            Загальна кількість пасажирських місць у транспорті.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.SeatsAvailable">
+            <summary>
+            Кількість доступних (ще не зайнятих) місць на рейсі.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Transportation.TransportationItemModel.StatusName">
+            <summary>
+            Поточний статус рейсу.
+            Може приймати такі значення:
+            - Запланований
+            - Затримується
+            - Скасований
+            - Виконаний
+            - Немає вільних місць
+            </summary>
+        </member>
+        <member name="T:Core.Services.CartService">
+            <summary>
+            Сервіс для керування кошиком користувача.
+            Відповідає за додавання та оновлення позицій кошика,
+            прив’язаних до поточного автентифікованого користувача.
+            </summary>
+        </member>
+        <member name="M:Core.Services.CartService.#ctor(Domain.AppDbTransferContext,Core.Interfaces.IAuthService,AutoMapper.IMapper)">
+            <summary>
+            Сервіс для керування кошиком користувача.
+            Відповідає за додавання та оновлення позицій кошика,
+            прив’язаних до поточного автентифікованого користувача.
+            </summary>
+        </member>
+        <member name="M:Core.Services.CartService.AddUpdateAsync(Core.Models.Cart.CartAddUpdateModel)">
+            <summary>
+            Додає новий елемент до кошика користувача
+            або оновлює кількість квитків для вже існуючого.
+            </summary>
+            <param name="model">
+            Модель, що містить ідентифікатор рейсу та кількість квитків.
+            </param>
+            <remarks>
+            Користувач визначається автоматично з поточного контексту автентифікації.
+            Якщо позиція з таким рейсом уже існує в кошику — оновлюється кількість.
+            Якщо не існує — створюється новий запис.
+            </remarks>
+        </member>
+        <member name="M:Core.Services.CartService.GetListAsync">
+            <summary>
+            Повертає список елементів кошика поточного авторизованого користувача.
+            Формує дані на основі рейсів та кількості обраних квитків,
+            використовуючи проєкцію AutoMapper для оптимальної вибірки з БД.
+            </summary>
+            <returns>
+            Список елементів кошика користувача у вигляді <see cref="T:Core.Models.Cart.CartItemModel"/>.
+            </returns>
+        </member>
         <member name="T:Core.Services.EmailService">
             <summary>
             Сервіс для відправки електронних листів через SMTP.
@@ -323,6 +531,34 @@
             У даному сервісі метод не виконує жодних дій, оскільки відправка листів відбувається лише при старті.
             Можна використовувати для завершення фонтових задач або звільнення ресурсів при потребі.
             </remarks>
+        </member>
+        <member name="T:Core.Services.TransportationService">
+             <summary>
+             Реалізація сервісу для роботи з транспортними рейсами.
+            
+             Для мапінгу сутностей у DTO використовується AutoMapper
+             з підтримкою проєкції на рівні запиту до бази даних.
+             </summary>
+        </member>
+        <member name="M:Core.Services.TransportationService.#ctor(Domain.AppDbTransferContext,AutoMapper.IMapper)">
+             <summary>
+             Реалізація сервісу для роботи з транспортними рейсами.
+            
+             Для мапінгу сутностей у DTO використовується AutoMapper
+             з підтримкою проєкції на рівні запиту до бази даних.
+             </summary>
+        </member>
+        <member name="M:Core.Services.TransportationService.GetTransportationsListAsync">
+            <summary>
+            Асинхронно отримує список транспортних рейсів.
+            Дані проєктуються безпосередньо з бази даних у
+            <see cref="T:Core.Models.Transportation.TransportationItemModel"/> за допомогою AutoMapper,
+            що дозволяє уникнути завантаження зайвих полів у памʼять.
+            </summary>
+            <returns>
+            Колекцію транспортних рейсів у вигляді
+            <see cref="T:Core.Models.Transportation.TransportationItemModel"/>.
+            </returns>
         </member>
         <member name="T:SearchResult`1">
             <summary>

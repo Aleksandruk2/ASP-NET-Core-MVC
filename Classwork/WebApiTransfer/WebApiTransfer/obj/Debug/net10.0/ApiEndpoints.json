@@ -171,6 +171,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApiTransfer.Controllers.CartsController",
+    "Method": "AddUpdate",
+    "RelativePath": "api/Carts/AddUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Models.Cart.CartAddUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiTransfer.Controllers.CartsController",
+    "Method": "GetList",
+    "RelativePath": "api/Carts/GetList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiTransfer.Controllers.CitiesController",
     "Method": "GetListAsync",
     "RelativePath": "api/Cities",
@@ -307,6 +333,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiTransfer.Controllers.TransportationsController",
+    "Method": "GetList",
+    "RelativePath": "api/Transportations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
