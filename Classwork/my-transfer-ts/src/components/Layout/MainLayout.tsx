@@ -8,7 +8,7 @@ const MainLayout = () => {
     return (
         <>
             <Header />
-            <main className={`min-h-screen  ${isAuthenticated ? 'md:pt-20.5' : 'md:pt-18.5'}`}>
+            <main className={`min-h-screen ${isAuthenticated ? 'md:pt-20.5' : 'md:pt-18.5'}`}>
                 <Outlet />
             </main>
         </>

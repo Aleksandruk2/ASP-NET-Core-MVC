@@ -26,10 +26,10 @@ const Header = () => {
                                     <NavLink className={headerNavLink}
                                              to="Cities">Міста</NavLink>
                                 </li>
-                                {/*<li>*/}
-                                {/*    <NavLink className={headerNavLink}*/}
-                                {/*             to="CreateCity">Додати місто</NavLink>*/}
-                                {/*</li>*/}
+                                <li>
+                                    <NavLink className={headerNavLink}
+                                             to="transportations">Поїздки</NavLink>
+                                </li>
                                 { isAdmin && (
                                     <li>
                                         <NavLink className={headerNavLink}
@@ -48,7 +48,7 @@ const Header = () => {
                             <ThemeToggleButton />
                         </div>
                         { user ?
-                            (<div className="flex items-center justify-between w-full md:flex md:w-auto md:order-1 mt-1 md:mt-0 md:space-y-0 md:space-x-1">
+                            (<div className="w-full md:flex md:w-auto md:order-1 mt-1 md:mt-0 md:space-y-0 space-y-1 md:space-x-1">
                                 <NavLink to="Profile"
                                     className={({isActive}) => `md:px-4 cursor-pointer items-center flex w-full ${linkClass({isActive})}`}>
                                     <div className="pe-3">
@@ -63,10 +63,13 @@ const Header = () => {
                                         <img src={user.image} alt={user.image} className="h-full object-cover"/>
                                     </div>
                                 </NavLink>
-                                <div className="px-1 md:hidden">
-                                    <ThemeToggleButton />
+                                <div className="md:block hidden ">
+                                    <LogOutModal onOpen={false}></LogOutModal>
                                 </div>
-                                <LogOutModal onOpen={false}></LogOutModal>
+                                <div className="flex items-center justify-between space-x-1 px-3 py-1 md:hidden border border-gray-700 border-dashed rounded-lg">
+                                    <ThemeToggleButton />
+                                    <LogOutModal onOpen={false}></LogOutModal>
+                                </div>
                             </div>)
                             :
                             (<div className="md:flex items-center w-full md:flex md:w-auto md:order-1 md:space-y-0 space-y-1 md:space-x-1">
@@ -79,6 +82,9 @@ const Header = () => {
                                     <NavLink
                                         className={({isActive}) => `${linkClass({isActive})} md:p-4 rounded cursor-pointer rounded md:bg-transparent hover:underline`}
                                         to="Login">Увійти</NavLink>
+                                </div>
+                                <div className="flex items-center justify-between space-x-1 px-3 py-1 md:hidden border border-gray-700 border-dashed rounded-lg">
+                                    <ThemeToggleButton />
                                 </div>
                             </div>)
                         }

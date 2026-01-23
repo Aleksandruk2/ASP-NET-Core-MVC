@@ -26,7 +26,7 @@ export const UserSearchAsync = async (props: IUserSearch) => {
         }
 
         const data = await res.json();
-        console.log("Search data from backend:", data);
+        // console.log("Search data from backend:", data);
         return data;
     } catch (err) {
         console.error(err);

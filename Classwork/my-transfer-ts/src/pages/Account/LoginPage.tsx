@@ -39,7 +39,7 @@ const LoginPage = () => {
     return (
         <>
             <div className="flex justify-center items-center min-h-[calc(100vh-75px)]">
-                <div className="bg-blue-100 dark:bg-gray-800 shadow-md rounded-lg p-8 py-4">
+                <div className="bg-blue-100 dark:bg-gray-800 shadow-md rounded-lg p-8 my-2 py-4">
                     <div className="grid grid-cols-1">
                         <div className="sm:col-span-3 flex justify-center items-center">
                             <GoogleLogin

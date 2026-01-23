@@ -550,7 +550,7 @@
         }
       }
     },
-    "/api/Transportations": {
+    "/api/Transportations/GetList": {
       "get": {
         "tags": [
           "Transportations"

@@ -338,7 +338,7 @@
   {
     "ContainingType": "WebApiTransfer.Controllers.TransportationsController",
     "Method": "GetList",
-    "RelativePath": "api/Transportations",
+    "RelativePath": "api/Transportations/GetList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -34,6 +34,7 @@ import ForgotPasswordPage from "./pages/Account/ForgotPasswordPage/ForgotPasswor
 import ForgotPasswordSuccess from "./pages/Account/ForgotPasswordPage/ForgotPasswordSuccess.tsx";
 import ResetPasswordPage from "./pages/Account/ResetPasswordPage/ResetPasswordPage.tsx";
 import UserSearch from "./pages/Search/UserSearch.tsx";
+import Transportations from "./pages/Transportations/Transportations.tsx";
 
 function App() {
     return (
@@ -42,6 +43,7 @@ function App() {
                 <Route path="/" element={<MainLayout/>}>
                     <Route index element={<Country/>}></Route>
                     <Route path="Cities" element={<Cities/>}></Route>
+                    <Route path="transportations" element={<Transportations/>}></Route>
                     {/*<Route path="CreateCity" element={<CreateCity/>}></Route>*/}
                     {/*<Route path="CreateCitySuccess" element={<CreateCitySuccess/>}></Route>*/}
 
