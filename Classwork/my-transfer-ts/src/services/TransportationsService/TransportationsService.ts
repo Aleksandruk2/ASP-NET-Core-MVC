@@ -10,7 +10,7 @@ export const TransportationsList = async () => {
         });
 
         if (!res.ok) {
-            console.error("User search request failed.");
+            console.error("Transportations list request failed.");
         }
 
         const data = await res.json();

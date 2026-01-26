@@ -28,7 +28,7 @@ const LogOutModal: React.FC<{onOpen: boolean}> = ({onOpen}) => {
                 </div>
             </button>
 
-            <Dialog open={open} onClose={setOpen} className="relative z-50">
+            <Dialog open={open} onClose={setOpen} className="relative z-100">
                 <DialogBackdrop
                     transition
                     className="fixed inset-0 bg-gray-900/50 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"
@@ -83,7 +83,7 @@ const LogOutModal: React.FC<{onOpen: boolean}> = ({onOpen}) => {
                                     type="button"
                                     data-autofocus
                                     onClick={() => setOpen(false)}
-                                    className="sm:mx-3 mt-3 inline-flex w-full justify-center rounded-md dark:bg-white/10 bg-gray-400 text-white px-3 py-2 text-sm font-semibold inset-ring inset-ring-white/5 hover:bg-white/20 sm:mt-0 sm:w-auto"
+                                    className="sm:mx-3 mt-3 inline-flex w-full justify-center rounded-md dark:bg-white/10 bg-gray-500/80 text-white px-3 py-2 text-sm font-semibold inset-ring inset-ring-white/5 hover:bg-white/20 sm:mt-0 sm:w-auto"
                                 >
                                     Закрити
                                 </button>

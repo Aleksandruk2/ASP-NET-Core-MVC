@@ -28,7 +28,6 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
             }
 
             const data = await result.json();
-            // console.log("Data from backend:", data);
             setUser(data);
         } catch (err) {
             console.log(err);
@@ -60,6 +59,8 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
             })();
         }
     }, [token, fetchProfile, user]);
+
+
 
     return (
         <AuthContext.Provider value={{user, isAuthenticated, isAuthChecked, isAdmin, logout, login}}>

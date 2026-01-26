@@ -1,5 +1,6 @@
 ﻿using Core.Interfaces;
 using Core.Models.Cart;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace WebApiTransfer.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Authorize]
     public class CartsController(ICartService cartService) : ControllerBase
     {
         [HttpGet]
@@ -19,8 +21,8 @@ namespace WebApiTransfer.Controllers
         [HttpPost]
         public async Task<IActionResult> AddUpdate([FromBody] CartAddUpdateModel model)
         {
-            await cartService.AddUpdateAsync(model);
-            return Ok();
+           await cartService.AddUpdateAsync(model);
+           return Ok();
         }
     }
 }

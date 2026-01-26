@@ -3,6 +3,7 @@ import {useAuth} from "../../hooks/useAuth.ts";
 import LogOutModal from "../../Modal/LogOutModal.tsx";
 import linkClass from "../LinkClass/IsActive.ts";
 import {ThemeToggleButton} from "../../admin/components/common/ThemeToggleButton.tsx";
+import {ShoppingBasket, Bus, MapPinHouse, MapPinned, ShieldQuestion, ShieldCheck} from "lucide-react";
 
 const Header = () => {
     const { user, isAdmin } = useAuth();
@@ -20,31 +21,71 @@ const Header = () => {
                                 <li>
                                     <NavLink className={headerNavLink}
                                              aria-current="page"
-                                             to="/">Країни</NavLink>
+                                             to="/"
+                                    >
+                                        <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                            <MapPinned size={21}/>
+                                            <div className="md:hidden lg:block">Країни</div>
+                                        </div>
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <NavLink className={headerNavLink}
-                                             to="Cities">Міста</NavLink>
+                                             to="Cities"
+                                    >
+                                        <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                            <MapPinHouse size={21}/>
+                                            <div className="md:hidden lg:block">Міста</div>
+                                        </div>
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <NavLink className={headerNavLink}
-                                             to="transportations">Поїздки</NavLink>
+                                             to="transportations"
+                                    >
+                                        <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                            <Bus size={21}/>
+                                            <div className="md:hidden lg:block">Поїздки</div>
+                                        </div>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className={headerNavLink}
+                                             to="cart"
+                                    >
+                                        <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                            <ShoppingBasket size={21}/>
+                                            <div className="md:hidden lg:block">Кошик</div>
+                                        </div>
+                                    </NavLink>
                                 </li>
                                 { isAdmin && (
                                     <li>
                                         <NavLink className={headerNavLink}
-                                                 to="Admin">Моя Адмін панель</NavLink>
+                                                 to="Admin"
+                                        >
+                                            <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                                <ShieldQuestion size={21}/>
+                                                <div className="md:hidden lg:block">Моя Адмін панель</div>
+                                            </div>
+                                        </NavLink>
                                     </li>
                                 )}
                                 { isAdmin && (
                                     <li>
                                         <NavLink className={headerNavLink}
-                                                 to="adminPanel">Адмін панель</NavLink>
+                                                 to="adminPanel"
+                                        >
+                                            <div className="flex space-x-2 md:space-x-0 lg:space-x-1">
+                                                <ShieldCheck size={21}/>
+                                                <div className="md:hidden lg:block">Адмін панель</div>
+                                            </div>
+                                        </NavLink>
                                     </li>
                                 )}
                             </ul>
                         </div>
-                        <div className="md:pe-1 md:block hidden ">
+                        <div className="md:pe-1 md:block hidden">
                             <ThemeToggleButton />
                         </div>
                         { user ?

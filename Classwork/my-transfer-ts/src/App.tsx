@@ -35,6 +35,7 @@ import ForgotPasswordSuccess from "./pages/Account/ForgotPasswordPage/ForgotPass
 import ResetPasswordPage from "./pages/Account/ResetPasswordPage/ResetPasswordPage.tsx";
 import UserSearch from "./pages/Search/UserSearch.tsx";
 import Transportations from "./pages/Transportations/Transportations.tsx";
+import Cart from "./pages/Cart/Cart.tsx";
 
 function App() {
     return (
@@ -62,6 +63,7 @@ function App() {
                     {/*Захищений маршрут від неавторизованих коритсувачів*/}
                     <Route element={<ProtectedUserRoute/>}>
                         <Route path="Profile" element={<ProfilePage/>}></Route>
+                        <Route path="cart" element={<Cart/>}></Route>
                     </Route>
 
                     {/*Захищений маршрут від неавторизованих коритсувачів і для тих хто не містирь роль - Адмін*/}

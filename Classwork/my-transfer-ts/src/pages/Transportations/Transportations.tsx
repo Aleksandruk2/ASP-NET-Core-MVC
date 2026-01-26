@@ -17,7 +17,7 @@ const Transportations = () => {
         <>
             <div className="p-4 md:p-6 mx-auto max-w-(--breakpoit-2xl)">
                 <div className="min-h-[calc(100vh-122px)] p-20.5 rounded-2xl border border-gray-200 bg-white px-5 py-7 dark:border-gray-800 dark:bg-white/[0.03] xl:px-10 xl:py-12">
-                    <h2 className="text-base/7 font-semibold text-white">Поїздки</h2>
+                    <h2 className="text-gray-800 dark:text-white font-semibold ">Поїздки</h2>
                     <div className="mt-10">
                         <div className="sm:col-span-3 mb-2">
                             <TransportationsTable transportations={list} />

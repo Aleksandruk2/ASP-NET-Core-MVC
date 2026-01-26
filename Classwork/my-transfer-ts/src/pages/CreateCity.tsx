@@ -94,7 +94,7 @@ const CreateCity = () => {
                 body: formData,
             });
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
             const errors: IErrors = data.errors;
             if (errors)
                 getErrors(errors);
