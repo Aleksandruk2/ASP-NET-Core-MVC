@@ -12,8 +12,8 @@ export const AccountLoginAsync = async (props: IAccountLogin) => {
         });
 
         if (!res.ok) {
+            // throw new Error("SERVER_ERROR");
             return res;
-            // throw new Error("Login failed");
         }
 
         const data = await res.json();
@@ -23,4 +23,5 @@ export const AccountLoginAsync = async (props: IAccountLogin) => {
     } catch (err) {
         console.error(err);
     }
+
 }

@@ -9,7 +9,7 @@ const LogOutModal: React.FC<{onOpen: boolean}> = ({onOpen}) => {
 
     return (
         <div className="rounded-xl transition duration-300 hover:bg-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:text-gray-300 text-gray-700">
-            <button className="font-medium p-2 px-3 md:p-1.5 md:px-0 rounded-xl border-trasparment cursor-pointer flex justify-start"
+            <button className="font-medium p-2 px-3 md:p-1.5 md:px-1 rounded-xl border-trasparment cursor-pointer flex justify-start"
                     onClick={() => setOpen(true)}>
                 <div className="md:block flex flex-row-reverse gap-2 md:gap-0">
                     <div className="flex justify-center">

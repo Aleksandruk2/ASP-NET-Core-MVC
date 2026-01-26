@@ -296,7 +296,7 @@ const AppSidebar: React.FC = () => {
 
   return (
     <aside
-      className={`fixed mt-16 flex flex-col lg:mt-0 top-0 bl px-5 left-0 bg-white dark:bg-gray-900 dark:border-gray-800 text-gray-900 h-screen transition-all duration-300 ease-in-out z-50 border-r border-gray-200 
+      className={`fixed md:mt-16 flex flex-col lg:mt-0 top-0 bl px-5 left-0 bg-white dark:bg-gray-900 dark:border-gray-800 text-gray-900 h-screen transition-all duration-300 ease-in-out z-50 border-r border-gray-200 
         ${
           isExpanded || isMobileOpen
             ? "w-[290px]"
@@ -310,9 +310,10 @@ const AppSidebar: React.FC = () => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div
-        className={`py-8 flex ${
-          !isExpanded && !isHovered ? "lg:justify-center" : "justify-between"
-        }`}
+        // className={`py-8 flex ${
+        //   !isExpanded && !isHovered ? "lg:justify-center" : "justify-between"
+        // }`}
+            className={`py-8 flex justify-between`}
       >
         <Link to="/">
           {isExpanded || isHovered || isMobileOpen ? (

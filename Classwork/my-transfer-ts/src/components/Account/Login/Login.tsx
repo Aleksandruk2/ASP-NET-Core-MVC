@@ -21,6 +21,8 @@ const Login = () => {
         const data = await AccountLoginAsync({ email, password });
         setError(undefined);
 
+        // console.log(data);
+
         if (!data.token) {
             const err = await data.text();
             setError(err);
