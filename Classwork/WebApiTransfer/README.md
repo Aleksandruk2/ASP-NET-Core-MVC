@@ -60,7 +60,7 @@ docker images
 docker pull avalentyn/transfer-api
 dokcer images
 
-docker run -d --restart=always --name -v /data/transfer-api/data:/app/images transfer-api -p 4242:8080 avalentyn/transfer-api:latest
+docker run -d --restart=always -v /data/transfer-api/data:/app/images --name transfer-api -p 4242:8080 avalentyn/transfer-api:latest
 docker ps -a
 
 ```
