@@ -1,0 +1,15 @@
+docker pull uzyexe/tetris
+
+docker run -d --restart=always --name tetris-container -p 81:80 uzyexe/tetris
+
+docker pull rmeira/chess
+
+docker run -d --restart=always --name chess-container -p 82:80 rmeira/chess
+
+docker pull aschil/snake
+
+docker run -d --restart=always --name snake-container -p 83:8080 aschil/snake
+
+docker pull dockergelb/sudoku
+
+docker run -d --restart=always --name sudoku-container -p 84:80 dockergelb/sudoku

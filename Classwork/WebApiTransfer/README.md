@@ -64,3 +64,41 @@ docker run -d --restart=always -v /data/transfer-api/data:/app/images --name tra
 docker ps -a
 
 ```
+
+#Install nginx
+```
+
+sudo apt update
+sudo apt install nginxdokce
+systemctl status nginx
+
+```
+
+#Редагувати файл C:/Windows/System32/drivers/etc/hosts
+```
+
+172.31.201.235 local.panda.com
+
+```
+
+#Редагувати файл на сервері /etc/nginx/sites-avaliable/default
+```
+
+server {
+server_name   local.panda.com *.local.panda.com;
+location / {
+        proxy_pass         http://localhost:4242/swagger;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+}
+
+#рестартуємо сервер
+sudo systemctl restart nginx
+
+```
