@@ -97,6 +97,7 @@ docker rmi avalentyn/my-transfer-app:latest
 docker rmi my-transfer-app
 
 docker run -d --restart=always --name my-transfer-app-container -p 6000:80 avalentyn/my-transfer-app:latest
+docker run -d --restart=always --name my-transfer-app-container -p 6000:80 my-transfer-app:latest          
 
 #Додали файл .dockerignore
 ```
